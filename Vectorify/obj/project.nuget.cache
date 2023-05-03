@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wuWzTqGQaG3laGBc4fdw1D03Tv+ZsNnLvnctp190QBnh6bUCI/5HY1Koj9KnCSFda83ycsCBN07kkR0lPvfFgg==",
+  "dgSpecHash": "Ubf4Fs/pj0z69EAGGrKyTunxWjua9b6uY6+ZlSGTa5q2FJdMfhBCTEe7+3PYEuF7amt2dHG6B2IRA3CLA9vEBw==",
   "success": true,
-  "projectFilePath": "D:\\OneDrive - MSFT\\Documents\\Programs\\Vectorify\\Vectorify\\Vectorify.csproj",
+  "projectFilePath": "D:\\OneDrive - MSFT\\Documents\\GitHub\\vectorify\\Vectorify\\Vectorify.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tresi\\.nuget\\packages\\communitytoolkit.mvvm\\7.1.2\\communitytoolkit.mvvm.7.1.2.nupkg.sha512",
     "C:\\Users\\tresi\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.0\\microsoft.extensions.configuration.6.0.0.nupkg.sha512",
@@ -41,6 +41,7 @@
     "C:\\Users\\tresi\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512",
     "C:\\Users\\tresi\\.nuget\\packages\\winuiex\\2.1.0\\winuiex.2.1.0.nupkg.sha512",
     "C:\\Users\\tresi\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x86\\7.0.5\\microsoft.netcore.app.runtime.win-x86.7.0.5.nupkg.sha512",
+    "C:\\Users\\tresi\\.nuget\\packages\\microsoft.netcore.app.crossgen2.win-x64\\7.0.5\\microsoft.netcore.app.crossgen2.win-x64.7.0.5.nupkg.sha512",
     "C:\\Users\\tresi\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.28\\microsoft.windows.sdk.net.ref.10.0.19041.28.nupkg.sha512",
     "C:\\Users\\tresi\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x86\\7.0.5\\microsoft.aspnetcore.app.runtime.win-x86.7.0.5.nupkg.sha512",
     "C:\\Users\\tresi\\.nuget\\packages\\microsoft.netcore.app.runtime.win-arm64\\7.0.5\\microsoft.netcore.app.runtime.win-arm64.7.0.5.nupkg.sha512",

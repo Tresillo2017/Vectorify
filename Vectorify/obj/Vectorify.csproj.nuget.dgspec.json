@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\OneDrive - MSFT\\Documents\\Programs\\Vectorify\\Vectorify\\Vectorify.csproj": {}
+    "D:\\OneDrive - MSFT\\Documents\\GitHub\\vectorify\\Vectorify\\Vectorify.csproj": {}
   },
   "projects": {
-    "D:\\OneDrive - MSFT\\Documents\\Programs\\Vectorify\\Vectorify.Core\\Vectorify.Core.csproj": {
+    "D:\\OneDrive - MSFT\\Documents\\GitHub\\vectorify\\Vectorify.Core\\Vectorify.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\OneDrive - MSFT\\Documents\\Programs\\Vectorify\\Vectorify.Core\\Vectorify.Core.csproj",
+        "projectUniqueName": "D:\\OneDrive - MSFT\\Documents\\GitHub\\vectorify\\Vectorify.Core\\Vectorify.Core.csproj",
         "projectName": "Vectorify.Core",
-        "projectPath": "D:\\OneDrive - MSFT\\Documents\\Programs\\Vectorify\\Vectorify.Core\\Vectorify.Core.csproj",
+        "projectPath": "D:\\OneDrive - MSFT\\Documents\\GitHub\\vectorify\\Vectorify.Core\\Vectorify.Core.csproj",
         "packagesPath": "C:\\Users\\tresi\\.nuget\\packages\\",
-        "outputPath": "D:\\OneDrive - MSFT\\Documents\\Programs\\Vectorify\\Vectorify.Core\\obj\\",
+        "outputPath": "D:\\OneDrive - MSFT\\Documents\\GitHub\\vectorify\\Vectorify.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -70,14 +70,14 @@
         }
       }
     },
-    "D:\\OneDrive - MSFT\\Documents\\Programs\\Vectorify\\Vectorify\\Vectorify.csproj": {
+    "D:\\OneDrive - MSFT\\Documents\\GitHub\\vectorify\\Vectorify\\Vectorify.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\OneDrive - MSFT\\Documents\\Programs\\Vectorify\\Vectorify\\Vectorify.csproj",
+        "projectUniqueName": "D:\\OneDrive - MSFT\\Documents\\GitHub\\vectorify\\Vectorify\\Vectorify.csproj",
         "projectName": "Vectorify",
-        "projectPath": "D:\\OneDrive - MSFT\\Documents\\Programs\\Vectorify\\Vectorify\\Vectorify.csproj",
+        "projectPath": "D:\\OneDrive - MSFT\\Documents\\GitHub\\vectorify\\Vectorify\\Vectorify.csproj",
         "packagesPath": "C:\\Users\\tresi\\.nuget\\packages\\",
-        "outputPath": "D:\\OneDrive - MSFT\\Documents\\Programs\\Vectorify\\Vectorify\\obj\\",
+        "outputPath": "D:\\OneDrive - MSFT\\Documents\\GitHub\\vectorify\\Vectorify\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -99,8 +99,8 @@
           "net7.0-windows10.0.19041": {
             "targetAlias": "net7.0-windows10.0.19041.0",
             "projectReferences": {
-              "D:\\OneDrive - MSFT\\Documents\\Programs\\Vectorify\\Vectorify.Core\\Vectorify.Core.csproj": {
-                "projectPath": "D:\\OneDrive - MSFT\\Documents\\Programs\\Vectorify\\Vectorify.Core\\Vectorify.Core.csproj"
+              "D:\\OneDrive - MSFT\\Documents\\GitHub\\vectorify\\Vectorify.Core\\Vectorify.Core.csproj": {
+                "projectPath": "D:\\OneDrive - MSFT\\Documents\\GitHub\\vectorify\\Vectorify.Core\\Vectorify.Core.csproj"
               }
             }
           }
@@ -158,6 +158,10 @@
             },
             {
               "name": "Microsoft.AspNetCore.App.Runtime.win-x86",
+              "version": "[7.0.5, 7.0.5]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Crossgen2.win-x64",
               "version": "[7.0.5, 7.0.5]"
             },
             {

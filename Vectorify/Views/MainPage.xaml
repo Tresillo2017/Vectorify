@@ -11,8 +11,8 @@
             <InfoBar
                 IsOpen="True"
                 Severity="Warning"
-                Title="Early Access"
-                Message="Remember that this is an early access version. User discretion advised" />
+                Title="Early Build"
+                Message="This pre-release version of Vectorify should not be used in production" />
             <TextBlock Text="Bienvenido a Vectorify" Style="{StaticResource HeaderTextBlockStyle}"/>
         </StackPanel>
     </Grid>

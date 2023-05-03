@@ -8,54 +8,54 @@
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
     <SolutionConfiguration>Debug|x86</SolutionConfiguration>
     <PackageArchitecture>x86</PackageArchitecture>
-    <PackageIdentityName>93624292-4859-4945-a3a3-e8c7f9ed6dd1</PackageIdentityName>
-    <PackageIdentityPublisher>CN=tresi</PackageIdentityPublisher>
-    <IntermediateOutputPath>D:\OneDrive - MSFT\Documents\Programs\Vectorify\Vectorify\obj\x86\Debug\net7.0-windows10.0.19041.0\win10-x86\</IntermediateOutputPath>
+    <PackageIdentityName>Vectorify</PackageIdentityName>
+    <PackageIdentityPublisher>CN=Tresillo</PackageIdentityPublisher>
+    <IntermediateOutputPath>D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\obj\x86\Debug\net7.0-windows10.0.19041.0\win10-x86\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
     <PackageRegistrationPath>
     </PackageRegistrationPath>
     <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>D:\OneDrive - MSFT\Documents\Programs\Vectorify\Vectorify\bin\x86\Debug\net7.0-windows10.0.19041.0\win10-x86\AppX</LayoutDir>
-    <RegisteredManifestChecksum>D3720AB80EF1BBCF44595BD909E165F128AE61B5EAB527FC5079FD4CE0E8BB1C</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>93624292-4859-4945-a3a3-e8c7f9ed6dd1_1.0.0.0_x86__zpwvnyhhqzxg2</RegisteredPackageMoniker>
-    <RegisteredUserModeAppID>93624292-4859-4945-a3a3-e8c7f9ed6dd1_zpwvnyhhqzxg2!App</RegisteredUserModeAppID>
-    <RegisteredPackageID>93624292-4859-4945-a3a3-e8c7f9ed6dd1</RegisteredPackageID>
-    <RegisteredPackagePublisher>CN=tresi</RegisteredPackagePublisher>
-    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <LayoutDir>D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\bin\x86\Debug\net7.0-windows10.0.19041.0\win10-x86\AppX</LayoutDir>
+    <RegisteredManifestChecksum>DB971B5B85A4382411EC857F048ACBF25B7AEFAA887CB11EBE770E3641740083</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>Vectorify_1.0.2.0_x86__40vg99txx14c8</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>Vectorify_40vg99txx14c8!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>Vectorify</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Tresillo</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.2.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="D:\OneDrive - MSFT\Documents\Programs\Vectorify\Vectorify\bin\x86\Debug\net7.0-windows10.0.19041.0\win10-x86\AppxManifest.xml">
+    <AppXManifest Include="D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\bin\x86\Debug\net7.0-windows10.0.19041.0\win10-x86\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-03T18:06:27.232</Modified>
+      <Modified>2023-05-03T21:03:21.493</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="D:\OneDrive - MSFT\Documents\Programs\Vectorify\Vectorify\bin\x86\Debug\net7.0-windows10.0.19041.0\win10-x86\resources.pri">
+    <AppxPackagedFile Include="D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\bin\x86\Debug\net7.0-windows10.0.19041.0\win10-x86\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-05-03T18:06:27.011</Modified>
+      <Modified>2023-05-03T21:03:21.260</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\OneDrive - MSFT\Documents\Programs\Vectorify\Vectorify\bin\x86\Debug\net7.0-windows10.0.19041.0\win10-x86\Vectorify.runtimeconfig.json">
+    <AppxPackagedFile Include="D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\bin\x86\Debug\net7.0-windows10.0.19041.0\win10-x86\Vectorify.runtimeconfig.json">
       <PackagePath>Vectorify.runtimeconfig.json</PackagePath>
-      <Modified>2023-05-03T17:23:04.549</Modified>
+      <Modified>2023-05-03T20:57:20.567</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\OneDrive - MSFT\Documents\Programs\Vectorify\Vectorify\bin\x86\Debug\net7.0-windows10.0.19041.0\win10-x86\Vectorify.dll">
+    <AppxPackagedFile Include="D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\bin\x86\Debug\net7.0-windows10.0.19041.0\win10-x86\Vectorify.dll">
       <PackagePath>Vectorify.dll</PackagePath>
-      <Modified>2023-05-03T18:06:26.851</Modified>
+      <Modified>2023-05-03T20:59:49.217</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\OneDrive - MSFT\Documents\Programs\Vectorify\Vectorify\appsettings.json">
+    <AppxPackagedFile Include="D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\appsettings.json">
       <PackagePath>appsettings.json</PackagePath>
       <Modified>2023-05-03T17:22:27.217</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\OneDrive - MSFT\Documents\Programs\Vectorify\Vectorify\obj\x86\Debug\net7.0-windows10.0.19041.0\win10-x86\apphost.exe">
+    <AppxPackagedFile Include="D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\obj\x86\Debug\net7.0-windows10.0.19041.0\win10-x86\apphost.exe">
       <PackagePath>Vectorify.exe</PackagePath>
-      <Modified>2023-05-03T18:06:26.863</Modified>
+      <Modified>2023-05-03T20:59:49.228</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\OneDrive - MSFT\Documents\Programs\Vectorify\Vectorify\bin\x86\Debug\net7.0-windows10.0.19041.0\win10-x86\Vectorify.deps.json">
+    <AppxPackagedFile Include="D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\bin\x86\Debug\net7.0-windows10.0.19041.0\win10-x86\Vectorify.deps.json">
       <PackagePath>Vectorify.deps.json</PackagePath>
-      <Modified>2023-05-03T17:48:55.183</Modified>
+      <Modified>2023-05-03T20:57:20.536</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tresi\.nuget\packages\microsoft.netcore.app.runtime.win-x86\7.0.5\runtimes\win-x86\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -981,9 +981,9 @@
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
       <Modified>2022-11-08T19:31:22.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\OneDrive - MSFT\Documents\Programs\Vectorify\Vectorify.Core\bin\x86\Debug\net7.0\Vectorify.Core.dll">
+    <AppxPackagedFile Include="D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify.Core\bin\x86\Debug\net7.0\Vectorify.Core.dll">
       <PackagePath>Vectorify.Core.dll</PackagePath>
-      <Modified>2023-05-03T17:36:10.595</Modified>
+      <Modified>2023-05-03T18:13:01.786</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tresi\.nuget\packages\microsoft.xaml.behaviors.winui.managed\2.0.9\lib\net5.0-windows10.0.17763.0\Microsoft.Xaml.Interactions.pri">
       <PackagePath>Microsoft.Xaml.Interactions.pri</PackagePath>
@@ -997,35 +997,35 @@
       <PackagePath>WinUIEx.pri</PackagePath>
       <Modified>2023-01-03T23:25:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\OneDrive - MSFT\Documents\Programs\Vectorify\Vectorify\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2023-05-03T17:22:27.413</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\OneDrive - MSFT\Documents\Programs\Vectorify\Vectorify\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <Modified>2023-05-03T17:22:27.414</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\OneDrive - MSFT\Documents\Programs\Vectorify\Vectorify\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <Modified>2023-05-03T17:22:27.415</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\OneDrive - MSFT\Documents\Programs\Vectorify\Vectorify\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <Modified>2023-05-03T17:22:27.416</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\OneDrive - MSFT\Documents\Programs\Vectorify\Vectorify\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <Modified>2023-05-03T17:22:27.418</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\OneDrive - MSFT\Documents\Programs\Vectorify\Vectorify\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <Modified>2023-05-03T17:22:27.419</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\OneDrive - MSFT\Documents\Programs\Vectorify\Vectorify\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <Modified>2023-05-03T17:22:27.420</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\OneDrive - MSFT\Documents\Programs\Vectorify\Vectorify\Assets\WindowIcon.ico">
+    <AppxPackagedFile Include="D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\Assets\WindowIcon.ico">
       <PackagePath>Assets\WindowIcon.ico</PackagePath>
       <Modified>2023-05-03T17:22:26.700</Modified>
     </AppxPackagedFile>

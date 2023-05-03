@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "hvt3hgl3A2Vacuogpaix0ryH+0ZqTgHV7GNFZHXOGY9wnEZFlqca8Tpqd7RpASbx7DdV+aICKtPbl24j0ngAFQ==",
+  "success": true,
+  "projectFilePath": "D:\\OneDrive - MSFT\\Documents\\Programs\\Vectorify\\Vectorify.Core\\Vectorify.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tresi\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -11,15 +11,15 @@
   IgnorableNamespaces="uap rescap genTemplate">
 
   <Identity
-    Name="93624292-4859-4945-a3a3-e8c7f9ed6dd1"
-    Publisher="CN=tresi"
-    Version="1.0.0.0" />
+    Name="Vectorify"
+    Publisher="CN=Tresillo"
+    Version="1.0.2.0" />
     
   <mp:PhoneIdentity PhoneProductId="93624292-4859-4945-a3a3-e8c7f9ed6dd1" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
     
   <Properties>
     <DisplayName>Vectorify</DisplayName>
-    <PublisherDisplayName>tresi</PublisherDisplayName>
+    <PublisherDisplayName>Tresillo (TomasPS)</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
 

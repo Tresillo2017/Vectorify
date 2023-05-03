@@ -8,8 +8,8 @@
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
     <SolutionConfiguration>Release|x86</SolutionConfiguration>
     <PackageArchitecture>x86</PackageArchitecture>
-    <PackageIdentityName>93624292-4859-4945-a3a3-e8c7f9ed6dd1</PackageIdentityName>
-    <PackageIdentityPublisher>CN=tresi</PackageIdentityPublisher>
+    <PackageIdentityName>Vectorify</PackageIdentityName>
+    <PackageIdentityPublisher>CN=Tresillo</PackageIdentityPublisher>
     <IntermediateOutputPath>D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\obj\x86\Release\net7.0-windows10.0.19041.0\win10-x86\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>

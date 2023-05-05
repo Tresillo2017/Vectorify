@@ -88,7 +88,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net7.0-windows10.0.19041.0"
+          "net7.0-windows10.0.22621.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -96,8 +96,8 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0-windows10.0.19041": {
-            "targetAlias": "net7.0-windows10.0.19041.0",
+          "net7.0-windows10.0.22621": {
+            "targetAlias": "net7.0-windows10.0.22621.0",
             "projectReferences": {
               "D:\\OneDrive - MSFT\\Documents\\GitHub\\vectorify\\Vectorify.Core\\Vectorify.Core.csproj": {
                 "projectPath": "D:\\OneDrive - MSFT\\Documents\\GitHub\\vectorify\\Vectorify.Core\\Vectorify.Core.csproj"
@@ -112,8 +112,8 @@
         }
       },
       "frameworks": {
-        "net7.0-windows10.0.19041": {
-          "targetAlias": "net7.0-windows10.0.19041.0",
+        "net7.0-windows10.0.22621": {
+          "targetAlias": "net7.0-windows10.0.22621.0",
           "dependencies": {
             "CommunityToolkit.Mvvm": {
               "target": "Package",
@@ -174,7 +174,7 @@
             },
             {
               "name": "Microsoft.Windows.SDK.NET.Ref",
-              "version": "[10.0.19041.28, 10.0.19041.28]"
+              "version": "[10.0.22621.28, 10.0.22621.28]"
             },
             {
               "name": "Microsoft.WindowsDesktop.App.Runtime.win-arm64",

@@ -13,7 +13,7 @@
                 Severity="Warning"
                 Title="Early Build"
                 Message="This pre-release version of Vectorify should not be used in production" />
-            <TextBlock Text="Bienvenido a Vectorify" Style="{StaticResource HeaderTextBlockStyle}"/>
+            <TextBlock Text="Bienvenido a Vectorify" Style="{StaticResource TitleLargeTextBlockStyle}"/>
         </StackPanel>
     </Grid>
 </Page>

@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net7.0-windows10.0.19041": {
+    "net7.0-windows10.0.22621": {
       "CommunityToolkit.Mvvm/7.1.2": {
         "type": "package",
         "compile": {
@@ -774,7 +774,7 @@
         }
       }
     },
-    "net7.0-windows10.0.19041/win10-arm64": {
+    "net7.0-windows10.0.22621/win10-arm64": {
       "CommunityToolkit.Mvvm/7.1.2": {
         "type": "package",
         "compile": {
@@ -1521,7 +1521,7 @@
         }
       }
     },
-    "net7.0-windows10.0.19041/win10-x64": {
+    "net7.0-windows10.0.22621/win10-x64": {
       "CommunityToolkit.Mvvm/7.1.2": {
         "type": "package",
         "compile": {
@@ -2268,7 +2268,7 @@
         }
       }
     },
-    "net7.0-windows10.0.19041/win10-x86": {
+    "net7.0-windows10.0.22621/win10-x86": {
       "CommunityToolkit.Mvvm/7.1.2": {
         "type": "package",
         "compile": {
@@ -4717,7 +4717,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net7.0-windows10.0.19041": [
+    "net7.0-windows10.0.22621": [
       "CommunityToolkit.Mvvm >= 7.1.2",
       "Microsoft.Extensions.Hosting >= 6.0.1",
       "Microsoft.WindowsAppSDK >= 1.2.230118.102",
@@ -4748,7 +4748,7 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net7.0-windows10.0.19041.0"
+        "net7.0-windows10.0.22621.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -4756,8 +4756,8 @@
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net7.0-windows10.0.19041": {
-          "targetAlias": "net7.0-windows10.0.19041.0",
+        "net7.0-windows10.0.22621": {
+          "targetAlias": "net7.0-windows10.0.22621.0",
           "projectReferences": {
             "D:\\OneDrive - MSFT\\Documents\\GitHub\\vectorify\\Vectorify.Core\\Vectorify.Core.csproj": {
               "projectPath": "D:\\OneDrive - MSFT\\Documents\\GitHub\\vectorify\\Vectorify.Core\\Vectorify.Core.csproj"
@@ -4772,8 +4772,8 @@
       }
     },
     "frameworks": {
-      "net7.0-windows10.0.19041": {
-        "targetAlias": "net7.0-windows10.0.19041.0",
+      "net7.0-windows10.0.22621": {
+        "targetAlias": "net7.0-windows10.0.22621.0",
         "dependencies": {
           "CommunityToolkit.Mvvm": {
             "target": "Package",
@@ -4834,7 +4834,7 @@
           },
           {
             "name": "Microsoft.Windows.SDK.NET.Ref",
-            "version": "[10.0.19041.28, 10.0.19041.28]"
+            "version": "[10.0.22621.28, 10.0.22621.28]"
           },
           {
             "name": "Microsoft.WindowsDesktop.App.Runtime.win-arm64",

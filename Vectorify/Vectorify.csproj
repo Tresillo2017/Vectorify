@@ -23,6 +23,15 @@
     <Description>A simple vector calculator an drawer made with C# and WinUI3 by a 15 year old kid</Description>
     <RepositoryUrl>https://github.com/tresillo2017/vectorify</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
+    <GenerateAppInstallerFile>True</GenerateAppInstallerFile>
+    <AppxPackageSigningTimestampDigestAlgorithm>SHA256</AppxPackageSigningTimestampDigestAlgorithm>
+    <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
+    <AppxPackageDir>D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\Release\</AppxPackageDir>
+    <AppxSymbolPackageEnabled>True</AppxSymbolPackageEnabled>
+    <GenerateTestArtifacts>True</GenerateTestArtifacts>
+    <AppxBundle>Auto</AppxBundle>
+    <AppxBundlePlatforms>x86|x64|arm64</AppxBundlePlatforms>
+    <AppInstallerUri>https://tomasps.tk</AppInstallerUri>
   </PropertyGroup>
   <ItemGroup>
     <Content Remove="Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png" />

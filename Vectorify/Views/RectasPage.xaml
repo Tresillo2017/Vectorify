@@ -7,7 +7,13 @@
     mc:Ignorable="d">
 
     <RelativePanel x:Name="ContentArea">
-        <TextBlock x:Name="Texto1" Text="Escribe las cordenadas del Vector" Style="{StaticResource SubtitleTextBlockStyle}" Margin="0,0,0,10"/>
+        <InfoBar x:Name="Warning"
+                IsOpen="True"
+                Severity="Warning"
+                Title="WIP"
+                IsClosable="False"
+                Message="This section of the app is not finished" />
+        <TextBlock x:Name="Texto1" Text="Escribe las cordenadas del Vector" Style="{StaticResource SubtitleTextBlockStyle}" RelativePanel.Below="Warning" Margin="0,0,0,10"/>
         <NumberBox x:Name="ValorX_Vector"
                 Header="Introduce el valor de X:"
                 Value="1"
@@ -41,7 +47,7 @@
                 RelativePanel.Below="Texto2" RelativePanel.RightOf="ValorX_Punto" Height="60" Width="150" Margin="30,0,0,0"/>
         
         <!--Lado derecho-->
-        <Button x:Name="Boton_Calcular" Style="{StaticResource AccentButtonStyle}" Click="drawButton_Click" Content="Calcular" RelativePanel.AlignBottomWithPanel="True" Margin="0,0,0,280"/>
+        <Button x:Name="Boton_Calcular" Style="{StaticResource AccentButtonStyle}" Click="drawButton_Click" Content="Calcular" RelativePanel.Below="ValorX_Punto" Margin="50"/>
         <TextBlock x:Name="Texto_Derecha" Text="Solucion" Style="{StaticResource SubtitleTextBlockStyle}" RelativePanel.AlignRightWithPanel="True" Margin="0,0,250,0"/>
         <Canvas Name="canvas" Background="White" Width="500" Height="500" RelativePanel.AlignRightWithPanel="True" Margin="50"/>
     </RelativePanel>

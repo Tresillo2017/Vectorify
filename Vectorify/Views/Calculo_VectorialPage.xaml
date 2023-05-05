@@ -8,7 +8,12 @@
 
     <Grid x:Name="ContentArea">
         <StackPanel Orientation="Vertical">
-            
+            <InfoBar
+                IsOpen="True"
+                Severity="Warning"
+                Title="Early Build"
+                IsClosable="False"
+                Message="This section of the app is not finished. UI subject to change"/>
         </StackPanel>
     </Grid>
 </Page>

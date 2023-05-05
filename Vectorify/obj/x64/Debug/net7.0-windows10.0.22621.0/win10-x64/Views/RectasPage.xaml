@@ -44,34 +44,6 @@
         <Button x:ConnectionId='9' x:Name="Boton_Calcular" Style="{StaticResource AccentButtonStyle}"                          Content="Calcular" RelativePanel.AlignBottomWithPanel="True" Margin="0,0,0,280"/>
         <TextBlock x:ConnectionId='10' x:Name="Texto_Derecha" Text="Solucion" Style="{StaticResource SubtitleTextBlockStyle}" RelativePanel.AlignRightWithPanel="True" Margin="0,0,250,0"/>
         <Canvas x:ConnectionId='11' Name="canvas" Background="White" Width="500" Height="500" RelativePanel.AlignRightWithPanel="True" Margin="50"/>
-        <Grid>
-            <Grid.RowDefinitions>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="Auto"/>
-            </Grid.RowDefinitions>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="Auto"/>
-                <ColumnDefinition Width="*"/>
-            </Grid.ColumnDefinitions>
-
-            <!-- Top row -->
-            <TextBlock Text="This is the top row" Grid.Row="0" Grid.ColumnSpan="3" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-
-            <!-- Left column -->
-            <TextBlock Text="This is the left column" Grid.Row="1" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-
-            <!-- Center content -->
-            <TextBlock Text="This is the center content" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-
-            <!-- Right column -->
-            <TextBlock Text="This is the right column" Grid.Row="1" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-
-            <!-- Bottom row -->
-            <TextBlock Text="This is the bottom row" Grid.Row="2" Grid.ColumnSpan="3" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-        </Grid>
-
     </RelativePanel>
 </Page>
 

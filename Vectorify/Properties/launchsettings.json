@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "Vectorify (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "Vectorify (Unpackaged)": {
+      "commandName": "Project"
+    },
+    "WSL": {
+      "commandName": "WSL2",
+      "distributionName": ""
+    }
+  }
+}

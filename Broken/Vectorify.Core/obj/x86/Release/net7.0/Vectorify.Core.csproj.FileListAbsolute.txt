@@ -1,0 +1,12 @@
+D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify.Core\bin\x86\Release\net7.0\Vectorify.Core.deps.json
+D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify.Core\bin\x86\Release\net7.0\Vectorify.Core.dll
+D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify.Core\bin\x86\Release\net7.0\Vectorify.Core.pdb
+D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify.Core\obj\x86\Release\net7.0\Vectorify.Core.csproj.AssemblyReference.cache
+D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify.Core\obj\x86\Release\net7.0\Vectorify.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify.Core\obj\x86\Release\net7.0\Vectorify.Core.AssemblyInfoInputs.cache
+D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify.Core\obj\x86\Release\net7.0\Vectorify.Core.AssemblyInfo.cs
+D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify.Core\obj\x86\Release\net7.0\Vectorify.Core.csproj.CoreCompileInputs.cache
+D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify.Core\obj\x86\Release\net7.0\Vectorify.Core.dll
+D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify.Core\obj\x86\Release\net7.0\refint\Vectorify.Core.dll
+D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify.Core\obj\x86\Release\net7.0\Vectorify.Core.pdb
+D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify.Core\obj\x86\Release\net7.0\ref\Vectorify.Core.dll

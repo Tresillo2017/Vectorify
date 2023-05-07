@@ -1,0 +1,58 @@
+﻿<Page
+     x:Class="Vectorify.Views.RectasPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:controls="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    mc:Ignorable="d">
+
+    <RelativePanel x:ConnectionId='2' x:Name="ContentArea">
+        <InfoBar x:ConnectionId='3' x:Name="Warning"
+                IsOpen="True"
+                Severity="Warning"
+                Title="WIP"
+                IsClosable="False"
+                Message="This section of the app is not finished">
+        </InfoBar>
+        <TextBlock x:ConnectionId='4' x:Name="Texto1" Text="Escribe las cordenadas del Vector" Style="{StaticResource SubtitleTextBlockStyle}" RelativePanel.Below="Warning" Margin="0,0,0,10"/>
+        <NumberBox x:ConnectionId='5' x:Name="ValorX_Vector"
+                Header="Introduce el valor de X:"
+                Value="1"
+                SpinButtonPlacementMode="Compact"
+                SmallChange="10"
+                LargeChange="100"
+                RelativePanel.Below="Texto1" Height="60" Width="150"/>
+        <NumberBox x:ConnectionId='6' x:Name="ValorY_Vector"
+                Header="Introduce el valor de Y:"
+                Value="1"
+                SpinButtonPlacementMode="Compact"
+                SmallChange="10"
+                LargeChange="100"
+                RelativePanel.Below="Texto1" RelativePanel.RightOf="ValorX_Vector" Height="60" Width="150" Margin="30,0,0,0"/>
+
+        <TextBlock x:ConnectionId='7' x:Name="Texto2" Text="Escribe las cordenadas del punto" Style="{StaticResource SubtitleTextBlockStyle}" RelativePanel.Below="ValorX_Vector" Margin="0,50,0,10"/>
+
+        <NumberBox x:ConnectionId='8' x:Name="ValorX_Punto"
+                Value="1"
+                Header="Introduce el valor de X:"
+                SpinButtonPlacementMode="Compact"
+                SmallChange="10"
+                LargeChange="100"
+                RelativePanel.Below="Texto2" Height="60" Width="150"/>
+        <NumberBox x:ConnectionId='9' x:Name="ValorY_Punto"
+                Header="Introduce el valor de Y:"
+                Value="1"
+                SpinButtonPlacementMode="Compact"
+                SmallChange="10"
+                LargeChange="100"
+                RelativePanel.Below="Texto2" RelativePanel.RightOf="ValorX_Punto" Height="60" Width="150" Margin="30,0,0,0"/>
+
+        <!--Lado derecho-->
+        <Button x:ConnectionId='10' x:Name="Boton_Calcular" Style="{StaticResource AccentButtonStyle}"                          Content="Calcular" RelativePanel.Below="ValorX_Punto" Margin="50"/>
+        <TextBlock x:ConnectionId='11' x:Name="Texto_Derecha" Text="Solucion" Style="{StaticResource SubtitleTextBlockStyle}" RelativePanel.AlignRightWithPanel="True" Margin="0,0,250,0"/>
+        <Canvas x:ConnectionId='12' Name="canvas" Background="Transparent" Width="500" Height="500" RelativePanel.AlignRightWithPanel="True" Margin="50">
+            <Canvas x:ConnectionId='13' x:Name="rulerCanvas"/>
+        </Canvas>
+    </RelativePanel>
+</Page>
+

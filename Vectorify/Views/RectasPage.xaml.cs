@@ -91,15 +91,25 @@ public sealed partial class RectasPage : Page
         double centerX = canvas.ActualWidth / 2;
         double centerY = canvas.ActualHeight / 2;
 
-        /*// Create a new TranslateTransform to center the canvas
-        var translate = new TranslateTransform();
-        translate.X = centerX;
-        translate.Y = centerY;
-        canvas.RenderTransform = translate;
-*/
+        // Create a new Line element
+        var line = new Line();
+
+        // Set the start and end points of the line
+        line.X1 = centerX;
+        line.Y1 = centerY;
+        line.X2 = endX;
+        line.Y2 = endY;
+
+        // Set the stroke color and thickness of the line
+        line.Stroke = new SolidColorBrush(Colors.Red);
+        line.StrokeThickness = 2;
+
+        // Add the line to the canvas
+        canvas.Children.Add(line);
+
         // Calculate the direction and length of the arrow
-        double dirX = endX;
-        double dirY = endY;
+        double dirX = endX - centerX;
+        double dirY = endY - centerY;
         double length = Math.Sqrt(dirX * dirX + dirY * dirY);
 
         // Calculate the normalized direction of the arrow
@@ -161,9 +171,9 @@ public sealed partial class RectasPage : Page
     {
         // Crea una línea horizontal y una vertical que pasen por el centro del canvas
         var guideLines = new[] {
-        new { X1 = -canvas.ActualWidth, Y1 = canvas.ActualHeight/2, X2 = canvas.ActualWidth, Y2 = canvas.ActualHeight/2 },
-        new { X1 = -canvas.ActualWidth/2, Y1 = -canvas.ActualWidth, X2 = canvas.ActualWidth, Y2 = canvas.ActualHeight }
-    };
+            new { X1 = 0.0, Y1 = canvas.ActualHeight / 2, X2 = canvas.ActualWidth, Y2 = canvas.ActualHeight / 2 },
+            new { X1 = canvas.ActualWidth / 2, Y1 = 0.0, X2 = canvas.ActualWidth / 2, Y2 = canvas.ActualHeight }
+        };
 
         // Agrega cada línea al canvas
         foreach (var line in guideLines)
@@ -178,9 +188,12 @@ public sealed partial class RectasPage : Page
                 StrokeThickness = 1,
                 StrokeDashArray = new DoubleCollection() { 4.0, 2.0 } // línea punteada
             };
+
             Canvas.SetZIndex(shape, 100);
             canvas.Children.Add(shape);
         }
+
+
     }
 
     private void drawButton_Click(object sender, RoutedEventArgs e)
@@ -213,7 +226,6 @@ public sealed partial class RectasPage : Page
         // Get the end point from the user input
         double endX = double.Parse(ValorX_Vector.Text);
         double endY = double.Parse(ValorY_Vector.Text);
-
 
         // Call the DrawVector method with the canvas and end point
         DrawVector(canvas, endX, endY);

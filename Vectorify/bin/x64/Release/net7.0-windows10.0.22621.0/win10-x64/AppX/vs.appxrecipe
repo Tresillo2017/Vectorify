@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\bin\x64\Release\net7.0-windows10.0.22621.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-07T21:10:24.533</Modified>
+      <Modified>2023-05-07T21:12:36.329</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\bin\x64\Release\net7.0-windows10.0.22621.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-05-07T21:10:23.961</Modified>
+      <Modified>2023-05-07T21:12:35.782</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\bin\x64\Release\net7.0-windows10.0.22621.0\win10-x64\Vectorify.runtimeconfig.json">
       <PackagePath>Vectorify.runtimeconfig.json</PackagePath>
@@ -48,7 +48,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\obj\x64\Release\net7.0-windows10.0.22621.0\win10-x64\apphost.exe">
       <PackagePath>Vectorify.exe</PackagePath>
-      <Modified>2023-05-07T21:10:23.841</Modified>
+      <Modified>2023-05-07T21:12:35.600</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\bin\x64\Release\net7.0-windows10.0.22621.0\win10-x64\Vectorify.deps.json">
       <PackagePath>Vectorify.deps.json</PackagePath>
@@ -976,7 +976,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\obj\x64\Release\net7.0-windows10.0.22621.0\win10-x64\R2R\Vectorify.dll">
       <PackagePath>Vectorify.dll</PackagePath>
-      <Modified>2023-05-07T21:10:24.392</Modified>
+      <Modified>2023-05-07T21:12:36.200</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\obj\x64\Release\net7.0-windows10.0.22621.0\win10-x64\R2R\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>

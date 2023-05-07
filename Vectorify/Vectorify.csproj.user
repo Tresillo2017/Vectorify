@@ -6,15 +6,15 @@
   <PropertyGroup>
     <ActiveDebugProfile>Vectorify (Package)</ActiveDebugProfile>
     <_LastSelectedProfileId>D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\Properties\PublishProfiles\FolderProfile.pubxml</_LastSelectedProfileId>
-    <Source>D:\tresi\Downloads\Vectorify-removebg-preview.png</Source>
-    <SmallTileSource>D:\tresi\Downloads\Vectorify-removebg-preview.png</SmallTileSource>
-    <MediumTileSource>D:\tresi\Downloads\Vectorify-removebg-preview.png</MediumTileSource>
-    <WideTileSource>D:\tresi\Downloads\Vectorify-removebg-preview.png</WideTileSource>
-    <LargeTileSource>D:\tresi\Downloads\Vectorify-removebg-preview.png</LargeTileSource>
-    <AppIconSource>D:\tresi\Downloads\Vectorify-removebg-preview.png</AppIconSource>
-    <SplashScreenSource>D:\tresi\Downloads\Vectorify-removebg-preview.png</SplashScreenSource>
-    <PackageLogoSource>D:\tresi\Downloads\Vectorify-removebg-preview.png</PackageLogoSource>
-    <BadgeLogoSource>D:\tresi\Downloads\Vectorify-removebg-preview.png</BadgeLogoSource>
+    <Source>D:\tresi\Downloads\_77583ca8-c0f6-4b08-9e8a-af28c9a149b1.jpg</Source>
+    <SmallTileSource>D:\tresi\Downloads\_77583ca8-c0f6-4b08-9e8a-af28c9a149b1.jpg</SmallTileSource>
+    <MediumTileSource>D:\tresi\Downloads\_77583ca8-c0f6-4b08-9e8a-af28c9a149b1.jpg</MediumTileSource>
+    <WideTileSource>D:\tresi\Downloads\_77583ca8-c0f6-4b08-9e8a-af28c9a149b1.jpg</WideTileSource>
+    <LargeTileSource>D:\tresi\Downloads\_77583ca8-c0f6-4b08-9e8a-af28c9a149b1.jpg</LargeTileSource>
+    <AppIconSource>D:\tresi\Downloads\_77583ca8-c0f6-4b08-9e8a-af28c9a149b1.jpg</AppIconSource>
+    <SplashScreenSource>D:\tresi\Downloads\_77583ca8-c0f6-4b08-9e8a-af28c9a149b1.jpg</SplashScreenSource>
+    <PackageLogoSource>D:\tresi\Downloads\_77583ca8-c0f6-4b08-9e8a-af28c9a149b1.jpg</PackageLogoSource>
+    <BadgeLogoSource>D:\tresi\Downloads\_77583ca8-c0f6-4b08-9e8a-af28c9a149b1.jpg</BadgeLogoSource>
     <UapAppxPackageBuildMode>SideloadOnly</UapAppxPackageBuildMode>
     <AppxShowAllApps>False</AppxShowAllApps>
     <AppxBuildConfigurationSelection>x86|x64|arm64</AppxBuildConfigurationSelection>

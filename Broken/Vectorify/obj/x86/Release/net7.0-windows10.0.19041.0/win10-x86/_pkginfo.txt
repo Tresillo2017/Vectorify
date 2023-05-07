@@ -1,0 +1,1 @@
+D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\bin\x86\Release\net7.0-windows10.0.19041.0\win10-x86\AppPackages\Vectorify_1.0.2.0_x86_Test\Vectorify_1.0.2.0_x86.msix

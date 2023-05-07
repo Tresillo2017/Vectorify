@@ -256,21 +256,21 @@ namespace Vectorify.Vectorify_XamlTypeInfo
             _typeNameTable[28] = "Microsoft.UI.Xaml.Controls.IconSource";
             _typeNameTable[29] = "Microsoft.UI.Xaml.Controls.InfoBarTemplateSettings";
             _typeNameTable[30] = "Microsoft.UI.Xaml.DependencyObject";
-            _typeNameTable[31] = "Vectorify.Views.Calculo_VectorialPage";
-            _typeNameTable[32] = "Microsoft.UI.Xaml.Controls.Page";
-            _typeNameTable[33] = "Microsoft.UI.Xaml.Controls.UserControl";
-            _typeNameTable[34] = "Vectorify.ViewModels.Calculo_VectorialViewModel";
-            _typeNameTable[35] = "CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient";
-            _typeNameTable[36] = "CommunityToolkit.Mvvm.ComponentModel.ObservableObject";
-            _typeNameTable[37] = "Vectorify.Views.MainPage";
-            _typeNameTable[38] = "Vectorify.ViewModels.MainViewModel";
-            _typeNameTable[39] = "Microsoft.UI.Xaml.Controls.NumberBox";
-            _typeNameTable[40] = "Microsoft.UI.Xaml.Controls.NumberBoxSpinButtonPlacementMode";
-            _typeNameTable[41] = "Windows.Globalization.NumberFormatting.INumberFormatter2";
-            _typeNameTable[42] = "Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase";
-            _typeNameTable[43] = "Microsoft.UI.Xaml.Media.SolidColorBrush";
-            _typeNameTable[44] = "Microsoft.UI.Xaml.TextReadingOrder";
-            _typeNameTable[45] = "Microsoft.UI.Xaml.Controls.NumberBoxValidationMode";
+            _typeNameTable[31] = "Microsoft.UI.Xaml.Controls.NumberBox";
+            _typeNameTable[32] = "Microsoft.UI.Xaml.Controls.NumberBoxSpinButtonPlacementMode";
+            _typeNameTable[33] = "Windows.Globalization.NumberFormatting.INumberFormatter2";
+            _typeNameTable[34] = "Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase";
+            _typeNameTable[35] = "Microsoft.UI.Xaml.Media.SolidColorBrush";
+            _typeNameTable[36] = "Microsoft.UI.Xaml.TextReadingOrder";
+            _typeNameTable[37] = "Microsoft.UI.Xaml.Controls.NumberBoxValidationMode";
+            _typeNameTable[38] = "Vectorify.Views.Calculo_VectorialPage";
+            _typeNameTable[39] = "Microsoft.UI.Xaml.Controls.Page";
+            _typeNameTable[40] = "Microsoft.UI.Xaml.Controls.UserControl";
+            _typeNameTable[41] = "Vectorify.ViewModels.Calculo_VectorialViewModel";
+            _typeNameTable[42] = "CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient";
+            _typeNameTable[43] = "CommunityToolkit.Mvvm.ComponentModel.ObservableObject";
+            _typeNameTable[44] = "Vectorify.Views.MainPage";
+            _typeNameTable[45] = "Vectorify.ViewModels.MainViewModel";
             _typeNameTable[46] = "Vectorify.Views.RectasPage";
             _typeNameTable[47] = "Vectorify.ViewModels.RectasViewModel";
             _typeNameTable[48] = "Vectorify.Helpers.EnumToBooleanConverter";
@@ -337,21 +337,21 @@ namespace Vectorify.Vectorify_XamlTypeInfo
             _typeTable[28] = typeof(global::Microsoft.UI.Xaml.Controls.IconSource);
             _typeTable[29] = typeof(global::Microsoft.UI.Xaml.Controls.InfoBarTemplateSettings);
             _typeTable[30] = typeof(global::Microsoft.UI.Xaml.DependencyObject);
-            _typeTable[31] = typeof(global::Vectorify.Views.Calculo_VectorialPage);
-            _typeTable[32] = typeof(global::Microsoft.UI.Xaml.Controls.Page);
-            _typeTable[33] = typeof(global::Microsoft.UI.Xaml.Controls.UserControl);
-            _typeTable[34] = typeof(global::Vectorify.ViewModels.Calculo_VectorialViewModel);
-            _typeTable[35] = typeof(global::CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient);
-            _typeTable[36] = typeof(global::CommunityToolkit.Mvvm.ComponentModel.ObservableObject);
-            _typeTable[37] = typeof(global::Vectorify.Views.MainPage);
-            _typeTable[38] = typeof(global::Vectorify.ViewModels.MainViewModel);
-            _typeTable[39] = typeof(global::Microsoft.UI.Xaml.Controls.NumberBox);
-            _typeTable[40] = typeof(global::Microsoft.UI.Xaml.Controls.NumberBoxSpinButtonPlacementMode);
-            _typeTable[41] = typeof(global::Windows.Globalization.NumberFormatting.INumberFormatter2);
-            _typeTable[42] = typeof(global::Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase);
-            _typeTable[43] = typeof(global::Microsoft.UI.Xaml.Media.SolidColorBrush);
-            _typeTable[44] = typeof(global::Microsoft.UI.Xaml.TextReadingOrder);
-            _typeTable[45] = typeof(global::Microsoft.UI.Xaml.Controls.NumberBoxValidationMode);
+            _typeTable[31] = typeof(global::Microsoft.UI.Xaml.Controls.NumberBox);
+            _typeTable[32] = typeof(global::Microsoft.UI.Xaml.Controls.NumberBoxSpinButtonPlacementMode);
+            _typeTable[33] = typeof(global::Windows.Globalization.NumberFormatting.INumberFormatter2);
+            _typeTable[34] = typeof(global::Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase);
+            _typeTable[35] = typeof(global::Microsoft.UI.Xaml.Media.SolidColorBrush);
+            _typeTable[36] = typeof(global::Microsoft.UI.Xaml.TextReadingOrder);
+            _typeTable[37] = typeof(global::Microsoft.UI.Xaml.Controls.NumberBoxValidationMode);
+            _typeTable[38] = typeof(global::Vectorify.Views.Calculo_VectorialPage);
+            _typeTable[39] = typeof(global::Microsoft.UI.Xaml.Controls.Page);
+            _typeTable[40] = typeof(global::Microsoft.UI.Xaml.Controls.UserControl);
+            _typeTable[41] = typeof(global::Vectorify.ViewModels.Calculo_VectorialViewModel);
+            _typeTable[42] = typeof(global::CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient);
+            _typeTable[43] = typeof(global::CommunityToolkit.Mvvm.ComponentModel.ObservableObject);
+            _typeTable[44] = typeof(global::Vectorify.Views.MainPage);
+            _typeTable[45] = typeof(global::Vectorify.ViewModels.MainViewModel);
             _typeTable[46] = typeof(global::Vectorify.Views.RectasPage);
             _typeTable[47] = typeof(global::Vectorify.ViewModels.RectasViewModel);
             _typeTable[48] = typeof(global::Vectorify.Helpers.EnumToBooleanConverter);
@@ -425,11 +425,11 @@ namespace Vectorify.Vectorify_XamlTypeInfo
         private object Activate_18_MainWindow() { return new global::Vectorify.MainWindow(); }
         private object Activate_21_InfoBar() { return new global::Microsoft.UI.Xaml.Controls.InfoBar(); }
         private object Activate_29_InfoBarTemplateSettings() { return new global::Microsoft.UI.Xaml.Controls.InfoBarTemplateSettings(); }
-        private object Activate_31_Calculo_VectorialPage() { return new global::Vectorify.Views.Calculo_VectorialPage(); }
-        private object Activate_34_Calculo_VectorialViewModel() { return new global::Vectorify.ViewModels.Calculo_VectorialViewModel(); }
-        private object Activate_37_MainPage() { return new global::Vectorify.Views.MainPage(); }
-        private object Activate_38_MainViewModel() { return new global::Vectorify.ViewModels.MainViewModel(); }
-        private object Activate_39_NumberBox() { return new global::Microsoft.UI.Xaml.Controls.NumberBox(); }
+        private object Activate_31_NumberBox() { return new global::Microsoft.UI.Xaml.Controls.NumberBox(); }
+        private object Activate_38_Calculo_VectorialPage() { return new global::Vectorify.Views.Calculo_VectorialPage(); }
+        private object Activate_41_Calculo_VectorialViewModel() { return new global::Vectorify.ViewModels.Calculo_VectorialViewModel(); }
+        private object Activate_44_MainPage() { return new global::Vectorify.Views.MainPage(); }
+        private object Activate_45_MainViewModel() { return new global::Vectorify.ViewModels.MainViewModel(); }
         private object Activate_46_RectasPage() { return new global::Vectorify.Views.RectasPage(); }
         private object Activate_47_RectasViewModel() { return new global::Vectorify.ViewModels.RectasViewModel(); }
         private object Activate_48_EnumToBooleanConverter() { return new global::Vectorify.Helpers.EnumToBooleanConverter(); }
@@ -694,57 +694,9 @@ namespace Vectorify.Vectorify_XamlTypeInfo
                 xamlType = new global::Vectorify.Vectorify_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 31:   //  Vectorify.Views.Calculo_VectorialPage
-                userType = new global::Vectorify.Vectorify_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_31_Calculo_VectorialPage;
-                userType.AddMemberName("ViewModel");
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 32:   //  Microsoft.UI.Xaml.Controls.Page
-                xamlType = new global::Vectorify.Vectorify_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 33:   //  Microsoft.UI.Xaml.Controls.UserControl
-                xamlType = new global::Vectorify.Vectorify_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 34:   //  Vectorify.ViewModels.Calculo_VectorialViewModel
-                userType = new global::Vectorify.Vectorify_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient"));
-                userType.SetIsReturnTypeStub();
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 35:   //  CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient
-                userType = new global::Vectorify.Vectorify_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("CommunityToolkit.Mvvm.ComponentModel.ObservableObject"));
-                xamlType = userType;
-                break;
-
-            case 36:   //  CommunityToolkit.Mvvm.ComponentModel.ObservableObject
-                userType = new global::Vectorify.Vectorify_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                xamlType = userType;
-                break;
-
-            case 37:   //  Vectorify.Views.MainPage
-                userType = new global::Vectorify.Vectorify_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_37_MainPage;
-                userType.AddMemberName("ViewModel");
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 38:   //  Vectorify.ViewModels.MainViewModel
-                userType = new global::Vectorify.Vectorify_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient"));
-                userType.SetIsReturnTypeStub();
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 39:   //  Microsoft.UI.Xaml.Controls.NumberBox
+            case 31:   //  Microsoft.UI.Xaml.Controls.NumberBox
                 userType = new global::Vectorify.Vectorify_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Control"));
-                userType.Activator = Activate_39_NumberBox;
+                userType.Activator = Activate_31_NumberBox;
                 userType.AddMemberName("Header");
                 userType.AddMemberName("Value");
                 userType.AddMemberName("SpinButtonPlacementMode");
@@ -767,7 +719,7 @@ namespace Vectorify.Vectorify_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 40:   //  Microsoft.UI.Xaml.Controls.NumberBoxSpinButtonPlacementMode
+            case 32:   //  Microsoft.UI.Xaml.Controls.NumberBoxSpinButtonPlacementMode
                 userType = new global::Vectorify.Vectorify_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("Hidden", global::Microsoft.UI.Xaml.Controls.NumberBoxSpinButtonPlacementMode.Hidden);
                 userType.AddEnumValue("Compact", global::Microsoft.UI.Xaml.Controls.NumberBoxSpinButtonPlacementMode.Compact);
@@ -775,28 +727,76 @@ namespace Vectorify.Vectorify_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 41:   //  Windows.Globalization.NumberFormatting.INumberFormatter2
+            case 33:   //  Windows.Globalization.NumberFormatting.INumberFormatter2
                 userType = new global::Vectorify.Vectorify_XamlTypeInfo.XamlUserType(this, typeName, type, null);
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 42:   //  Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase
+            case 34:   //  Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase
                 xamlType = new global::Vectorify.Vectorify_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 43:   //  Microsoft.UI.Xaml.Media.SolidColorBrush
+            case 35:   //  Microsoft.UI.Xaml.Media.SolidColorBrush
                 xamlType = new global::Vectorify.Vectorify_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 44:   //  Microsoft.UI.Xaml.TextReadingOrder
+            case 36:   //  Microsoft.UI.Xaml.TextReadingOrder
                 xamlType = new global::Vectorify.Vectorify_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 45:   //  Microsoft.UI.Xaml.Controls.NumberBoxValidationMode
+            case 37:   //  Microsoft.UI.Xaml.Controls.NumberBoxValidationMode
                 userType = new global::Vectorify.Vectorify_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("InvalidInputOverwritten", global::Microsoft.UI.Xaml.Controls.NumberBoxValidationMode.InvalidInputOverwritten);
                 userType.AddEnumValue("Disabled", global::Microsoft.UI.Xaml.Controls.NumberBoxValidationMode.Disabled);
+                xamlType = userType;
+                break;
+
+            case 38:   //  Vectorify.Views.Calculo_VectorialPage
+                userType = new global::Vectorify.Vectorify_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_38_Calculo_VectorialPage;
+                userType.AddMemberName("ViewModel");
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 39:   //  Microsoft.UI.Xaml.Controls.Page
+                xamlType = new global::Vectorify.Vectorify_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 40:   //  Microsoft.UI.Xaml.Controls.UserControl
+                xamlType = new global::Vectorify.Vectorify_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 41:   //  Vectorify.ViewModels.Calculo_VectorialViewModel
+                userType = new global::Vectorify.Vectorify_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient"));
+                userType.SetIsReturnTypeStub();
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 42:   //  CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient
+                userType = new global::Vectorify.Vectorify_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("CommunityToolkit.Mvvm.ComponentModel.ObservableObject"));
+                xamlType = userType;
+                break;
+
+            case 43:   //  CommunityToolkit.Mvvm.ComponentModel.ObservableObject
+                userType = new global::Vectorify.Vectorify_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                xamlType = userType;
+                break;
+
+            case 44:   //  Vectorify.Views.MainPage
+                userType = new global::Vectorify.Vectorify_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_44_MainPage;
+                userType.AddMemberName("ViewModel");
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 45:   //  Vectorify.ViewModels.MainViewModel
+                userType = new global::Vectorify.Vectorify_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient"));
+                userType.SetIsReturnTypeStub();
+                userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
@@ -1631,205 +1631,205 @@ namespace Vectorify.Vectorify_XamlTypeInfo
             var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
             return that.TemplateSettings;
         }
-        private object get_53_Calculo_VectorialPage_ViewModel(object instance)
-        {
-            var that = (global::Vectorify.Views.Calculo_VectorialPage)instance;
-            return that.ViewModel;
-        }
-        private object get_54_MainPage_ViewModel(object instance)
-        {
-            var that = (global::Vectorify.Views.MainPage)instance;
-            return that.ViewModel;
-        }
-        private object get_55_NumberBox_Header(object instance)
+        private object get_53_NumberBox_Header(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
             return that.Header;
         }
-        private void set_55_NumberBox_Header(object instance, object Value)
+        private void set_53_NumberBox_Header(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
             that.Header = (global::System.Object)Value;
         }
-        private object get_56_NumberBox_Value(object instance)
+        private object get_54_NumberBox_Value(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
             return that.Value;
         }
-        private void set_56_NumberBox_Value(object instance, object Value)
+        private void set_54_NumberBox_Value(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
             that.Value = (global::System.Double)Value;
         }
-        private object get_57_NumberBox_SpinButtonPlacementMode(object instance)
+        private object get_55_NumberBox_SpinButtonPlacementMode(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
             return that.SpinButtonPlacementMode;
         }
-        private void set_57_NumberBox_SpinButtonPlacementMode(object instance, object Value)
+        private void set_55_NumberBox_SpinButtonPlacementMode(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
             that.SpinButtonPlacementMode = (global::Microsoft.UI.Xaml.Controls.NumberBoxSpinButtonPlacementMode)Value;
         }
-        private object get_58_NumberBox_SmallChange(object instance)
+        private object get_56_NumberBox_SmallChange(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
             return that.SmallChange;
         }
-        private void set_58_NumberBox_SmallChange(object instance, object Value)
+        private void set_56_NumberBox_SmallChange(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
             that.SmallChange = (global::System.Double)Value;
         }
-        private object get_59_NumberBox_LargeChange(object instance)
+        private object get_57_NumberBox_LargeChange(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
             return that.LargeChange;
         }
-        private void set_59_NumberBox_LargeChange(object instance, object Value)
+        private void set_57_NumberBox_LargeChange(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
             that.LargeChange = (global::System.Double)Value;
         }
-        private object get_60_NumberBox_AcceptsExpression(object instance)
+        private object get_58_NumberBox_AcceptsExpression(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
             return that.AcceptsExpression;
         }
-        private void set_60_NumberBox_AcceptsExpression(object instance, object Value)
+        private void set_58_NumberBox_AcceptsExpression(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
             that.AcceptsExpression = (global::System.Boolean)Value;
         }
-        private object get_61_NumberBox_Description(object instance)
+        private object get_59_NumberBox_Description(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
             return that.Description;
         }
-        private void set_61_NumberBox_Description(object instance, object Value)
+        private void set_59_NumberBox_Description(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
             that.Description = (global::System.Object)Value;
         }
-        private object get_62_NumberBox_HeaderTemplate(object instance)
+        private object get_60_NumberBox_HeaderTemplate(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
             return that.HeaderTemplate;
         }
-        private void set_62_NumberBox_HeaderTemplate(object instance, object Value)
+        private void set_60_NumberBox_HeaderTemplate(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
             that.HeaderTemplate = (global::Microsoft.UI.Xaml.DataTemplate)Value;
         }
-        private object get_63_NumberBox_IsWrapEnabled(object instance)
+        private object get_61_NumberBox_IsWrapEnabled(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
             return that.IsWrapEnabled;
         }
-        private void set_63_NumberBox_IsWrapEnabled(object instance, object Value)
+        private void set_61_NumberBox_IsWrapEnabled(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
             that.IsWrapEnabled = (global::System.Boolean)Value;
         }
-        private object get_64_NumberBox_Maximum(object instance)
+        private object get_62_NumberBox_Maximum(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
             return that.Maximum;
         }
-        private void set_64_NumberBox_Maximum(object instance, object Value)
+        private void set_62_NumberBox_Maximum(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
             that.Maximum = (global::System.Double)Value;
         }
-        private object get_65_NumberBox_Minimum(object instance)
+        private object get_63_NumberBox_Minimum(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
             return that.Minimum;
         }
-        private void set_65_NumberBox_Minimum(object instance, object Value)
+        private void set_63_NumberBox_Minimum(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
             that.Minimum = (global::System.Double)Value;
         }
-        private object get_66_NumberBox_NumberFormatter(object instance)
+        private object get_64_NumberBox_NumberFormatter(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
             return that.NumberFormatter;
         }
-        private void set_66_NumberBox_NumberFormatter(object instance, object Value)
+        private void set_64_NumberBox_NumberFormatter(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
             that.NumberFormatter = (global::Windows.Globalization.NumberFormatting.INumberFormatter2)Value;
         }
-        private object get_67_NumberBox_PlaceholderText(object instance)
+        private object get_65_NumberBox_PlaceholderText(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
             return that.PlaceholderText;
         }
-        private void set_67_NumberBox_PlaceholderText(object instance, object Value)
+        private void set_65_NumberBox_PlaceholderText(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
             that.PlaceholderText = (global::System.String)Value;
         }
-        private object get_68_NumberBox_PreventKeyboardDisplayOnProgrammaticFocus(object instance)
+        private object get_66_NumberBox_PreventKeyboardDisplayOnProgrammaticFocus(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
             return that.PreventKeyboardDisplayOnProgrammaticFocus;
         }
-        private void set_68_NumberBox_PreventKeyboardDisplayOnProgrammaticFocus(object instance, object Value)
+        private void set_66_NumberBox_PreventKeyboardDisplayOnProgrammaticFocus(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
             that.PreventKeyboardDisplayOnProgrammaticFocus = (global::System.Boolean)Value;
         }
-        private object get_69_NumberBox_SelectionFlyout(object instance)
+        private object get_67_NumberBox_SelectionFlyout(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
             return that.SelectionFlyout;
         }
-        private void set_69_NumberBox_SelectionFlyout(object instance, object Value)
+        private void set_67_NumberBox_SelectionFlyout(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
             that.SelectionFlyout = (global::Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase)Value;
         }
-        private object get_70_NumberBox_SelectionHighlightColor(object instance)
+        private object get_68_NumberBox_SelectionHighlightColor(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
             return that.SelectionHighlightColor;
         }
-        private void set_70_NumberBox_SelectionHighlightColor(object instance, object Value)
+        private void set_68_NumberBox_SelectionHighlightColor(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
             that.SelectionHighlightColor = (global::Microsoft.UI.Xaml.Media.SolidColorBrush)Value;
         }
-        private object get_71_NumberBox_Text(object instance)
+        private object get_69_NumberBox_Text(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
             return that.Text;
         }
-        private void set_71_NumberBox_Text(object instance, object Value)
+        private void set_69_NumberBox_Text(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
             that.Text = (global::System.String)Value;
         }
-        private object get_72_NumberBox_TextReadingOrder(object instance)
+        private object get_70_NumberBox_TextReadingOrder(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
             return that.TextReadingOrder;
         }
-        private void set_72_NumberBox_TextReadingOrder(object instance, object Value)
+        private void set_70_NumberBox_TextReadingOrder(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
             that.TextReadingOrder = (global::Microsoft.UI.Xaml.TextReadingOrder)Value;
         }
-        private object get_73_NumberBox_ValidationMode(object instance)
+        private object get_71_NumberBox_ValidationMode(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
             return that.ValidationMode;
         }
-        private void set_73_NumberBox_ValidationMode(object instance, object Value)
+        private void set_71_NumberBox_ValidationMode(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
             that.ValidationMode = (global::Microsoft.UI.Xaml.Controls.NumberBoxValidationMode)Value;
+        }
+        private object get_72_Calculo_VectorialPage_ViewModel(object instance)
+        {
+            var that = (global::Vectorify.Views.Calculo_VectorialPage)instance;
+            return that.ViewModel;
+        }
+        private object get_73_MainPage_ViewModel(object instance)
+        {
+            var that = (global::Vectorify.Views.MainPage)instance;
+            return that.ViewModel;
         }
         private object get_74_RectasPage_ViewModel(object instance)
         {
@@ -2687,150 +2687,150 @@ namespace Vectorify.Vectorify_XamlTypeInfo
                 xamlMember.Getter = get_52_InfoBar_TemplateSettings;
                 xamlMember.SetIsReadOnly();
                 break;
-            case "Vectorify.Views.Calculo_VectorialPage.ViewModel":
-                userType = (global::Vectorify.Vectorify_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Vectorify.Views.Calculo_VectorialPage");
-                xamlMember = new global::Vectorify.Vectorify_XamlTypeInfo.XamlMember(this, "ViewModel", "Vectorify.ViewModels.Calculo_VectorialViewModel");
-                xamlMember.Getter = get_53_Calculo_VectorialPage_ViewModel;
-                xamlMember.SetIsReadOnly();
-                break;
-            case "Vectorify.Views.MainPage.ViewModel":
-                userType = (global::Vectorify.Vectorify_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Vectorify.Views.MainPage");
-                xamlMember = new global::Vectorify.Vectorify_XamlTypeInfo.XamlMember(this, "ViewModel", "Vectorify.ViewModels.MainViewModel");
-                xamlMember.Getter = get_54_MainPage_ViewModel;
-                xamlMember.SetIsReadOnly();
-                break;
             case "Microsoft.UI.Xaml.Controls.NumberBox.Header":
                 userType = (global::Vectorify.Vectorify_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NumberBox");
                 xamlMember = new global::Vectorify.Vectorify_XamlTypeInfo.XamlMember(this, "Header", "Object");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_55_NumberBox_Header;
-                xamlMember.Setter = set_55_NumberBox_Header;
+                xamlMember.Getter = get_53_NumberBox_Header;
+                xamlMember.Setter = set_53_NumberBox_Header;
                 break;
             case "Microsoft.UI.Xaml.Controls.NumberBox.Value":
                 userType = (global::Vectorify.Vectorify_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NumberBox");
                 xamlMember = new global::Vectorify.Vectorify_XamlTypeInfo.XamlMember(this, "Value", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_56_NumberBox_Value;
-                xamlMember.Setter = set_56_NumberBox_Value;
+                xamlMember.Getter = get_54_NumberBox_Value;
+                xamlMember.Setter = set_54_NumberBox_Value;
                 break;
             case "Microsoft.UI.Xaml.Controls.NumberBox.SpinButtonPlacementMode":
                 userType = (global::Vectorify.Vectorify_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NumberBox");
                 xamlMember = new global::Vectorify.Vectorify_XamlTypeInfo.XamlMember(this, "SpinButtonPlacementMode", "Microsoft.UI.Xaml.Controls.NumberBoxSpinButtonPlacementMode");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_57_NumberBox_SpinButtonPlacementMode;
-                xamlMember.Setter = set_57_NumberBox_SpinButtonPlacementMode;
+                xamlMember.Getter = get_55_NumberBox_SpinButtonPlacementMode;
+                xamlMember.Setter = set_55_NumberBox_SpinButtonPlacementMode;
                 break;
             case "Microsoft.UI.Xaml.Controls.NumberBox.SmallChange":
                 userType = (global::Vectorify.Vectorify_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NumberBox");
                 xamlMember = new global::Vectorify.Vectorify_XamlTypeInfo.XamlMember(this, "SmallChange", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_58_NumberBox_SmallChange;
-                xamlMember.Setter = set_58_NumberBox_SmallChange;
+                xamlMember.Getter = get_56_NumberBox_SmallChange;
+                xamlMember.Setter = set_56_NumberBox_SmallChange;
                 break;
             case "Microsoft.UI.Xaml.Controls.NumberBox.LargeChange":
                 userType = (global::Vectorify.Vectorify_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NumberBox");
                 xamlMember = new global::Vectorify.Vectorify_XamlTypeInfo.XamlMember(this, "LargeChange", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_59_NumberBox_LargeChange;
-                xamlMember.Setter = set_59_NumberBox_LargeChange;
+                xamlMember.Getter = get_57_NumberBox_LargeChange;
+                xamlMember.Setter = set_57_NumberBox_LargeChange;
                 break;
             case "Microsoft.UI.Xaml.Controls.NumberBox.AcceptsExpression":
                 userType = (global::Vectorify.Vectorify_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NumberBox");
                 xamlMember = new global::Vectorify.Vectorify_XamlTypeInfo.XamlMember(this, "AcceptsExpression", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_60_NumberBox_AcceptsExpression;
-                xamlMember.Setter = set_60_NumberBox_AcceptsExpression;
+                xamlMember.Getter = get_58_NumberBox_AcceptsExpression;
+                xamlMember.Setter = set_58_NumberBox_AcceptsExpression;
                 break;
             case "Microsoft.UI.Xaml.Controls.NumberBox.Description":
                 userType = (global::Vectorify.Vectorify_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NumberBox");
                 xamlMember = new global::Vectorify.Vectorify_XamlTypeInfo.XamlMember(this, "Description", "Object");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_61_NumberBox_Description;
-                xamlMember.Setter = set_61_NumberBox_Description;
+                xamlMember.Getter = get_59_NumberBox_Description;
+                xamlMember.Setter = set_59_NumberBox_Description;
                 break;
             case "Microsoft.UI.Xaml.Controls.NumberBox.HeaderTemplate":
                 userType = (global::Vectorify.Vectorify_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NumberBox");
                 xamlMember = new global::Vectorify.Vectorify_XamlTypeInfo.XamlMember(this, "HeaderTemplate", "Microsoft.UI.Xaml.DataTemplate");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_62_NumberBox_HeaderTemplate;
-                xamlMember.Setter = set_62_NumberBox_HeaderTemplate;
+                xamlMember.Getter = get_60_NumberBox_HeaderTemplate;
+                xamlMember.Setter = set_60_NumberBox_HeaderTemplate;
                 break;
             case "Microsoft.UI.Xaml.Controls.NumberBox.IsWrapEnabled":
                 userType = (global::Vectorify.Vectorify_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NumberBox");
                 xamlMember = new global::Vectorify.Vectorify_XamlTypeInfo.XamlMember(this, "IsWrapEnabled", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_63_NumberBox_IsWrapEnabled;
-                xamlMember.Setter = set_63_NumberBox_IsWrapEnabled;
+                xamlMember.Getter = get_61_NumberBox_IsWrapEnabled;
+                xamlMember.Setter = set_61_NumberBox_IsWrapEnabled;
                 break;
             case "Microsoft.UI.Xaml.Controls.NumberBox.Maximum":
                 userType = (global::Vectorify.Vectorify_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NumberBox");
                 xamlMember = new global::Vectorify.Vectorify_XamlTypeInfo.XamlMember(this, "Maximum", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_64_NumberBox_Maximum;
-                xamlMember.Setter = set_64_NumberBox_Maximum;
+                xamlMember.Getter = get_62_NumberBox_Maximum;
+                xamlMember.Setter = set_62_NumberBox_Maximum;
                 break;
             case "Microsoft.UI.Xaml.Controls.NumberBox.Minimum":
                 userType = (global::Vectorify.Vectorify_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NumberBox");
                 xamlMember = new global::Vectorify.Vectorify_XamlTypeInfo.XamlMember(this, "Minimum", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_65_NumberBox_Minimum;
-                xamlMember.Setter = set_65_NumberBox_Minimum;
+                xamlMember.Getter = get_63_NumberBox_Minimum;
+                xamlMember.Setter = set_63_NumberBox_Minimum;
                 break;
             case "Microsoft.UI.Xaml.Controls.NumberBox.NumberFormatter":
                 userType = (global::Vectorify.Vectorify_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NumberBox");
                 xamlMember = new global::Vectorify.Vectorify_XamlTypeInfo.XamlMember(this, "NumberFormatter", "Windows.Globalization.NumberFormatting.INumberFormatter2");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_66_NumberBox_NumberFormatter;
-                xamlMember.Setter = set_66_NumberBox_NumberFormatter;
+                xamlMember.Getter = get_64_NumberBox_NumberFormatter;
+                xamlMember.Setter = set_64_NumberBox_NumberFormatter;
                 break;
             case "Microsoft.UI.Xaml.Controls.NumberBox.PlaceholderText":
                 userType = (global::Vectorify.Vectorify_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NumberBox");
                 xamlMember = new global::Vectorify.Vectorify_XamlTypeInfo.XamlMember(this, "PlaceholderText", "String");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_67_NumberBox_PlaceholderText;
-                xamlMember.Setter = set_67_NumberBox_PlaceholderText;
+                xamlMember.Getter = get_65_NumberBox_PlaceholderText;
+                xamlMember.Setter = set_65_NumberBox_PlaceholderText;
                 break;
             case "Microsoft.UI.Xaml.Controls.NumberBox.PreventKeyboardDisplayOnProgrammaticFocus":
                 userType = (global::Vectorify.Vectorify_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NumberBox");
                 xamlMember = new global::Vectorify.Vectorify_XamlTypeInfo.XamlMember(this, "PreventKeyboardDisplayOnProgrammaticFocus", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_68_NumberBox_PreventKeyboardDisplayOnProgrammaticFocus;
-                xamlMember.Setter = set_68_NumberBox_PreventKeyboardDisplayOnProgrammaticFocus;
+                xamlMember.Getter = get_66_NumberBox_PreventKeyboardDisplayOnProgrammaticFocus;
+                xamlMember.Setter = set_66_NumberBox_PreventKeyboardDisplayOnProgrammaticFocus;
                 break;
             case "Microsoft.UI.Xaml.Controls.NumberBox.SelectionFlyout":
                 userType = (global::Vectorify.Vectorify_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NumberBox");
                 xamlMember = new global::Vectorify.Vectorify_XamlTypeInfo.XamlMember(this, "SelectionFlyout", "Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_69_NumberBox_SelectionFlyout;
-                xamlMember.Setter = set_69_NumberBox_SelectionFlyout;
+                xamlMember.Getter = get_67_NumberBox_SelectionFlyout;
+                xamlMember.Setter = set_67_NumberBox_SelectionFlyout;
                 break;
             case "Microsoft.UI.Xaml.Controls.NumberBox.SelectionHighlightColor":
                 userType = (global::Vectorify.Vectorify_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NumberBox");
                 xamlMember = new global::Vectorify.Vectorify_XamlTypeInfo.XamlMember(this, "SelectionHighlightColor", "Microsoft.UI.Xaml.Media.SolidColorBrush");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_70_NumberBox_SelectionHighlightColor;
-                xamlMember.Setter = set_70_NumberBox_SelectionHighlightColor;
+                xamlMember.Getter = get_68_NumberBox_SelectionHighlightColor;
+                xamlMember.Setter = set_68_NumberBox_SelectionHighlightColor;
                 break;
             case "Microsoft.UI.Xaml.Controls.NumberBox.Text":
                 userType = (global::Vectorify.Vectorify_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NumberBox");
                 xamlMember = new global::Vectorify.Vectorify_XamlTypeInfo.XamlMember(this, "Text", "String");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_71_NumberBox_Text;
-                xamlMember.Setter = set_71_NumberBox_Text;
+                xamlMember.Getter = get_69_NumberBox_Text;
+                xamlMember.Setter = set_69_NumberBox_Text;
                 break;
             case "Microsoft.UI.Xaml.Controls.NumberBox.TextReadingOrder":
                 userType = (global::Vectorify.Vectorify_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NumberBox");
                 xamlMember = new global::Vectorify.Vectorify_XamlTypeInfo.XamlMember(this, "TextReadingOrder", "Microsoft.UI.Xaml.TextReadingOrder");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_72_NumberBox_TextReadingOrder;
-                xamlMember.Setter = set_72_NumberBox_TextReadingOrder;
+                xamlMember.Getter = get_70_NumberBox_TextReadingOrder;
+                xamlMember.Setter = set_70_NumberBox_TextReadingOrder;
                 break;
             case "Microsoft.UI.Xaml.Controls.NumberBox.ValidationMode":
                 userType = (global::Vectorify.Vectorify_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NumberBox");
                 xamlMember = new global::Vectorify.Vectorify_XamlTypeInfo.XamlMember(this, "ValidationMode", "Microsoft.UI.Xaml.Controls.NumberBoxValidationMode");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_73_NumberBox_ValidationMode;
-                xamlMember.Setter = set_73_NumberBox_ValidationMode;
+                xamlMember.Getter = get_71_NumberBox_ValidationMode;
+                xamlMember.Setter = set_71_NumberBox_ValidationMode;
+                break;
+            case "Vectorify.Views.Calculo_VectorialPage.ViewModel":
+                userType = (global::Vectorify.Vectorify_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Vectorify.Views.Calculo_VectorialPage");
+                xamlMember = new global::Vectorify.Vectorify_XamlTypeInfo.XamlMember(this, "ViewModel", "Vectorify.ViewModels.Calculo_VectorialViewModel");
+                xamlMember.Getter = get_72_Calculo_VectorialPage_ViewModel;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "Vectorify.Views.MainPage.ViewModel":
+                userType = (global::Vectorify.Vectorify_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Vectorify.Views.MainPage");
+                xamlMember = new global::Vectorify.Vectorify_XamlTypeInfo.XamlMember(this, "ViewModel", "Vectorify.ViewModels.MainViewModel");
+                xamlMember.Getter = get_73_MainPage_ViewModel;
+                xamlMember.SetIsReadOnly();
                 break;
             case "Vectorify.Views.RectasPage.ViewModel":
                 userType = (global::Vectorify.Vectorify_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Vectorify.Views.RectasPage");

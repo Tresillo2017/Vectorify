@@ -6,14 +6,44 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid x:Name="ContentArea">
-        <StackPanel Orientation="Vertical">
-            <InfoBar
+    <RelativePanel x:Name="ContentArea2">
+        <InfoBar x:Name="Warning2"
                 IsOpen="True"
                 Severity="Warning"
                 Title="Early Build"
                 IsClosable="False"
                 Message="This section of the app is not finished. UI subject to change"/>
-        </StackPanel>
-    </Grid>
+        <TextBlock x:Name="Texto1_" Text="Escribe las cordenadas del Vector" Style="{StaticResource SubtitleTextBlockStyle}" RelativePanel.Below="Warning2" Margin="0,0,0,10"/>
+        <NumberBox x:Name="ValorX"
+                Header="Introduce el valor de X:"
+                Value="1"
+                SpinButtonPlacementMode="Compact"
+                SmallChange="10"
+                LargeChange="100"
+                RelativePanel.Below="Texto1_" Height="60" Width="150"/>
+        <NumberBox x:Name="ValorY"
+                Header="Introduce el valor de Y:"
+                Value="1"
+                SpinButtonPlacementMode="Compact"
+                SmallChange="10"
+                LargeChange="100"
+                RelativePanel.Below="Texto1_" RelativePanel.RightOf="ValorX" Height="60" Width="150" Margin="30,0,0,0"/>
+
+        <TextBlock x:Name="Texto2_" Text="Escribe las cordenadas del segundo vector" Style="{StaticResource SubtitleTextBlockStyle}" RelativePanel.Below="ValorX" Margin="0,50,0,10"/>
+
+        <NumberBox x:Name="ValorX_2"
+                Value="1"
+                Header="Introduce el valor de X:"
+                SpinButtonPlacementMode="Compact"
+                SmallChange="10"
+                LargeChange="100"
+                RelativePanel.Below="Texto2_" Height="60" Width="150"/>
+        <NumberBox x:Name="ValorY_2"
+                Header="Introduce el valor de Y:"
+                Value="1"
+                SpinButtonPlacementMode="Compact"
+                SmallChange="10"
+                LargeChange="100"
+                RelativePanel.Below="Texto2_" RelativePanel.RightOf="ValorX_2" Height="60" Width="150" Margin="30,0,0,0"/>
+    </RelativePanel>
 </Page>

@@ -50,7 +50,7 @@ jobs:
     - name: Decode the pfx
       run: |
         $pfx_cert_byte = [System.Convert]::FromBase64String("${{ secrets.BASE64_ENCODED_PFX }}")
-        $certificatePath = "Vectorify_WorkflowKey.pfx"
+        $certificatePath = "GitHubActionsWorkflow.pfx"
         [IO.File]::WriteAllBytes("$certificatePath", $pfx_cert_byte)
 
     # Create the app package by building and packaging the project
@@ -65,11 +65,11 @@ jobs:
 
     # Remove the pfx
     - name: Remove the pfx
-      run: Remove-Item -path Vectorify_WorkflowKey.pfx
+      run: Remove-Item -path GitHubActionsWorkflow.pfx
 
     # Upload the MSIX package: https://github.com/marketplace/actions/upload-a-build-artifact
     - name: Upload MSIX package
       uses: actions/upload-artifact@v2
       with:
         name: MSIX Package
-        path: ${{ github.workspace }}\\Package
+        path: ${{ env.Solution_Name }}\\Package

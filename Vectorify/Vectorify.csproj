@@ -33,6 +33,8 @@
     <AppxBundlePlatforms>x86|x64|arm64</AppxBundlePlatforms>
     <AppInstallerUri>https://tomasps.tk</AppInstallerUri>
     <StartupObject>Vectorify.Program</StartupObject>
+    <PlatformTarget>x64</PlatformTarget>
+    <PackageOutputPath>$(OutputPath)</PackageOutputPath>
   </PropertyGroup>
   <ItemGroup>
     <Content Remove="Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png" />

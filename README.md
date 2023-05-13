@@ -49,7 +49,3 @@ Install Vectorify with the .msix package
 
 Go to the release tab and click on the resource from the latest release, Then click on the file acording on your pc achitecture.
     
-## Optimizations
-
-What optimizations did you make in your code? E.g. refactors, performance improvements, accessibility
-

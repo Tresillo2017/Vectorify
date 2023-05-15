@@ -19,44 +19,44 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\bin\x64\Debug\net7.0-windows10.0.22621.0\win10-x64\AppX</LayoutDir>
-    <RegisteredManifestChecksum>935D3203D0C37B4E9B0326DE23FB9E623FB7904737C6290532E37BD0E0983B59</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>Vectorify_2.0.0.0_x64__40vg99txx14c8</RegisteredPackageMoniker>
+    <RegisteredManifestChecksum>65D30175318657855462D3C48B4A971E35197C9807718E9CDB67B134B11322CC</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>Vectorify_2.2.180.0_x64__40vg99txx14c8</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>Vectorify_40vg99txx14c8!App</RegisteredUserModeAppID>
     <RegisteredPackageID>Vectorify</RegisteredPackageID>
     <RegisteredPackagePublisher>CN=Tresillo</RegisteredPackagePublisher>
-    <RegisteredVersion>2.0.0.0</RegisteredVersion>
+    <RegisteredVersion>2.2.180.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
     <AppXManifest Include="D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\bin\x64\Debug\net7.0-windows10.0.22621.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-05T19:22:39.771</Modified>
+      <Modified>2023-05-15T21:01:35.625</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\bin\x64\Debug\net7.0-windows10.0.22621.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-05-05T19:22:39.551</Modified>
+      <Modified>2023-05-15T21:01:35.388</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\bin\x64\Debug\net7.0-windows10.0.22621.0\win10-x64\Vectorify.runtimeconfig.json">
       <PackagePath>Vectorify.runtimeconfig.json</PackagePath>
-      <Modified>2023-05-05T19:14:31.123</Modified>
+      <Modified>2023-05-09T18:52:49.261</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\bin\x64\Debug\net7.0-windows10.0.22621.0\win10-x64\Vectorify.dll">
       <PackagePath>Vectorify.dll</PackagePath>
-      <Modified>2023-05-05T19:22:39.381</Modified>
+      <Modified>2023-05-15T21:01:35.227</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\appsettings.json">
       <PackagePath>appsettings.json</PackagePath>
-      <Modified>2023-05-03T17:22:27.217</Modified>
+      <Modified>2023-05-05T12:16:52.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\obj\x64\Debug\net7.0-windows10.0.22621.0\win10-x64\apphost.exe">
       <PackagePath>Vectorify.exe</PackagePath>
-      <Modified>2023-05-05T19:22:39.387</Modified>
+      <Modified>2023-05-15T21:01:35.250</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\bin\x64\Debug\net7.0-windows10.0.22621.0\win10-x64\Vectorify.deps.json">
       <PackagePath>Vectorify.deps.json</PackagePath>
-      <Modified>2023-05-05T19:14:30.992</Modified>
+      <Modified>2023-05-15T20:57:17.845</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tresi\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.5\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -984,7 +984,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify.Core\bin\x64\Debug\net7.0\Vectorify.Core.dll">
       <PackagePath>Vectorify.Core.dll</PackagePath>
-      <Modified>2023-05-05T19:14:18.924</Modified>
+      <Modified>2023-05-08T18:23:50.102</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tresi\.nuget\packages\microsoft.xaml.behaviors.winui.managed\2.0.9\lib\net5.0-windows10.0.17763.0\Microsoft.Xaml.Interactions.pri">
       <PackagePath>Microsoft.Xaml.Interactions.pri</PackagePath>
@@ -1000,159 +1000,163 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\Assets\BadgeLogo.scale-100.png">
       <PackagePath>Assets\BadgeLogo.scale-100.png</PackagePath>
-      <Modified>2023-05-05T15:45:22.715</Modified>
+      <Modified>2023-05-07T20:00:40.927</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\Assets\BadgeLogo.scale-125.png">
       <PackagePath>Assets\BadgeLogo.scale-125.png</PackagePath>
-      <Modified>2023-05-05T15:45:22.719</Modified>
+      <Modified>2023-05-07T20:00:40.934</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\Assets\BadgeLogo.scale-150.png">
       <PackagePath>Assets\BadgeLogo.scale-150.png</PackagePath>
-      <Modified>2023-05-05T15:45:22.723</Modified>
+      <Modified>2023-05-07T20:00:40.941</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\Assets\BadgeLogo.scale-200.png">
       <PackagePath>Assets\BadgeLogo.scale-200.png</PackagePath>
-      <Modified>2023-05-05T15:45:22.727</Modified>
+      <Modified>2023-05-07T20:00:40.949</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\Assets\BadgeLogo.scale-400.png">
       <PackagePath>Assets\BadgeLogo.scale-400.png</PackagePath>
-      <Modified>2023-05-05T15:45:22.736</Modified>
+      <Modified>2023-05-07T20:00:40.962</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
-      <Modified>2023-05-05T15:45:21.951</Modified>
+      <Modified>2023-05-07T20:00:40.027</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\Assets\LargeTile.scale-125.png">
       <PackagePath>Assets\LargeTile.scale-125.png</PackagePath>
-      <Modified>2023-05-05T15:45:21.969</Modified>
+      <Modified>2023-05-07T20:00:40.049</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\Assets\LargeTile.scale-150.png">
       <PackagePath>Assets\LargeTile.scale-150.png</PackagePath>
-      <Modified>2023-05-05T15:45:21.991</Modified>
+      <Modified>2023-05-07T20:00:40.078</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\Assets\LargeTile.scale-200.png">
       <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
-      <Modified>2023-05-05T15:45:22.028</Modified>
+      <Modified>2023-05-07T20:00:40.125</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\Assets\LargeTile.scale-400.png">
       <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
-      <Modified>2023-05-05T15:45:22.168</Modified>
+      <Modified>2023-05-07T20:00:40.286</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\Assets\SmallTile.scale-100.png">
       <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
-      <Modified>2023-05-05T15:45:21.737</Modified>
+      <Modified>2023-05-07T20:00:39.730</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\Assets\SmallTile.scale-125.png">
       <PackagePath>Assets\SmallTile.scale-125.png</PackagePath>
-      <Modified>2023-05-05T15:45:21.741</Modified>
+      <Modified>2023-05-07T20:00:39.738</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\Assets\SmallTile.scale-150.png">
       <PackagePath>Assets\SmallTile.scale-150.png</PackagePath>
-      <Modified>2023-05-05T15:45:21.746</Modified>
+      <Modified>2023-05-07T20:00:39.747</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\Assets\SmallTile.scale-200.png">
       <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
-      <Modified>2023-05-05T15:45:21.752</Modified>
+      <Modified>2023-05-07T20:00:39.756</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\Assets\SmallTile.scale-400.png">
       <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
-      <Modified>2023-05-05T15:45:21.763</Modified>
+      <Modified>2023-05-07T20:00:39.775</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
-      <Modified>2023-05-05T15:45:22.339</Modified>
+      <Modified>2023-05-07T20:00:40.508</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\Assets\SplashScreen.scale-125.png">
       <PackagePath>Assets\SplashScreen.scale-125.png</PackagePath>
-      <Modified>2023-05-05T15:45:22.366</Modified>
+      <Modified>2023-05-07T20:00:40.539</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\Assets\SplashScreen.scale-150.png">
       <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
-      <Modified>2023-05-05T15:45:22.405</Modified>
+      <Modified>2023-05-07T20:00:40.582</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
-      <Modified>2023-05-05T15:45:22.467</Modified>
+      <Modified>2023-05-07T20:00:40.653</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\Assets\SplashScreen.scale-400.png">
       <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
-      <Modified>2023-05-05T15:45:22.710</Modified>
+      <Modified>2023-05-07T20:00:40.915</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
-      <Modified>2023-05-05T15:45:21.769</Modified>
+      <Modified>2023-05-07T20:00:39.787</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\Assets\Square150x150Logo.scale-125.png">
       <PackagePath>Assets\Square150x150Logo.scale-125.png</PackagePath>
-      <Modified>2023-05-05T15:45:21.776</Modified>
+      <Modified>2023-05-07T20:00:39.797</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\Assets\Square150x150Logo.scale-150.png">
       <PackagePath>Assets\Square150x150Logo.scale-150.png</PackagePath>
-      <Modified>2023-05-05T15:45:21.784</Modified>
+      <Modified>2023-05-07T20:00:39.810</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
-      <Modified>2023-05-05T15:45:21.795</Modified>
+      <Modified>2023-05-07T20:00:39.831</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\Assets\Square150x150Logo.scale-400.png">
       <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
-      <Modified>2023-05-05T15:45:21.829</Modified>
+      <Modified>2023-05-07T20:00:39.875</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\Assets\Square44x44Logo.scale-100.png">
       <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
-      <Modified>2023-05-05T15:45:22.173</Modified>
+      <Modified>2023-05-07T20:00:40.293</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
-      <Modified>2023-05-05T15:45:22.187</Modified>
+      <Modified>2023-05-07T20:00:40.315</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\Assets\Square44x44Logo.scale-400.png">
       <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
-      <Modified>2023-05-05T15:45:22.195</Modified>
+      <Modified>2023-05-07T20:00:40.330</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
-      <Modified>2023-05-05T15:45:22.741</Modified>
+      <Modified>2023-05-07T20:00:40.969</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\Assets\StoreLogo.scale-125.png">
       <PackagePath>Assets\StoreLogo.scale-125.png</PackagePath>
-      <Modified>2023-05-05T15:45:22.749</Modified>
+      <Modified>2023-05-07T20:00:40.976</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\Assets\StoreLogo.scale-150.png">
       <PackagePath>Assets\StoreLogo.scale-150.png</PackagePath>
-      <Modified>2023-05-05T15:45:22.754</Modified>
+      <Modified>2023-05-07T20:00:40.984</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\Assets\StoreLogo.scale-200.png">
       <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
-      <Modified>2023-05-05T15:45:22.761</Modified>
+      <Modified>2023-05-07T20:00:40.994</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\Assets\StoreLogo.scale-400.png">
       <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
-      <Modified>2023-05-05T15:45:22.772</Modified>
+      <Modified>2023-05-07T20:00:41.016</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\Assets\Wide310x150Logo.scale-100.png">
       <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
-      <Modified>2023-05-05T15:45:21.837</Modified>
+      <Modified>2023-05-07T20:00:39.885</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\Assets\Wide310x150Logo.scale-125.png">
       <PackagePath>Assets\Wide310x150Logo.scale-125.png</PackagePath>
-      <Modified>2023-05-05T15:45:21.847</Modified>
+      <Modified>2023-05-07T20:00:39.898</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\Assets\Wide310x150Logo.scale-150.png">
       <PackagePath>Assets\Wide310x150Logo.scale-150.png</PackagePath>
-      <Modified>2023-05-05T15:45:21.858</Modified>
+      <Modified>2023-05-07T20:00:39.913</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
-      <Modified>2023-05-05T15:45:21.877</Modified>
+      <Modified>2023-05-07T20:00:39.936</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\Assets\Wide310x150Logo.scale-400.png">
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
-      <Modified>2023-05-05T15:45:21.939</Modified>
+      <Modified>2023-05-07T20:00:40.009</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\Assets\WindowIcon.ico">
       <PackagePath>Assets\WindowIcon.ico</PackagePath>
-      <Modified>2023-05-05T15:50:53.000</Modified>
+      <Modified>2023-05-05T12:16:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\WindowIcon %282%29.ico">
+      <PackagePath>WindowIcon %282%29.ico</PackagePath>
+      <Modified>2023-05-07T18:34:49.000</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

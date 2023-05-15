@@ -18,6 +18,7 @@ public class PageService : IPageService
         Configure<RectasViewModel, RectasPage>();
         Configure<Calculo_VectorialViewModel, Calculo_VectorialPage>();
         Configure<SettingsViewModel, SettingsPage>();
+        Configure<FuncionesViewModel, FuncionesPage>();
     }
 
     public Type GetPageType(string key)

@@ -280,3 +280,4 @@
 "D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\Assets\Wide310x150Logo.scale-200.png" "Assets\Wide310x150Logo.scale-200.png"
 "D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\Assets\Wide310x150Logo.scale-400.png" "Assets\Wide310x150Logo.scale-400.png"
 "D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\Assets\WindowIcon.ico" "Assets\WindowIcon.ico"
+"D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\WindowIcon (2).ico" "WindowIcon (2).ico"

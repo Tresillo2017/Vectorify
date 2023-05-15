@@ -312,3 +312,8 @@ D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\obj\x86\Release\net7.0-w
 D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\obj\x86\Release\net7.0-windows10.0.22621.0\win10-x86\qualifiers.txt.intermediate
 D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\obj\x86\Release\net7.0-windows10.0.22621.0\win10-x86\MultipleQualifiersPerDimensionFound.txt
 D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\obj\x86\Release\net7.0-windows10.0.22621.0\win10-x86\ProjectArchitectures.txt
+D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\bin\x86\Release\net7.0-windows10.0.22621.0\win10-x86\Views\FuncionesPage.xbf
+D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\obj\x86\Release\net7.0-windows10.0.22621.0\win10-x86\Views\FuncionesPage.g.i.cs
+D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\obj\x86\Release\net7.0-windows10.0.22621.0\win10-x86\Views\FuncionesPage.g.cs
+D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\obj\x86\Release\net7.0-windows10.0.22621.0\win10-x86\Views\FuncionesPage.xaml
+D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\obj\x86\Release\net7.0-windows10.0.22621.0\win10-x86\Views\FuncionesPage.xbf

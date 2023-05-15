@@ -30,7 +30,7 @@
     <AppxSymbolPackageEnabled>True</AppxSymbolPackageEnabled>
     <GenerateTestArtifacts>True</GenerateTestArtifacts>
     <AppxBundle>Auto</AppxBundle>
-    <AppxBundlePlatforms>x86|x64|arm64</AppxBundlePlatforms>
+    <AppxBundlePlatforms>x86|x64</AppxBundlePlatforms>
     <AppInstallerUri>https://tomasps.tk</AppInstallerUri>
     <StartupObject>Vectorify.Program</StartupObject>
     <PlatformTarget>AnyCPU</PlatformTarget>

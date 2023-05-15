@@ -1,0 +1,47 @@
+﻿<Page
+    x:Class="Vectorify.Views.FuncionesPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    
+    mc:Ignorable="d">
+
+	<RelativePanel x:Name="ContentArea3">
+        <InfoBar x:Name="Warning"
+                IsOpen="True"
+                Severity="Warning"
+                Title="WIP"
+                IsClosable="False"
+                Message="This section of the app is not finished"/>
+        <InfoBar
+                x:Name="infoBar"
+                IsOpen="False"
+                IsIconVisible="True"
+                IsClosable="True"
+                Title="Error"
+                Message="Error evaluating expression" RelativePanel.Below="Warning" Margin="0,10,0,10"/>
+
+
+        <NumberBox x:Name="Input"
+                Header="Introduce la funcion"
+                PlaceholderText="x^2 -3"
+                SpinButtonPlacementMode="Compact"
+                AcceptsExpression="True"
+                SmallChange="10"
+                LargeChange="100"
+                RelativePanel.Below="infoBar" Height="60" Width="150" Margin="0,10,0,10"/>
+
+        <TextBlock x:Name="rawvalue" Text="Raw Value: " RelativePanel.Below="Input" Margin="0,10,0,10"/>
+        <TextBlock Text="{x:Bind Input.Value, Mode=OneWay}" RelativePanel.Below="rawvalue" Margin="0,10,0,10"/>
+
+        <!--Lado derecho-->
+        <Button x:Name="Boton_Dibujar" Click="Button_Click" Style="{StaticResource AccentButtonStyle}" Content="Dibujar" RelativePanel.Below="rawvalue" Margin="50"/>
+        
+        
+        <TextBlock x:Name="Texto_Derecha3" Text="Dibujo" Style="{StaticResource SubtitleTextBlockStyle}" RelativePanel.AlignRightWithPanel="True" Margin="0,0,250,0"/>
+		<Canvas x:Name="canvas2" Background="Transparent" Width="500" Height="500" RelativePanel.AlignRightWithPanel="True" Margin="50">
+            <!--Add ruler-->
+		</Canvas>
+	</RelativePanel>
+</Page>

@@ -5,6 +5,7 @@ using Windows.Foundation;
 using Vectorify.ViewModels;
 using Microsoft.UI.Xaml.Media;
 using Microsoft.UI.Xaml.Shapes;
+using System;
 using System.Data;
 
 using System.Linq.Expressions;
@@ -25,6 +26,10 @@ public sealed partial class FuncionesPage : Page
 
     private void Button_Click(object sender, RoutedEventArgs e)
     {
+
+        infoBar.IsOpen = false;
+
+
         // Clear the canvas
         canvas2.Children.Clear();
 
@@ -94,7 +99,13 @@ public sealed partial class FuncionesPage : Page
 
     private double EvaluateExpression(string expression, double x)
     {
-        return (double)new DataTable().Compute(expression.Replace("x", x.ToString()), null);
+        DataTable dataTable = new DataTable();
+        object result = dataTable.Compute(expression.Replace("x", x.ToString()), null);
+
+        // Convert the result to double
+        double convertedResult = Convert.ToDouble(result);
+
+        return convertedResult;
     }
 }
 

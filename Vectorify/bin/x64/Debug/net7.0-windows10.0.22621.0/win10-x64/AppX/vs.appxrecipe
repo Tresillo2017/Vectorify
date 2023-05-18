@@ -19,32 +19,32 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\bin\x64\Debug\net7.0-windows10.0.22621.0\win10-x64\AppX</LayoutDir>
-    <RegisteredManifestChecksum>65D30175318657855462D3C48B4A971E35197C9807718E9CDB67B134B11322CC</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>Vectorify_2.2.180.0_x64__40vg99txx14c8</RegisteredPackageMoniker>
+    <RegisteredManifestChecksum>12790D75CAF751371F2B8509725BDDB64D0EED7363723958E3DBA09BC102156B</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>Vectorify_2.2.182.0_x64__40vg99txx14c8</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>Vectorify_40vg99txx14c8!App</RegisteredUserModeAppID>
     <RegisteredPackageID>Vectorify</RegisteredPackageID>
     <RegisteredPackagePublisher>CN=Tresillo</RegisteredPackagePublisher>
-    <RegisteredVersion>2.2.180.0</RegisteredVersion>
+    <RegisteredVersion>2.2.182.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
     <AppXManifest Include="D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\bin\x64\Debug\net7.0-windows10.0.22621.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-15T21:01:35.625</Modified>
+      <Modified>2023-05-18T21:21:21.279</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\bin\x64\Debug\net7.0-windows10.0.22621.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-05-15T21:01:35.388</Modified>
+      <Modified>2023-05-18T21:21:20.935</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\bin\x64\Debug\net7.0-windows10.0.22621.0\win10-x64\Vectorify.runtimeconfig.json">
       <PackagePath>Vectorify.runtimeconfig.json</PackagePath>
-      <Modified>2023-05-09T18:52:49.261</Modified>
+      <Modified>2023-05-18T20:29:37.139</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\bin\x64\Debug\net7.0-windows10.0.22621.0\win10-x64\Vectorify.dll">
       <PackagePath>Vectorify.dll</PackagePath>
-      <Modified>2023-05-15T21:01:35.227</Modified>
+      <Modified>2023-05-18T21:21:20.394</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\appsettings.json">
       <PackagePath>appsettings.json</PackagePath>
@@ -52,11 +52,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\obj\x64\Debug\net7.0-windows10.0.22621.0\win10-x64\apphost.exe">
       <PackagePath>Vectorify.exe</PackagePath>
-      <Modified>2023-05-15T21:01:35.250</Modified>
+      <Modified>2023-05-18T21:21:20.423</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\bin\x64\Debug\net7.0-windows10.0.22621.0\win10-x64\Vectorify.deps.json">
       <PackagePath>Vectorify.deps.json</PackagePath>
-      <Modified>2023-05-15T20:57:17.845</Modified>
+      <Modified>2023-05-18T20:29:36.996</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tresi\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.5\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>

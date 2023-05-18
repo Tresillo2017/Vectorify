@@ -237,7 +237,7 @@
 "C:\Users\tresi\.nuget\packages\system.diagnostics.eventlog\6.0.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.dll" "System.Diagnostics.EventLog.dll"
 "C:\Users\tresi\.nuget\packages\winuiex\2.1.0\lib\net6.0-windows10.0.18362\WinUIEx.dll" "WinUIEx.dll"
 "C:\Users\tresi\.nuget\packages\microsoft.windowsappsdk\1.2.230118.102\runtimes\win10-x64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll" "Microsoft.WindowsAppRuntime.Bootstrap.dll"
-"D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify.Core\bin\x64\Debug\net7.0\Vectorify.Core.dll" "Vectorify.Core.dll"
+"D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify.Core\bin\Debug\net7.0\Vectorify.Core.dll" "Vectorify.Core.dll"
 "C:\Users\tresi\.nuget\packages\microsoft.xaml.behaviors.winui.managed\2.0.9\lib\net5.0-windows10.0.17763.0\Microsoft.Xaml.Interactions.pri" "Microsoft.Xaml.Interactions.pri"
 "C:\Users\tresi\.nuget\packages\microsoft.xaml.behaviors.winui.managed\2.0.9\lib\net5.0-windows10.0.17763.0\Microsoft.Xaml.Interactivity.pri" "Microsoft.Xaml.Interactivity.pri"
 "C:\Users\tresi\.nuget\packages\winuiex\2.1.0\lib\net6.0-windows10.0.18362\WinUIEx.pri" "WinUIEx.pri"

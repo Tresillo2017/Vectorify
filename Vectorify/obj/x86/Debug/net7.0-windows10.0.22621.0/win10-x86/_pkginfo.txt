@@ -1,1 +1,1 @@
-D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\Release\Vectorify_2.2.181.0_Debug_Test\Vectorify_2.2.181.0_x86_Debug.msix
+D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\Release\Vectorify_2.2.183.0_Debug_Test\Vectorify_2.2.183.0_x86_Debug.msix

@@ -7,7 +7,7 @@
 
     For more information on package manifest files, see http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="Vectorify" Publisher="CN=Tresillo" Version="2.2.183.0" ProcessorArchitecture="x86" />
+  <Identity Name="Vectorify" Publisher="CN=Tresillo" Version="2.2.187.0" ProcessorArchitecture="x86" />
   <mp:PhoneIdentity PhoneProductId="93624292-4859-4945-a3a3-e8c7f9ed6dd1" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>Vectorify</DisplayName>

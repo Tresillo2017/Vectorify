@@ -26,9 +26,8 @@ public sealed partial class FuncionesPage : Page
 
     private void Button_Click(object sender, RoutedEventArgs e)
     {
-
+        //Clear the info bar
         infoBar.IsOpen = false;
-
 
         // Clear the canvas
         canvas2.Children.Clear();

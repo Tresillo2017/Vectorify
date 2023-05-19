@@ -22,8 +22,10 @@ public sealed partial class FuncionesPage : Page
     {
         ViewModel = App.GetService<FuncionesViewModel>();
         InitializeComponent();
+                
     }
 
+      
     private void Button_Click(object sender, RoutedEventArgs e)
     {
         //Clear the info bar
@@ -98,8 +100,17 @@ public sealed partial class FuncionesPage : Page
 
     private double EvaluateExpression(string expression, double x)
     {
+        // Replace '^' with '**' for exponentiation
+        expression = expression.Replace("^", " * ");
+
+        // Replace 'x' with the value of x
+        expression = expression.Replace("x", x.ToString());
+
+        // Replace '*' with the appropriate multiplication symbol
+        // expression = expression.Replace("*", " * ");
+
         DataTable dataTable = new DataTable();
-        object result = dataTable.Compute(expression.Replace("x", x.ToString()), null);
+        object result = dataTable.Compute(expression, null);
 
         // Convert the result to double
         double convertedResult = Convert.ToDouble(result);

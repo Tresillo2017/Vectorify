@@ -97,8 +97,8 @@ public sealed partial class RectasPage : Page
         // Set the start and end points of the line
         line.X1 = centerX;
         line.Y1 = centerY;
-        line.X2 = endX;
-        line.Y2 = endY;
+        line.X2 = centerX + endX;
+        line.Y2 = centerY - endY; // Adjust Y coordinate for inverted Y-axis
 
         // Set the stroke color and thickness of the line
         line.Stroke = new SolidColorBrush(Colors.Red);
@@ -108,8 +108,8 @@ public sealed partial class RectasPage : Page
         canvas.Children.Add(line);
 
         // Calculate the direction and length of the arrow
-        double dirX = endX - centerX;
-        double dirY = endY - centerY;
+        double dirX = endX;
+        double dirY = -endY; // Adjust Y coordinate for inverted Y-axis
         double length = Math.Sqrt(dirX * dirX + dirY * dirY);
 
         // Calculate the normalized direction of the arrow
@@ -129,9 +129,9 @@ public sealed partial class RectasPage : Page
         // Define the arrow shape
         var geometry = new PathGeometry();
         var figure = new PathFigure();
-        figure.StartPoint = new Point(endX, endY);
-        figure.Segments.Add(new LineSegment() { Point = new Point(endX - arrowSize * normDirX + arrowSize * perpDirX, endY - arrowSize * normDirY + arrowSize * perpDirY) });
-        figure.Segments.Add(new LineSegment() { Point = new Point(endX - arrowSize * normDirX - arrowSize * perpDirX, endY - arrowSize * normDirY - arrowSize * perpDirY) });
+        figure.StartPoint = new Point(centerX + endX, centerY - endY); // Adjust coordinates
+        figure.Segments.Add(new LineSegment() { Point = new Point(centerX + endX - arrowSize * normDirX + arrowSize * perpDirX, centerY - endY - arrowSize * normDirY + arrowSize * perpDirY) }); // Adjust coordinates
+        figure.Segments.Add(new LineSegment() { Point = new Point(centerX + endX - arrowSize * normDirX - arrowSize * perpDirX, centerY - endY - arrowSize * normDirY - arrowSize * perpDirY) }); // Adjust coordinates
         geometry.Figures.Add(figure);
 
         // Set the geometry of the arrow
@@ -145,27 +145,26 @@ public sealed partial class RectasPage : Page
         canvas.Children.Add(arrow);
     }
 
-    private void punto(double x, double y)
+    private void punto(Canvas canvas, double x, double y)
     {
-        // Crear el punto
+        // Create the point
         Ellipse punto = new Ellipse();
         punto.Width = 5;
         punto.Height = 5;
         SolidColorBrush brush = new SolidColorBrush(Colors.Black);
         punto.Fill = brush;
 
-        // Calcular el centro del canvas
+        // Calculate the center of the canvas
         double centerX = canvas.ActualWidth / 2;
         double centerY = canvas.ActualHeight / 2;
 
-        // Posicionar el punto en el canvas
+        // Position the point on the canvas
         Canvas.SetLeft(punto, centerX + x - punto.Width / 2);
         Canvas.SetTop(punto, centerY - y - punto.Height / 2);
 
-        // Agregar el punto al canvas
+        // Add the point to the canvas
         canvas.Children.Add(punto);
     }
-
 
     private void AddGuideLines(Canvas canvas)
     {

@@ -28,14 +28,12 @@
                 PlaceholderText="x^2 -3"
                 RelativePanel.Below="infoBar" Height="60" Width="150" Margin="0,10,0,10"/>
 
-        
-                
         <!--Lado derecho-->
         <Button x:Name="Boton_Dibujar" Click="Button_Click" Style="{StaticResource AccentButtonStyle}" Content="Dibujar" RelativePanel.Below="Input" Margin="50"/>
         
         
         <TextBlock x:Name="Texto_Derecha3" Text="Dibujo" Style="{StaticResource SubtitleTextBlockStyle}" RelativePanel.AlignRightWithPanel="True" Margin="0,0,250,0"/>
-		<Canvas x:Name="canvas2" Background="Transparent" MinWidth="800" MinHeight="500" RelativePanel.AlignRightWithPanel="True" Margin="50" >
+		<Canvas x:Name="canvas2" Background="Transparent" Width="800" Height="500" RelativePanel.AlignRightWithPanel="True" Margin="30" >
             <!--Add ruler-->
 		</Canvas>
 	</RelativePanel>

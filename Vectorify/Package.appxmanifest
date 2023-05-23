@@ -13,7 +13,7 @@
   <Identity
     Name="Vectorify"
     Publisher="CN=Tresillo (TomasPS)"
-    Version="2.2.187.0" />
+    Version="2.3.187.0" />
     
   <mp:PhoneIdentity PhoneProductId="93624292-4859-4945-a3a3-e8c7f9ed6dd1" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
     

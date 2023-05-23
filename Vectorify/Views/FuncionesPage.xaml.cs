@@ -94,6 +94,45 @@ public sealed partial class FuncionesPage : Page
             pointCollection.Add(new Point(canvasX, canvasY));
         }
 
+        // Define el intervalo y el rango de la cuadrícula
+        double interval = 1.0;
+        double minX = -10;
+        double maxX = 10;
+        double minY = -10;
+        double maxY = 10;
+
+        // Dibujar líneas verticales
+        for (double x = minX; x <= maxX; x += interval)
+        {
+            double canvasX = (x - minX) * (canvas2.ActualWidth / (maxX - minX));
+            Line line = new Line
+            {
+                X1 = canvasX,
+                Y1 = 0,
+                X2 = canvasX,
+                Y2 = canvas2.ActualHeight,
+                Stroke = new SolidColorBrush(Colors.LightGray),
+                StrokeThickness = 0.5
+            };
+            canvas2.Children.Add(line);
+        }
+
+        // Dibujar líneas horizontales
+        for (double y = minY; y <= maxY; y += interval)
+        {
+            double canvasY = canvas2.ActualHeight - (y - minY) * (canvas2.ActualHeight / (maxY - minY));
+            Line line = new Line
+            {
+                X1 = 0,
+                Y1 = canvasY,
+                X2 = canvas2.ActualWidth,
+                Y2 = canvasY,
+                Stroke = new SolidColorBrush(Colors.LightGray),
+                StrokeThickness = 0.5
+            };
+            canvas2.Children.Add(line);
+        }
+            
         polyline.Points = pointCollection;
         canvas2.Children.Add(polyline);
     }
@@ -101,7 +140,7 @@ public sealed partial class FuncionesPage : Page
     private double EvaluateExpression(string expression, double x)
     {
         // Replace '^' with '**' for exponentiation
-        expression = expression.Replace("^", " * ");
+        expression = expression.Replace("^", "**");
 
         // Replace 'x' with the value of x
         expression = expression.Replace("x", x.ToString());

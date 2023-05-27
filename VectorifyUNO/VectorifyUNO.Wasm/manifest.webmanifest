@@ -1,0 +1,10 @@
+{
+  "background_color": "#ffffff",
+  "description": "VectorifyUNO",
+  "display": "standalone",
+  "name": "VectorifyUNO",
+  "short_name": "VectorifyUNO",
+  "start_url": "/index.html",
+  "theme_color": "#ffffff",
+  "scope": "/"
+}

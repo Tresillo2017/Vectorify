@@ -1,0 +1,11 @@
+D:\OneDrive - MSFT\Documents\GitHub\vectorify\VectorifyUNO\VectorifyUNO.Windows\obj\x64\Release\net7.0-windows10.0.19041.0\win10-x64\VectorifyUNO.Windows.csproj.AssemblyReference.cache
+D:\OneDrive - MSFT\Documents\GitHub\vectorify\VectorifyUNO\VectorifyUNO.Windows\obj\x64\Release\net7.0-windows10.0.19041.0\win10-x64\UnoImage.inputs
+D:\OneDrive - MSFT\Documents\GitHub\vectorify\VectorifyUNO\VectorifyUNO.Windows\obj\x64\Release\net7.0-windows10.0.19041.0\win10-x64\Unosplash.inputs
+D:\OneDrive - MSFT\Documents\GitHub\vectorify\VectorifyUNO\VectorifyUNO.Windows\obj\x64\Release\net7.0-windows10.0.19041.0\win10-x64\Unomanifest.stamp
+D:\OneDrive - MSFT\Documents\GitHub\vectorify\VectorifyUNO\VectorifyUNO.Windows\obj\x64\Release\net7.0-windows10.0.19041.0\win10-x64\AppHead.g.i.cs
+D:\OneDrive - MSFT\Documents\GitHub\vectorify\VectorifyUNO\VectorifyUNO.Windows\obj\x64\Release\net7.0-windows10.0.19041.0\win10-x64\AppHead.g.cs
+D:\OneDrive - MSFT\Documents\GitHub\vectorify\VectorifyUNO\VectorifyUNO.Windows\obj\x64\Release\net7.0-windows10.0.19041.0\win10-x64\XamlTypeInfo.g.cs
+D:\OneDrive - MSFT\Documents\GitHub\vectorify\VectorifyUNO\VectorifyUNO.Windows\obj\x64\Release\net7.0-windows10.0.19041.0\win10-x64\AppHead.xaml
+D:\OneDrive - MSFT\Documents\GitHub\vectorify\VectorifyUNO\VectorifyUNO.Windows\obj\x64\Release\net7.0-windows10.0.19041.0\win10-x64\AppHead.xbf
+D:\OneDrive - MSFT\Documents\GitHub\vectorify\VectorifyUNO\VectorifyUNO.Windows\obj\x64\Release\net7.0-windows10.0.19041.0\win10-x64\XamlSaveStateFile.xml
+D:\OneDrive - MSFT\Documents\GitHub\vectorify\VectorifyUNO\VectorifyUNO.Windows\obj\x64\Release\net7.0-windows10.0.19041.0\win10-x64\VectorifyUNO.Windows.GeneratedMSBuildEditorConfig.editorconfig

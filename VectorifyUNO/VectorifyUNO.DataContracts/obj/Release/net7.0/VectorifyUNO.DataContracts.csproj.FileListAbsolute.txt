@@ -1,0 +1,14 @@
+D:\OneDrive - MSFT\Documents\GitHub\vectorify\VectorifyUNO\VectorifyUNO.DataContracts\bin\Release\net7.0\VectorifyUNO.DataContracts.deps.json
+D:\OneDrive - MSFT\Documents\GitHub\vectorify\VectorifyUNO\VectorifyUNO.DataContracts\bin\Release\net7.0\VectorifyUNO.DataContracts.dll
+D:\OneDrive - MSFT\Documents\GitHub\vectorify\VectorifyUNO\VectorifyUNO.DataContracts\bin\Release\net7.0\VectorifyUNO.DataContracts.pdb
+D:\OneDrive - MSFT\Documents\GitHub\vectorify\VectorifyUNO\VectorifyUNO.DataContracts\bin\Release\net7.0\VectorifyUNO.DataContracts.xml
+D:\OneDrive - MSFT\Documents\GitHub\vectorify\VectorifyUNO\VectorifyUNO.DataContracts\obj\Release\net7.0\VectorifyUNO.DataContracts.csproj.AssemblyReference.cache
+D:\OneDrive - MSFT\Documents\GitHub\vectorify\VectorifyUNO\VectorifyUNO.DataContracts\obj\Release\net7.0\VectorifyUNO.DataContracts.GeneratedMSBuildEditorConfig.editorconfig
+D:\OneDrive - MSFT\Documents\GitHub\vectorify\VectorifyUNO\VectorifyUNO.DataContracts\obj\Release\net7.0\VectorifyUNO.DataContracts.AssemblyInfoInputs.cache
+D:\OneDrive - MSFT\Documents\GitHub\vectorify\VectorifyUNO\VectorifyUNO.DataContracts\obj\Release\net7.0\VectorifyUNO.DataContracts.AssemblyInfo.cs
+D:\OneDrive - MSFT\Documents\GitHub\vectorify\VectorifyUNO\VectorifyUNO.DataContracts\obj\Release\net7.0\VectorifyUNO.DataContracts.csproj.CoreCompileInputs.cache
+D:\OneDrive - MSFT\Documents\GitHub\vectorify\VectorifyUNO\VectorifyUNO.DataContracts\obj\Release\net7.0\VectorifyUNO.DataContracts.dll
+D:\OneDrive - MSFT\Documents\GitHub\vectorify\VectorifyUNO\VectorifyUNO.DataContracts\obj\Release\net7.0\refint\VectorifyUNO.DataContracts.dll
+D:\OneDrive - MSFT\Documents\GitHub\vectorify\VectorifyUNO\VectorifyUNO.DataContracts\obj\Release\net7.0\VectorifyUNO.DataContracts.xml
+D:\OneDrive - MSFT\Documents\GitHub\vectorify\VectorifyUNO\VectorifyUNO.DataContracts\obj\Release\net7.0\VectorifyUNO.DataContracts.pdb
+D:\OneDrive - MSFT\Documents\GitHub\vectorify\VectorifyUNO\VectorifyUNO.DataContracts\obj\Release\net7.0\ref\VectorifyUNO.DataContracts.dll

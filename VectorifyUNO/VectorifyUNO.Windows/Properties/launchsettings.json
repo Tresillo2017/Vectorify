@@ -1,0 +1,10 @@
+{
+  "profiles": {
+	"VectorifyUNO.Windows (Package)": {
+	  "commandName": "MsixPackage"
+	},
+	"VectorifyUNO.Windows (Unpackaged)": {
+	  "commandName": "Project"
+	}
+  }
+}

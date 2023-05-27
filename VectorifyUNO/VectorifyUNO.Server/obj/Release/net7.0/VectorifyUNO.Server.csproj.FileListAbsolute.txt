@@ -1,0 +1,6 @@
+D:\OneDrive - MSFT\Documents\GitHub\vectorify\VectorifyUNO\VectorifyUNO.Server\obj\Release\net7.0\VectorifyUNO.Server.csproj.AssemblyReference.cache
+D:\OneDrive - MSFT\Documents\GitHub\vectorify\VectorifyUNO\VectorifyUNO.Server\obj\Release\net7.0\VectorifyUNO.Server.d-bfalse.GeneratedMSBuildEditorConfig.editorconfig
+D:\OneDrive - MSFT\Documents\GitHub\vectorify\VectorifyUNO\VectorifyUNO.Server\obj\Release\net7.0\VectorifyUNO.Server.AssemblyInfoInputs.cache
+D:\OneDrive - MSFT\Documents\GitHub\vectorify\VectorifyUNO\VectorifyUNO.Server\obj\Release\net7.0\VectorifyUNO.Server.AssemblyInfo.cs
+D:\OneDrive - MSFT\Documents\GitHub\vectorify\VectorifyUNO\VectorifyUNO.Server\obj\Release\net7.0\VectorifyUNO.Server.csproj.CoreCompileInputs.cache
+D:\OneDrive - MSFT\Documents\GitHub\vectorify\VectorifyUNO\VectorifyUNO.Server\obj\Release\net7.0\VectorifyUNO.Server.MvcApplicationPartsAssemblyInfo.cache

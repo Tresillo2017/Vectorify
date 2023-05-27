@@ -1,6 +1,6 @@
 # Vectorify
 
-A simple vector calculator an drawer made with C# and WinUI3 by a 15 year old kid
+A simple vector calculator an drawer made with C# and WinUI3 by a 16 year old kid
 
 ## Authors
 

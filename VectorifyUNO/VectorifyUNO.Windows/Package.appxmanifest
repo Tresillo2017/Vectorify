@@ -7,13 +7,13 @@
   IgnorableNamespaces="uap rescap">
 
   <Identity
-    Name="55768335-A0D4-451F-B9BA-D09C9D3D8303"
-    Publisher="O=VectorifyUNO"
-    Version="1.0.0.0" />
+    Name="0E761A6F-7551-4687-A21D-542E2C8661B1"
+    Publisher="CN=Tresillo"
+    Version="2.3.189.0" />
 
   <Properties>
-	<DisplayName>VectorifyUNO</DisplayName>
-	<PublisherDisplayName>VectorifyUNO</PublisherDisplayName>
+	<DisplayName>Vectorify</DisplayName>
+	<PublisherDisplayName>Tresillo (TomasPS)</PublisherDisplayName>
   </Properties>
 
   <Dependencies>
@@ -30,9 +30,12 @@
       Executable="$targetnametoken$.exe"
       EntryPoint="$targetentrypoint$">
       <uap:VisualElements
-        DisplayName="VectorifyUNO"
-        Description="VectorifyUNO">
+        DisplayName="Vectorify"
+        Description="A simple vector calculator an drawer made with C# and WinUI3 by a 15 year old kid">
         <uap:SplashScreen BackgroundColor="#086AD1"/>
+        <uap:DefaultTile/>
+        <uap:InitialRotationPreference>
+          <uap:Rotation Preference="landscape"/></uap:InitialRotationPreference>
       </uap:VisualElements>
     </Application>
   </Applications>

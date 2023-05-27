@@ -1,12 +1,4 @@
 is_global = true
-build_property.UnoExtensionsGeneration_DisableKeyEqualityGenerator = 
-build_property.UnoExtensionsGeneration_DisableCompatibilityTypesGenerator = 
-build_property.UnoExtensionsGeneration_DisableNotNullIfNotNullAttribute = 
-build_property.UnoExtensionsGeneration_DisableNotNullWhenAttribute = 
-build_property.UnoExtensionsGeneration_DisableMemberNotNullWhenAttribute = 
-build_property.UnoExtensionsGeneration_DisableIsExternalInit = 
-build_property.UnoExtensionsGeneration_DisableModuleInitializerAttribute = 
-build_property.RefitInternalNamespace = VectorifyUNO
 build_property.XamlSourceGeneratorTracingFolder = 
 build_property.TargetFramework = net7.0-maccatalyst
 build_property.TargetFramework = net7.0-maccatalyst
@@ -63,68 +55,52 @@ build_metadata.AdditionalFiles.FullPath = D:\OneDrive - MSFT\Documents\GitHub\ve
 build_metadata.AdditionalFiles.Identity = D:\OneDrive - MSFT\Documents\GitHub\vectorify\VectorifyUNO\VectorifyUNO\AppResources.xaml
 build_metadata.AdditionalFiles.XamlRuntime = 
 
-[D:/OneDrive - MSFT/Documents/GitHub/vectorify/VectorifyUNO/VectorifyUNO/Presentation/Calculo_VectorialPage.xaml]
+[D:/OneDrive - MSFT/Documents/GitHub/vectorify/VectorifyUNO/VectorifyUNO/Views/Calculo_VectorialPage.xaml]
 build_metadata.AdditionalFiles.SourceItemGroup = Page
 build_metadata.AdditionalFiles.Link = 
 build_metadata.AdditionalFiles.TargetPath = 
-build_metadata.AdditionalFiles.FullPath = D:\OneDrive - MSFT\Documents\GitHub\vectorify\VectorifyUNO\VectorifyUNO\Presentation\Calculo_VectorialPage.xaml
-build_metadata.AdditionalFiles.Identity = D:\OneDrive - MSFT\Documents\GitHub\vectorify\VectorifyUNO\VectorifyUNO\Presentation\Calculo_VectorialPage.xaml
+build_metadata.AdditionalFiles.FullPath = D:\OneDrive - MSFT\Documents\GitHub\vectorify\VectorifyUNO\VectorifyUNO\Views\Calculo_VectorialPage.xaml
+build_metadata.AdditionalFiles.Identity = D:\OneDrive - MSFT\Documents\GitHub\vectorify\VectorifyUNO\VectorifyUNO\Views\Calculo_VectorialPage.xaml
 build_metadata.AdditionalFiles.XamlRuntime = 
 
-[D:/OneDrive - MSFT/Documents/GitHub/vectorify/VectorifyUNO/VectorifyUNO/Presentation/FuncionesPage.xaml]
+[D:/OneDrive - MSFT/Documents/GitHub/vectorify/VectorifyUNO/VectorifyUNO/Views/FuncionesPage.xaml]
 build_metadata.AdditionalFiles.SourceItemGroup = Page
 build_metadata.AdditionalFiles.Link = 
 build_metadata.AdditionalFiles.TargetPath = 
-build_metadata.AdditionalFiles.FullPath = D:\OneDrive - MSFT\Documents\GitHub\vectorify\VectorifyUNO\VectorifyUNO\Presentation\FuncionesPage.xaml
-build_metadata.AdditionalFiles.Identity = D:\OneDrive - MSFT\Documents\GitHub\vectorify\VectorifyUNO\VectorifyUNO\Presentation\FuncionesPage.xaml
+build_metadata.AdditionalFiles.FullPath = D:\OneDrive - MSFT\Documents\GitHub\vectorify\VectorifyUNO\VectorifyUNO\Views\FuncionesPage.xaml
+build_metadata.AdditionalFiles.Identity = D:\OneDrive - MSFT\Documents\GitHub\vectorify\VectorifyUNO\VectorifyUNO\Views\FuncionesPage.xaml
 build_metadata.AdditionalFiles.XamlRuntime = 
 
-[D:/OneDrive - MSFT/Documents/GitHub/vectorify/VectorifyUNO/VectorifyUNO/Presentation/MainPage.xaml]
+[D:/OneDrive - MSFT/Documents/GitHub/vectorify/VectorifyUNO/VectorifyUNO/Views/MainPage.xaml]
 build_metadata.AdditionalFiles.SourceItemGroup = Page
 build_metadata.AdditionalFiles.Link = 
 build_metadata.AdditionalFiles.TargetPath = 
-build_metadata.AdditionalFiles.FullPath = D:\OneDrive - MSFT\Documents\GitHub\vectorify\VectorifyUNO\VectorifyUNO\Presentation\MainPage.xaml
-build_metadata.AdditionalFiles.Identity = D:\OneDrive - MSFT\Documents\GitHub\vectorify\VectorifyUNO\VectorifyUNO\Presentation\MainPage.xaml
+build_metadata.AdditionalFiles.FullPath = D:\OneDrive - MSFT\Documents\GitHub\vectorify\VectorifyUNO\VectorifyUNO\Views\MainPage.xaml
+build_metadata.AdditionalFiles.Identity = D:\OneDrive - MSFT\Documents\GitHub\vectorify\VectorifyUNO\VectorifyUNO\Views\MainPage.xaml
 build_metadata.AdditionalFiles.XamlRuntime = 
 
-[D:/OneDrive - MSFT/Documents/GitHub/vectorify/VectorifyUNO/VectorifyUNO/Presentation/RectasPage.xaml]
+[D:/OneDrive - MSFT/Documents/GitHub/vectorify/VectorifyUNO/VectorifyUNO/Views/RectasPage.xaml]
 build_metadata.AdditionalFiles.SourceItemGroup = Page
 build_metadata.AdditionalFiles.Link = 
 build_metadata.AdditionalFiles.TargetPath = 
-build_metadata.AdditionalFiles.FullPath = D:\OneDrive - MSFT\Documents\GitHub\vectorify\VectorifyUNO\VectorifyUNO\Presentation\RectasPage.xaml
-build_metadata.AdditionalFiles.Identity = D:\OneDrive - MSFT\Documents\GitHub\vectorify\VectorifyUNO\VectorifyUNO\Presentation\RectasPage.xaml
+build_metadata.AdditionalFiles.FullPath = D:\OneDrive - MSFT\Documents\GitHub\vectorify\VectorifyUNO\VectorifyUNO\Views\RectasPage.xaml
+build_metadata.AdditionalFiles.Identity = D:\OneDrive - MSFT\Documents\GitHub\vectorify\VectorifyUNO\VectorifyUNO\Views\RectasPage.xaml
 build_metadata.AdditionalFiles.XamlRuntime = 
 
-[D:/OneDrive - MSFT/Documents/GitHub/vectorify/VectorifyUNO/VectorifyUNO/Presentation/SettingsPage.xaml]
+[D:/OneDrive - MSFT/Documents/GitHub/vectorify/VectorifyUNO/VectorifyUNO/Views/SettingsPage.xaml]
 build_metadata.AdditionalFiles.SourceItemGroup = Page
 build_metadata.AdditionalFiles.Link = 
 build_metadata.AdditionalFiles.TargetPath = 
-build_metadata.AdditionalFiles.FullPath = D:\OneDrive - MSFT\Documents\GitHub\vectorify\VectorifyUNO\VectorifyUNO\Presentation\SettingsPage.xaml
-build_metadata.AdditionalFiles.Identity = D:\OneDrive - MSFT\Documents\GitHub\vectorify\VectorifyUNO\VectorifyUNO\Presentation\SettingsPage.xaml
+build_metadata.AdditionalFiles.FullPath = D:\OneDrive - MSFT\Documents\GitHub\vectorify\VectorifyUNO\VectorifyUNO\Views\SettingsPage.xaml
+build_metadata.AdditionalFiles.Identity = D:\OneDrive - MSFT\Documents\GitHub\vectorify\VectorifyUNO\VectorifyUNO\Views\SettingsPage.xaml
 build_metadata.AdditionalFiles.XamlRuntime = 
 
-[D:/OneDrive - MSFT/Documents/GitHub/vectorify/VectorifyUNO/VectorifyUNO/Presentation/ShellPage.xaml]
+[D:/OneDrive - MSFT/Documents/GitHub/vectorify/VectorifyUNO/VectorifyUNO/Views/ShellPage.xaml]
 build_metadata.AdditionalFiles.SourceItemGroup = Page
 build_metadata.AdditionalFiles.Link = 
 build_metadata.AdditionalFiles.TargetPath = 
-build_metadata.AdditionalFiles.FullPath = D:\OneDrive - MSFT\Documents\GitHub\vectorify\VectorifyUNO\VectorifyUNO\Presentation\ShellPage.xaml
-build_metadata.AdditionalFiles.Identity = D:\OneDrive - MSFT\Documents\GitHub\vectorify\VectorifyUNO\VectorifyUNO\Presentation\ShellPage.xaml
-build_metadata.AdditionalFiles.XamlRuntime = 
-
-[D:/OneDrive - MSFT/Documents/GitHub/vectorify/VectorifyUNO/VectorifyUNO/Styles/ColorPaletteOverride.xaml]
-build_metadata.AdditionalFiles.SourceItemGroup = Page
-build_metadata.AdditionalFiles.Link = 
-build_metadata.AdditionalFiles.TargetPath = 
-build_metadata.AdditionalFiles.FullPath = D:\OneDrive - MSFT\Documents\GitHub\vectorify\VectorifyUNO\VectorifyUNO\Styles\ColorPaletteOverride.xaml
-build_metadata.AdditionalFiles.Identity = D:\OneDrive - MSFT\Documents\GitHub\vectorify\VectorifyUNO\VectorifyUNO\Styles\ColorPaletteOverride.xaml
-build_metadata.AdditionalFiles.XamlRuntime = 
-
-[D:/OneDrive - MSFT/Documents/GitHub/vectorify/VectorifyUNO/VectorifyUNO/Styles/MaterialFontsOverride.xaml]
-build_metadata.AdditionalFiles.SourceItemGroup = Page
-build_metadata.AdditionalFiles.Link = 
-build_metadata.AdditionalFiles.TargetPath = 
-build_metadata.AdditionalFiles.FullPath = D:\OneDrive - MSFT\Documents\GitHub\vectorify\VectorifyUNO\VectorifyUNO\Styles\MaterialFontsOverride.xaml
-build_metadata.AdditionalFiles.Identity = D:\OneDrive - MSFT\Documents\GitHub\vectorify\VectorifyUNO\VectorifyUNO\Styles\MaterialFontsOverride.xaml
+build_metadata.AdditionalFiles.FullPath = D:\OneDrive - MSFT\Documents\GitHub\vectorify\VectorifyUNO\VectorifyUNO\Views\ShellPage.xaml
+build_metadata.AdditionalFiles.Identity = D:\OneDrive - MSFT\Documents\GitHub\vectorify\VectorifyUNO\VectorifyUNO\Views\ShellPage.xaml
 build_metadata.AdditionalFiles.XamlRuntime = 
 
 [D:/OneDrive - MSFT/Documents/GitHub/vectorify/VectorifyUNO/VectorifyUNO/Strings/en/Resources.resw]
@@ -133,36 +109,4 @@ build_metadata.AdditionalFiles.Link =
 build_metadata.AdditionalFiles.TargetPath = 
 build_metadata.AdditionalFiles.FullPath = D:\OneDrive - MSFT\Documents\GitHub\vectorify\VectorifyUNO\VectorifyUNO\Strings\en\Resources.resw
 build_metadata.AdditionalFiles.Identity = D:\OneDrive - MSFT\Documents\GitHub\vectorify\VectorifyUNO\VectorifyUNO\Strings\en\Resources.resw
-build_metadata.AdditionalFiles.XamlRuntime = 
-
-[D:/OneDrive - MSFT/Documents/GitHub/vectorify/VectorifyUNO/VectorifyUNO/Strings/es/Resources.resw]
-build_metadata.AdditionalFiles.SourceItemGroup = PRIResource
-build_metadata.AdditionalFiles.Link = 
-build_metadata.AdditionalFiles.TargetPath = 
-build_metadata.AdditionalFiles.FullPath = D:\OneDrive - MSFT\Documents\GitHub\vectorify\VectorifyUNO\VectorifyUNO\Strings\es\Resources.resw
-build_metadata.AdditionalFiles.Identity = D:\OneDrive - MSFT\Documents\GitHub\vectorify\VectorifyUNO\VectorifyUNO\Strings\es\Resources.resw
-build_metadata.AdditionalFiles.XamlRuntime = 
-
-[D:/OneDrive - MSFT/Documents/GitHub/vectorify/VectorifyUNO/VectorifyUNO/Strings/fr/Resources.resw]
-build_metadata.AdditionalFiles.SourceItemGroup = PRIResource
-build_metadata.AdditionalFiles.Link = 
-build_metadata.AdditionalFiles.TargetPath = 
-build_metadata.AdditionalFiles.FullPath = D:\OneDrive - MSFT\Documents\GitHub\vectorify\VectorifyUNO\VectorifyUNO\Strings\fr\Resources.resw
-build_metadata.AdditionalFiles.Identity = D:\OneDrive - MSFT\Documents\GitHub\vectorify\VectorifyUNO\VectorifyUNO\Strings\fr\Resources.resw
-build_metadata.AdditionalFiles.XamlRuntime = 
-
-[D:/OneDrive - MSFT/Documents/GitHub/vectorify/VectorifyUNO/VectorifyUNO/Strings/pt-BR/Resources.resw]
-build_metadata.AdditionalFiles.SourceItemGroup = PRIResource
-build_metadata.AdditionalFiles.Link = 
-build_metadata.AdditionalFiles.TargetPath = 
-build_metadata.AdditionalFiles.FullPath = D:\OneDrive - MSFT\Documents\GitHub\vectorify\VectorifyUNO\VectorifyUNO\Strings\pt-BR\Resources.resw
-build_metadata.AdditionalFiles.Identity = D:\OneDrive - MSFT\Documents\GitHub\vectorify\VectorifyUNO\VectorifyUNO\Strings\pt-BR\Resources.resw
-build_metadata.AdditionalFiles.XamlRuntime = 
-
-[D:/OneDrive - MSFT/Documents/GitHub/vectorify/VectorifyUNO/VectorifyUNO.DataContracts/VectorifyUNO.DataContracts.csproj]
-build_metadata.AdditionalFiles.SourceItemGroup = ProjectReference
-build_metadata.AdditionalFiles.Link = 
-build_metadata.AdditionalFiles.TargetPath = 
-build_metadata.AdditionalFiles.FullPath = D:\OneDrive - MSFT\Documents\GitHub\vectorify\VectorifyUNO\VectorifyUNO.DataContracts\VectorifyUNO.DataContracts.csproj
-build_metadata.AdditionalFiles.Identity = D:\OneDrive - MSFT\Documents\GitHub\vectorify\VectorifyUNO\VectorifyUNO.DataContracts\VectorifyUNO.DataContracts.csproj
 build_metadata.AdditionalFiles.XamlRuntime = 

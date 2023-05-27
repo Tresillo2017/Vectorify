@@ -1,6 +1,0 @@
-D:\OneDrive - MSFT\Documents\GitHub\vectorify\VectorifyUNO\VectorifyUNO.Tests\bin\Release\net7.0\CoverletSourceRootsMapping
-D:\OneDrive - MSFT\Documents\GitHub\vectorify\VectorifyUNO\VectorifyUNO.Tests\obj\Release\net7.0\VectorifyUNO.Tests.csproj.AssemblyReference.cache
-D:\OneDrive - MSFT\Documents\GitHub\vectorify\VectorifyUNO\VectorifyUNO.Tests\obj\Release\net7.0\VectorifyUNO.Tests.d-bfalse.GeneratedMSBuildEditorConfig.editorconfig
-D:\OneDrive - MSFT\Documents\GitHub\vectorify\VectorifyUNO\VectorifyUNO.Tests\obj\Release\net7.0\VectorifyUNO.Tests.AssemblyInfoInputs.cache
-D:\OneDrive - MSFT\Documents\GitHub\vectorify\VectorifyUNO\VectorifyUNO.Tests\obj\Release\net7.0\VectorifyUNO.Tests.AssemblyInfo.cs
-D:\OneDrive - MSFT\Documents\GitHub\vectorify\VectorifyUNO\VectorifyUNO.Tests\obj\Release\net7.0\VectorifyUNO.Tests.csproj.CoreCompileInputs.cache

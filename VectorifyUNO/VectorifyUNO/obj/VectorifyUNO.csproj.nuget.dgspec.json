@@ -4,14 +4,14 @@
     "D:\\OneDrive - MSFT\\Documents\\GitHub\\vectorify\\VectorifyUNO\\VectorifyUNO\\VectorifyUNO.csproj": {}
   },
   "projects": {
-    "D:\\OneDrive - MSFT\\Documents\\GitHub\\vectorify\\VectorifyUNO\\VectorifyUNO.DataContracts\\VectorifyUNO.DataContracts.csproj": {
+    "D:\\OneDrive - MSFT\\Documents\\GitHub\\vectorify\\Vectorify.Core\\Vectorify.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\OneDrive - MSFT\\Documents\\GitHub\\vectorify\\VectorifyUNO\\VectorifyUNO.DataContracts\\VectorifyUNO.DataContracts.csproj",
-        "projectName": "VectorifyUNO.DataContracts",
-        "projectPath": "D:\\OneDrive - MSFT\\Documents\\GitHub\\vectorify\\VectorifyUNO\\VectorifyUNO.DataContracts\\VectorifyUNO.DataContracts.csproj",
+        "projectUniqueName": "D:\\OneDrive - MSFT\\Documents\\GitHub\\vectorify\\Vectorify.Core\\Vectorify.Core.csproj",
+        "projectName": "Vectorify.Core",
+        "projectPath": "D:\\OneDrive - MSFT\\Documents\\GitHub\\vectorify\\Vectorify.Core\\Vectorify.Core.csproj",
         "packagesPath": "C:\\Users\\tresi\\.nuget\\packages\\",
-        "outputPath": "D:\\OneDrive - MSFT\\Documents\\GitHub\\vectorify\\VectorifyUNO\\VectorifyUNO.DataContracts\\obj\\",
+        "outputPath": "D:\\OneDrive - MSFT\\Documents\\GitHub\\vectorify\\Vectorify.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -36,10 +36,6 @@
           }
         },
         "warningProperties": {
-          "allWarningsAsErrors": true,
-          "noWarn": [
-            "NU1507"
-          ],
           "warnAsError": [
             "NU1605"
           ]
@@ -48,6 +44,12 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -102,40 +104,40 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\OneDrive - MSFT\\Documents\\GitHub\\vectorify\\VectorifyUNO\\VectorifyUNO.DataContracts\\VectorifyUNO.DataContracts.csproj": {
-                "projectPath": "D:\\OneDrive - MSFT\\Documents\\GitHub\\vectorify\\VectorifyUNO\\VectorifyUNO.DataContracts\\VectorifyUNO.DataContracts.csproj"
+              "D:\\OneDrive - MSFT\\Documents\\GitHub\\vectorify\\Vectorify.Core\\Vectorify.Core.csproj": {
+                "projectPath": "D:\\OneDrive - MSFT\\Documents\\GitHub\\vectorify\\Vectorify.Core\\Vectorify.Core.csproj"
               }
             }
           },
           "net7.0-android33.0": {
             "targetAlias": "net7.0-android",
             "projectReferences": {
-              "D:\\OneDrive - MSFT\\Documents\\GitHub\\vectorify\\VectorifyUNO\\VectorifyUNO.DataContracts\\VectorifyUNO.DataContracts.csproj": {
-                "projectPath": "D:\\OneDrive - MSFT\\Documents\\GitHub\\vectorify\\VectorifyUNO\\VectorifyUNO.DataContracts\\VectorifyUNO.DataContracts.csproj"
+              "D:\\OneDrive - MSFT\\Documents\\GitHub\\vectorify\\Vectorify.Core\\Vectorify.Core.csproj": {
+                "projectPath": "D:\\OneDrive - MSFT\\Documents\\GitHub\\vectorify\\Vectorify.Core\\Vectorify.Core.csproj"
               }
             }
           },
           "net7.0-ios16.1": {
             "targetAlias": "net7.0-ios",
             "projectReferences": {
-              "D:\\OneDrive - MSFT\\Documents\\GitHub\\vectorify\\VectorifyUNO\\VectorifyUNO.DataContracts\\VectorifyUNO.DataContracts.csproj": {
-                "projectPath": "D:\\OneDrive - MSFT\\Documents\\GitHub\\vectorify\\VectorifyUNO\\VectorifyUNO.DataContracts\\VectorifyUNO.DataContracts.csproj"
+              "D:\\OneDrive - MSFT\\Documents\\GitHub\\vectorify\\Vectorify.Core\\Vectorify.Core.csproj": {
+                "projectPath": "D:\\OneDrive - MSFT\\Documents\\GitHub\\vectorify\\Vectorify.Core\\Vectorify.Core.csproj"
               }
             }
           },
           "net7.0-maccatalyst16.1": {
             "targetAlias": "net7.0-maccatalyst",
             "projectReferences": {
-              "D:\\OneDrive - MSFT\\Documents\\GitHub\\vectorify\\VectorifyUNO\\VectorifyUNO.DataContracts\\VectorifyUNO.DataContracts.csproj": {
-                "projectPath": "D:\\OneDrive - MSFT\\Documents\\GitHub\\vectorify\\VectorifyUNO\\VectorifyUNO.DataContracts\\VectorifyUNO.DataContracts.csproj"
+              "D:\\OneDrive - MSFT\\Documents\\GitHub\\vectorify\\Vectorify.Core\\Vectorify.Core.csproj": {
+                "projectPath": "D:\\OneDrive - MSFT\\Documents\\GitHub\\vectorify\\Vectorify.Core\\Vectorify.Core.csproj"
               }
             }
           },
           "net7.0-windows10.0.19041": {
             "targetAlias": "net7.0-windows10.0.19041",
             "projectReferences": {
-              "D:\\OneDrive - MSFT\\Documents\\GitHub\\vectorify\\VectorifyUNO\\VectorifyUNO.DataContracts\\VectorifyUNO.DataContracts.csproj": {
-                "projectPath": "D:\\OneDrive - MSFT\\Documents\\GitHub\\vectorify\\VectorifyUNO\\VectorifyUNO.DataContracts\\VectorifyUNO.DataContracts.csproj"
+              "D:\\OneDrive - MSFT\\Documents\\GitHub\\vectorify\\Vectorify.Core\\Vectorify.Core.csproj": {
+                "projectPath": "D:\\OneDrive - MSFT\\Documents\\GitHub\\vectorify\\Vectorify.Core\\Vectorify.Core.csproj"
               }
             }
           }
@@ -154,77 +156,17 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
             "Microsoft.Extensions.Logging.Console": {
               "target": "Package",
               "version": "[7.0.0, )"
             },
-            "Uno.Dsp.Tasks": {
-              "target": "Package",
-              "version": "[1.0.1, )"
-            },
-            "Uno.Extensions.Authentication.WinUI": {
-              "target": "Package",
-              "version": "[2.3.11, )"
-            },
-            "Uno.Extensions.Configuration": {
-              "target": "Package",
-              "version": "[2.3.11, )"
-            },
-            "Uno.Extensions.Hosting.WinUI": {
-              "target": "Package",
-              "version": "[2.3.11, )"
-            },
-            "Uno.Extensions.Http": {
-              "target": "Package",
-              "version": "[2.3.11, )"
-            },
-            "Uno.Extensions.Http.Refit": {
-              "target": "Package",
-              "version": "[2.3.11, )"
-            },
-            "Uno.Extensions.Localization.WinUI": {
-              "target": "Package",
-              "version": "[2.3.11, )"
-            },
-            "Uno.Extensions.Logging.WinUI": {
-              "target": "Package",
-              "version": "[2.3.11, )"
-            },
-            "Uno.Extensions.Navigation.Toolkit.WinUI": {
-              "target": "Package",
-              "version": "[2.3.11, )"
-            },
-            "Uno.Extensions.Navigation.WinUI": {
-              "target": "Package",
-              "version": "[2.3.11, )"
-            },
-            "Uno.Extensions.Reactive.WinUI": {
-              "target": "Package",
-              "version": "[2.3.11, )"
-            },
-            "Uno.Extensions.Serialization.Http": {
-              "target": "Package",
-              "version": "[2.3.11, )"
-            },
-            "Uno.Extensions.Serialization.Refit": {
-              "target": "Package",
-              "version": "[2.3.11, )"
-            },
-            "Uno.Material.WinUI": {
-              "target": "Package",
-              "version": "[2.5.3, )"
-            },
             "Uno.Resizetizer": {
               "target": "Package",
               "version": "[1.0.4, )"
-            },
-            "Uno.Toolkit.WinUI": {
-              "target": "Package",
-              "version": "[2.5.5, )"
-            },
-            "Uno.Toolkit.WinUI.Material": {
-              "target": "Package",
-              "version": "[2.5.5, )"
             },
             "Uno.WinUI": {
               "target": "Package",
@@ -252,77 +194,17 @@
         "net7.0-android33.0": {
           "targetAlias": "net7.0-android",
           "dependencies": {
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
             "Microsoft.Extensions.Logging.Console": {
               "target": "Package",
               "version": "[7.0.0, )"
             },
-            "Uno.Dsp.Tasks": {
-              "target": "Package",
-              "version": "[1.0.1, )"
-            },
-            "Uno.Extensions.Authentication.WinUI": {
-              "target": "Package",
-              "version": "[2.3.11, )"
-            },
-            "Uno.Extensions.Configuration": {
-              "target": "Package",
-              "version": "[2.3.11, )"
-            },
-            "Uno.Extensions.Hosting.WinUI": {
-              "target": "Package",
-              "version": "[2.3.11, )"
-            },
-            "Uno.Extensions.Http": {
-              "target": "Package",
-              "version": "[2.3.11, )"
-            },
-            "Uno.Extensions.Http.Refit": {
-              "target": "Package",
-              "version": "[2.3.11, )"
-            },
-            "Uno.Extensions.Localization.WinUI": {
-              "target": "Package",
-              "version": "[2.3.11, )"
-            },
-            "Uno.Extensions.Logging.WinUI": {
-              "target": "Package",
-              "version": "[2.3.11, )"
-            },
-            "Uno.Extensions.Navigation.Toolkit.WinUI": {
-              "target": "Package",
-              "version": "[2.3.11, )"
-            },
-            "Uno.Extensions.Navigation.WinUI": {
-              "target": "Package",
-              "version": "[2.3.11, )"
-            },
-            "Uno.Extensions.Reactive.WinUI": {
-              "target": "Package",
-              "version": "[2.3.11, )"
-            },
-            "Uno.Extensions.Serialization.Http": {
-              "target": "Package",
-              "version": "[2.3.11, )"
-            },
-            "Uno.Extensions.Serialization.Refit": {
-              "target": "Package",
-              "version": "[2.3.11, )"
-            },
-            "Uno.Material.WinUI": {
-              "target": "Package",
-              "version": "[2.5.3, )"
-            },
             "Uno.Resizetizer": {
               "target": "Package",
               "version": "[1.0.4, )"
-            },
-            "Uno.Toolkit.WinUI": {
-              "target": "Package",
-              "version": "[2.5.5, )"
-            },
-            "Uno.Toolkit.WinUI.Material": {
-              "target": "Package",
-              "version": "[2.5.5, )"
             },
             "Uno.WinUI": {
               "target": "Package",
@@ -353,77 +235,17 @@
         "net7.0-ios16.1": {
           "targetAlias": "net7.0-ios",
           "dependencies": {
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
             "Microsoft.Extensions.Logging.Console": {
               "target": "Package",
               "version": "[7.0.0, )"
             },
-            "Uno.Dsp.Tasks": {
-              "target": "Package",
-              "version": "[1.0.1, )"
-            },
-            "Uno.Extensions.Authentication.WinUI": {
-              "target": "Package",
-              "version": "[2.3.11, )"
-            },
-            "Uno.Extensions.Configuration": {
-              "target": "Package",
-              "version": "[2.3.11, )"
-            },
-            "Uno.Extensions.Hosting.WinUI": {
-              "target": "Package",
-              "version": "[2.3.11, )"
-            },
-            "Uno.Extensions.Http": {
-              "target": "Package",
-              "version": "[2.3.11, )"
-            },
-            "Uno.Extensions.Http.Refit": {
-              "target": "Package",
-              "version": "[2.3.11, )"
-            },
-            "Uno.Extensions.Localization.WinUI": {
-              "target": "Package",
-              "version": "[2.3.11, )"
-            },
-            "Uno.Extensions.Logging.WinUI": {
-              "target": "Package",
-              "version": "[2.3.11, )"
-            },
-            "Uno.Extensions.Navigation.Toolkit.WinUI": {
-              "target": "Package",
-              "version": "[2.3.11, )"
-            },
-            "Uno.Extensions.Navigation.WinUI": {
-              "target": "Package",
-              "version": "[2.3.11, )"
-            },
-            "Uno.Extensions.Reactive.WinUI": {
-              "target": "Package",
-              "version": "[2.3.11, )"
-            },
-            "Uno.Extensions.Serialization.Http": {
-              "target": "Package",
-              "version": "[2.3.11, )"
-            },
-            "Uno.Extensions.Serialization.Refit": {
-              "target": "Package",
-              "version": "[2.3.11, )"
-            },
-            "Uno.Material.WinUI": {
-              "target": "Package",
-              "version": "[2.5.3, )"
-            },
             "Uno.Resizetizer": {
               "target": "Package",
               "version": "[1.0.4, )"
-            },
-            "Uno.Toolkit.WinUI": {
-              "target": "Package",
-              "version": "[2.5.5, )"
-            },
-            "Uno.Toolkit.WinUI.Material": {
-              "target": "Package",
-              "version": "[2.5.5, )"
             },
             "Uno.WinUI": {
               "target": "Package",
@@ -454,77 +276,17 @@
         "net7.0-maccatalyst16.1": {
           "targetAlias": "net7.0-maccatalyst",
           "dependencies": {
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
             "Microsoft.Extensions.Logging.Console": {
               "target": "Package",
               "version": "[7.0.0, )"
             },
-            "Uno.Dsp.Tasks": {
-              "target": "Package",
-              "version": "[1.0.1, )"
-            },
-            "Uno.Extensions.Authentication.WinUI": {
-              "target": "Package",
-              "version": "[2.3.11, )"
-            },
-            "Uno.Extensions.Configuration": {
-              "target": "Package",
-              "version": "[2.3.11, )"
-            },
-            "Uno.Extensions.Hosting.WinUI": {
-              "target": "Package",
-              "version": "[2.3.11, )"
-            },
-            "Uno.Extensions.Http": {
-              "target": "Package",
-              "version": "[2.3.11, )"
-            },
-            "Uno.Extensions.Http.Refit": {
-              "target": "Package",
-              "version": "[2.3.11, )"
-            },
-            "Uno.Extensions.Localization.WinUI": {
-              "target": "Package",
-              "version": "[2.3.11, )"
-            },
-            "Uno.Extensions.Logging.WinUI": {
-              "target": "Package",
-              "version": "[2.3.11, )"
-            },
-            "Uno.Extensions.Navigation.Toolkit.WinUI": {
-              "target": "Package",
-              "version": "[2.3.11, )"
-            },
-            "Uno.Extensions.Navigation.WinUI": {
-              "target": "Package",
-              "version": "[2.3.11, )"
-            },
-            "Uno.Extensions.Reactive.WinUI": {
-              "target": "Package",
-              "version": "[2.3.11, )"
-            },
-            "Uno.Extensions.Serialization.Http": {
-              "target": "Package",
-              "version": "[2.3.11, )"
-            },
-            "Uno.Extensions.Serialization.Refit": {
-              "target": "Package",
-              "version": "[2.3.11, )"
-            },
-            "Uno.Material.WinUI": {
-              "target": "Package",
-              "version": "[2.5.3, )"
-            },
             "Uno.Resizetizer": {
               "target": "Package",
               "version": "[1.0.4, )"
-            },
-            "Uno.Toolkit.WinUI": {
-              "target": "Package",
-              "version": "[2.5.5, )"
-            },
-            "Uno.Toolkit.WinUI.Material": {
-              "target": "Package",
-              "version": "[2.5.5, )"
             },
             "Uno.WinUI": {
               "target": "Package",
@@ -556,6 +318,10 @@
         "net7.0-windows10.0.19041": {
           "targetAlias": "net7.0-windows10.0.19041",
           "dependencies": {
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
             "Microsoft.Extensions.Logging.Console": {
               "target": "Package",
               "version": "[7.0.0, )"
@@ -568,73 +334,9 @@
               "target": "Package",
               "version": "[1.2.230313.1, )"
             },
-            "Uno.Dsp.Tasks": {
-              "target": "Package",
-              "version": "[1.0.1, )"
-            },
-            "Uno.Extensions.Authentication.WinUI": {
-              "target": "Package",
-              "version": "[2.3.11, )"
-            },
-            "Uno.Extensions.Configuration": {
-              "target": "Package",
-              "version": "[2.3.11, )"
-            },
-            "Uno.Extensions.Hosting.WinUI": {
-              "target": "Package",
-              "version": "[2.3.11, )"
-            },
-            "Uno.Extensions.Http": {
-              "target": "Package",
-              "version": "[2.3.11, )"
-            },
-            "Uno.Extensions.Http.Refit": {
-              "target": "Package",
-              "version": "[2.3.11, )"
-            },
-            "Uno.Extensions.Localization.WinUI": {
-              "target": "Package",
-              "version": "[2.3.11, )"
-            },
-            "Uno.Extensions.Logging.WinUI": {
-              "target": "Package",
-              "version": "[2.3.11, )"
-            },
-            "Uno.Extensions.Navigation.Toolkit.WinUI": {
-              "target": "Package",
-              "version": "[2.3.11, )"
-            },
-            "Uno.Extensions.Navigation.WinUI": {
-              "target": "Package",
-              "version": "[2.3.11, )"
-            },
-            "Uno.Extensions.Reactive.WinUI": {
-              "target": "Package",
-              "version": "[2.3.11, )"
-            },
-            "Uno.Extensions.Serialization.Http": {
-              "target": "Package",
-              "version": "[2.3.11, )"
-            },
-            "Uno.Extensions.Serialization.Refit": {
-              "target": "Package",
-              "version": "[2.3.11, )"
-            },
-            "Uno.Material.WinUI": {
-              "target": "Package",
-              "version": "[2.5.3, )"
-            },
             "Uno.Resizetizer": {
               "target": "Package",
               "version": "[1.0.4, )"
-            },
-            "Uno.Toolkit.WinUI": {
-              "target": "Package",
-              "version": "[2.5.5, )"
-            },
-            "Uno.Toolkit.WinUI.Material": {
-              "target": "Package",
-              "version": "[2.5.5, )"
             },
             "Uno.WinUI": {
               "target": "Package",

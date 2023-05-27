@@ -2,22 +2,22 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup />
   <ItemGroup>
-    <Page Update="Presentation\Calculo_VectorialPage.xaml">
+    <Page Update="Views\Calculo_VectorialPage.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Presentation\FuncionesPage.xaml">
+    <Page Update="Views\FuncionesPage.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Presentation\MainPage.xaml">
+    <Page Update="Views\MainPage.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Presentation\RectasPage.xaml">
+    <Page Update="Views\RectasPage.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Presentation\SettingsPage.xaml">
+    <Page Update="Views\SettingsPage.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Presentation\ShellPage.xaml">
+    <Page Update="Views\ShellPage.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

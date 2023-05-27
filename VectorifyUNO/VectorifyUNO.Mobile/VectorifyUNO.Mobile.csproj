@@ -7,7 +7,7 @@
 		<ApplicationTitle>VectorifyUNO</ApplicationTitle>
 		<!-- App Identifier -->
 		<ApplicationId>com.tresillo.Vectorify</ApplicationId>
-		<ApplicationIdGuid>6B5E4605-9134-4FBB-A1B6-23159BA30CF3</ApplicationIdGuid>
+		<ApplicationIdGuid>84886549-F798-4738-9222-E807343C4AAA</ApplicationIdGuid>
 		<!-- Versions -->
 		<ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
 		<ApplicationVersion>1</ApplicationVersion>
@@ -24,21 +24,7 @@
 	<ItemGroup>
 		<PackageReference Include="Uno.Resizetizer" Version="1.0.4" />
 		<PackageReference Include="Uno.WinUI" Version="4.8.33" />
-		<PackageReference Include="Uno.Extensions.Configuration" Version="2.3.11" />
-		<PackageReference Include="Uno.Extensions.Http" Version="2.3.11" />
-		<PackageReference Include="Uno.Extensions.Http.Refit" Version="2.3.11" />
-		<PackageReference Include="Uno.Extensions.Logging.WinUI" Version="2.3.11" />
-		<PackageReference Include="Uno.Extensions.Serialization.Http" Version="2.3.11" />
-		<PackageReference Include="Uno.Extensions.Serialization.Refit" Version="2.3.11" />
-		<PackageReference Include="Uno.Material.WinUI" Version="2.5.3" />
-		<PackageReference Include="Uno.Toolkit.WinUI.Material" Version="2.5.5" />
-		<PackageReference Include="Uno.Toolkit.WinUI" Version="2.5.5" />
-		<PackageReference Include="Uno.Extensions.Authentication.WinUI" Version="2.3.11" />
-		<PackageReference Include="Uno.Extensions.Hosting.WinUI" Version="2.3.11" />
-		<PackageReference Include="Uno.Extensions.Localization.WinUI" Version="2.3.11" />
-		<PackageReference Include="Uno.Extensions.Navigation.Toolkit.WinUI" Version="2.3.11" />
-		<PackageReference Include="Uno.Extensions.Navigation.WinUI" Version="2.3.11" />
-		<PackageReference Include="Uno.Extensions.Reactive.WinUI" Version="2.3.11" />
+		<PackageReference Include="CommunityToolkit.Mvvm" Version="8.1.0" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Console" Version="7.0.0" />
 		<PackageReference Include="Uno.Extensions.Logging.OSLog" Version="1.4.0" />
 		<PackageReference Include="Uno.UI.Adapter.Microsoft.Extensions.Logging" Version="4.8.33" />
@@ -82,5 +68,8 @@
 			</PropertyGroup>
 		</When>
 	</Choose>
+	<ItemGroup>
+		<ProjectReference Include="..\VectorifyUNO\VectorifyUNO.csproj" />
+	</ItemGroup>
 	<Import Project="..\VectorifyUNO.Base\base.props" />
 </Project>

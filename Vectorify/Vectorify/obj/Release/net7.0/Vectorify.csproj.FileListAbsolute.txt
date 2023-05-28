@@ -1,0 +1,13 @@
+D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\Vectorify\obj\Release\net7.0\Vectorify.csproj.AssemblyReference.cache
+D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\Vectorify\obj\Release\net7.0\resizetizer\r\Assets\Icons\back.png
+D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\Vectorify\obj\Release\net7.0\resizetizer\r\Assets\Icons\back.scale-100.png
+D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\Vectorify\obj\Release\net7.0\resizetizer\r\Assets\Icons\back.scale-125.png
+D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\Vectorify\obj\Release\net7.0\resizetizer\r\Assets\Icons\back.scale-150.png
+D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\Vectorify\obj\Release\net7.0\resizetizer\r\Assets\Icons\back.scale-200.png
+D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\Vectorify\obj\Release\net7.0\resizetizer\r\Assets\Icons\back.scale-300.png
+D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\Vectorify\obj\Release\net7.0\resizetizer\r\Assets\Icons\back.scale-400.png
+D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\Vectorify\obj\Release\net7.0\UnoImage.stamp
+D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\Vectorify\obj\Release\net7.0\Vectorify.d-bfalse.GeneratedMSBuildEditorConfig.editorconfig
+D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\Vectorify\obj\Release\net7.0\Vectorify.AssemblyInfoInputs.cache
+D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\Vectorify\obj\Release\net7.0\Vectorify.AssemblyInfo.cs
+D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\Vectorify\obj\Release\net7.0\Vectorify.csproj.CoreCompileInputs.cache

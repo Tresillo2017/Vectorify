@@ -4,77 +4,11 @@
     "D:\\OneDrive - MSFT\\Documents\\GitHub\\vectorify\\VectorifyUNO\\VectorifyUNO\\VectorifyUNO.csproj": {}
   },
   "projects": {
-    "D:\\OneDrive - MSFT\\Documents\\GitHub\\vectorify\\Vectorify.Core\\Vectorify.Core.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\OneDrive - MSFT\\Documents\\GitHub\\vectorify\\Vectorify.Core\\Vectorify.Core.csproj",
-        "projectName": "Vectorify.Core",
-        "projectPath": "D:\\OneDrive - MSFT\\Documents\\GitHub\\vectorify\\Vectorify.Core\\Vectorify.Core.csproj",
-        "packagesPath": "C:\\Users\\tresi\\.nuget\\packages\\",
-        "outputPath": "D:\\OneDrive - MSFT\\Documents\\GitHub\\vectorify\\Vectorify.Core\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\tresi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net7.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
-          "dependencies": {
-            "Newtonsoft.Json": {
-              "target": "Package",
-              "version": "[13.0.2, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
     "D:\\OneDrive - MSFT\\Documents\\GitHub\\vectorify\\VectorifyUNO\\VectorifyUNO\\VectorifyUNO.csproj": {
       "version": "1.0.0",
       "restore": {
         "projectUniqueName": "D:\\OneDrive - MSFT\\Documents\\GitHub\\vectorify\\VectorifyUNO\\VectorifyUNO\\VectorifyUNO.csproj",
-        "projectName": "VectorifyUNO",
+        "projectName": "Vectorify",
         "projectPath": "D:\\OneDrive - MSFT\\Documents\\GitHub\\vectorify\\VectorifyUNO\\VectorifyUNO\\VectorifyUNO.csproj",
         "packagesPath": "C:\\Users\\tresi\\.nuget\\packages\\",
         "outputPath": "D:\\OneDrive - MSFT\\Documents\\GitHub\\vectorify\\VectorifyUNO\\VectorifyUNO\\obj\\",
@@ -103,43 +37,23 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
-            "projectReferences": {
-              "D:\\OneDrive - MSFT\\Documents\\GitHub\\vectorify\\Vectorify.Core\\Vectorify.Core.csproj": {
-                "projectPath": "D:\\OneDrive - MSFT\\Documents\\GitHub\\vectorify\\Vectorify.Core\\Vectorify.Core.csproj"
-              }
-            }
+            "projectReferences": {}
           },
           "net7.0-android33.0": {
             "targetAlias": "net7.0-android",
-            "projectReferences": {
-              "D:\\OneDrive - MSFT\\Documents\\GitHub\\vectorify\\Vectorify.Core\\Vectorify.Core.csproj": {
-                "projectPath": "D:\\OneDrive - MSFT\\Documents\\GitHub\\vectorify\\Vectorify.Core\\Vectorify.Core.csproj"
-              }
-            }
+            "projectReferences": {}
           },
           "net7.0-ios16.1": {
             "targetAlias": "net7.0-ios",
-            "projectReferences": {
-              "D:\\OneDrive - MSFT\\Documents\\GitHub\\vectorify\\Vectorify.Core\\Vectorify.Core.csproj": {
-                "projectPath": "D:\\OneDrive - MSFT\\Documents\\GitHub\\vectorify\\Vectorify.Core\\Vectorify.Core.csproj"
-              }
-            }
+            "projectReferences": {}
           },
           "net7.0-maccatalyst16.1": {
             "targetAlias": "net7.0-maccatalyst",
-            "projectReferences": {
-              "D:\\OneDrive - MSFT\\Documents\\GitHub\\vectorify\\Vectorify.Core\\Vectorify.Core.csproj": {
-                "projectPath": "D:\\OneDrive - MSFT\\Documents\\GitHub\\vectorify\\Vectorify.Core\\Vectorify.Core.csproj"
-              }
-            }
+            "projectReferences": {}
           },
           "net7.0-windows10.0.19041": {
             "targetAlias": "net7.0-windows10.0.19041",
-            "projectReferences": {
-              "D:\\OneDrive - MSFT\\Documents\\GitHub\\vectorify\\Vectorify.Core\\Vectorify.Core.csproj": {
-                "projectPath": "D:\\OneDrive - MSFT\\Documents\\GitHub\\vectorify\\Vectorify.Core\\Vectorify.Core.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {
@@ -159,6 +73,10 @@
             "CommunityToolkit.Mvvm": {
               "target": "Package",
               "version": "[8.1.0, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[6.0.1, )"
             },
             "Microsoft.Extensions.Logging.Console": {
               "target": "Package",
@@ -197,6 +115,10 @@
             "CommunityToolkit.Mvvm": {
               "target": "Package",
               "version": "[8.1.0, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[6.0.1, )"
             },
             "Microsoft.Extensions.Logging.Console": {
               "target": "Package",
@@ -239,6 +161,10 @@
               "target": "Package",
               "version": "[8.1.0, )"
             },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
             "Microsoft.Extensions.Logging.Console": {
               "target": "Package",
               "version": "[7.0.0, )"
@@ -279,6 +205,10 @@
             "CommunityToolkit.Mvvm": {
               "target": "Package",
               "version": "[8.1.0, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[6.0.1, )"
             },
             "Microsoft.Extensions.Logging.Console": {
               "target": "Package",
@@ -321,6 +251,10 @@
             "CommunityToolkit.Mvvm": {
               "target": "Package",
               "version": "[8.1.0, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[6.0.1, )"
             },
             "Microsoft.Extensions.Logging.Console": {
               "target": "Package",

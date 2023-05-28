@@ -19,3 +19,4 @@ D:\OneDrive - MSFT\Documents\GitHub\vectorify\VectorifyUNO\VectorifyUNO\obj\Rele
 D:\OneDrive - MSFT\Documents\GitHub\vectorify\VectorifyUNO\VectorifyUNO\obj\Release\net7.0-ios\VectorifyUNO.AssemblyInfoInputs.cache
 D:\OneDrive - MSFT\Documents\GitHub\vectorify\VectorifyUNO\VectorifyUNO\obj\Release\net7.0-ios\VectorifyUNO.AssemblyInfo.cs
 D:\OneDrive - MSFT\Documents\GitHub\vectorify\VectorifyUNO\VectorifyUNO\obj\Release\net7.0-ios\VectorifyUNO.csproj.CoreCompileInputs.cache
+D:\OneDrive - MSFT\Documents\GitHub\vectorify\VectorifyUNO\VectorifyUNO\obj\Release\net7.0-ios\build-signature\signature

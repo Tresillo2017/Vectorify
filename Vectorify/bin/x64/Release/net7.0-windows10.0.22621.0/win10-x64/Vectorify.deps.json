@@ -9,9 +9,9 @@
     ".NETCoreApp,Version=v7.0/win10-x64": {
       "Vectorify/1.0.0": {
         "dependencies": {
-          "CommunityToolkit.Mvvm": "7.1.2",
+          "CommunityToolkit.Mvvm": "8.1.0",
           "Microsoft.Extensions.Hosting": "6.0.1",
-          "Microsoft.WindowsAppSDK": "1.2.230118.102",
+          "Microsoft.WindowsAppSDK": "1.2.230313.1",
           "Microsoft.Xaml.Behaviors.WinUI.Managed": "2.0.9",
           "Vectorify.Core": "1.0.0",
           "WinUIEx": "2.1.0",
@@ -754,11 +754,11 @@
           }
         }
       },
-      "CommunityToolkit.Mvvm/7.1.2": {
+      "CommunityToolkit.Mvvm/8.1.0": {
         "runtime": {
-          "lib/net5.0/CommunityToolkit.Mvvm.dll": {
-            "assemblyVersion": "7.1.0.0",
-            "fileVersion": "7.1.2.1"
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "assemblyVersion": "8.1.0.0",
+            "fileVersion": "8.1.0.1"
           }
         }
       },
@@ -1101,18 +1101,18 @@
         }
       },
       "Microsoft.Windows.SDK.BuildTools/10.0.22621.1": {},
-      "Microsoft.WindowsAppSDK/1.2.230118.102": {
+      "Microsoft.WindowsAppSDK/1.2.230313.1": {
         "dependencies": {
           "Microsoft.Windows.SDK.BuildTools": "10.0.22621.1"
         },
         "runtime": {
           "lib/net6.0-windows10.0.18362.0/Microsoft.InteractiveExperiences.Projection.dll": {
             "assemblyVersion": "10.0.0.0",
-            "fileVersion": "10.0.22622.1036"
+            "fileVersion": "10.0.22622.1039"
           },
           "lib/net6.0-windows10.0.18362.0/Microsoft.WinUI.dll": {
             "assemblyVersion": "3.0.0.0",
-            "fileVersion": "3.0.0.2301"
+            "fileVersion": "3.0.0.2303"
           },
           "lib/net6.0-windows10.0.18362.0/Microsoft.Windows.AppLifecycle.Projection.dll": {
             "assemblyVersion": "1.2.0.0",
@@ -1171,7 +1171,7 @@
       },
       "Microsoft.Xaml.Behaviors.WinUI.Managed/2.0.9": {
         "dependencies": {
-          "Microsoft.WindowsAppSDK": "1.2.230118.102"
+          "Microsoft.WindowsAppSDK": "1.2.230313.1"
         },
         "runtime": {
           "lib/net5.0-windows10.0.17763.0/Microsoft.Xaml.Interactions.dll": {
@@ -1223,7 +1223,7 @@
       },
       "WinUIEx/2.1.0": {
         "dependencies": {
-          "Microsoft.WindowsAppSDK": "1.2.230118.102"
+          "Microsoft.WindowsAppSDK": "1.2.230313.1"
         },
         "runtime": {
           "lib/net6.0-windows10.0.18362/WinUIEx.dll": {
@@ -1234,6 +1234,7 @@
       },
       "Vectorify.Core/1.0.0": {
         "dependencies": {
+          "Microsoft.Extensions.Hosting": "6.0.1",
           "Newtonsoft.Json": "13.0.2"
         },
         "runtime": {
@@ -1258,12 +1259,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "CommunityToolkit.Mvvm/7.1.2": {
+    "CommunityToolkit.Mvvm/8.1.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-/zEpNH3FIBFY2iZRBi+S3Sia3q2yJgy1IQHnWRW7MdhQIe3IGcA1TGqJdbtjiJBmNy4v7kkPdNzgYlvvNDjXZg==",
-      "path": "communitytoolkit.mvvm/7.1.2",
-      "hashPath": "communitytoolkit.mvvm.7.1.2.nupkg.sha512"
+      "sha512": "sha512-xxOt7lu9a5kB5Fs9RfcxzVlKnhuuPe+w7AXHtmCFtS3oldrsUhEMxHfNulluXSscUUoGxZ0jh55Om12ZP6abHA==",
+      "path": "communitytoolkit.mvvm/8.1.0",
+      "hashPath": "communitytoolkit.mvvm.8.1.0.nupkg.sha512"
     },
     "Microsoft.Extensions.Configuration/6.0.0": {
       "type": "package",
@@ -1447,12 +1448,12 @@
       "path": "microsoft.windows.sdk.buildtools/10.0.22621.1",
       "hashPath": "microsoft.windows.sdk.buildtools.10.0.22621.1.nupkg.sha512"
     },
-    "Microsoft.WindowsAppSDK/1.2.230118.102": {
+    "Microsoft.WindowsAppSDK/1.2.230313.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-MyHPzz4NSo+ulXkQ1sVo83SaZTFUcz429oy1m7lTfaxyU5St48p3TgzKKFRwe3WtpUf9OAUReYBCczIkojfmTQ==",
-      "path": "microsoft.windowsappsdk/1.2.230118.102",
-      "hashPath": "microsoft.windowsappsdk.1.2.230118.102.nupkg.sha512"
+      "sha512": "sha512-7to3P0Qui25KAWRVRw+WmmHs3s96hN18/bKOZebPuKkbHlr3p0kk/AkcdUJqsjQaGF3D8r3Rvw5r0qODGOUBjQ==",
+      "path": "microsoft.windowsappsdk/1.2.230313.1",
+      "hashPath": "microsoft.windowsappsdk.1.2.230313.1.nupkg.sha512"
     },
     "Microsoft.Xaml.Behaviors.WinUI.Managed/2.0.9": {
       "type": "package",

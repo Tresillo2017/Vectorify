@@ -11,13 +11,17 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("VectorifyUNO")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Vectorify")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
+[assembly: System.Reflection.AssemblyCopyrightAttribute("Tresillo (TomasPS)")]
+[assembly: System.Reflection.AssemblyDescriptionAttribute("A simple vector calculator an drawer made with C# and WinUI3 by a 16 year old kid" +
+    "")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("VectorifyUNO")]
-[assembly: System.Reflection.AssemblyTitleAttribute("VectorifyUNO")]
+[assembly: System.Reflection.AssemblyProductAttribute("Vectorify")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Vectorify")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
+[assembly: System.Reflection.AssemblyMetadataAttribute("RepositoryUrl", "https://github.com/tresillo2017/vectorify")]
 [assembly: System.Runtime.Versioning.TargetPlatformAttribute("Android33.0")]
 [assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Android21.0")]
 

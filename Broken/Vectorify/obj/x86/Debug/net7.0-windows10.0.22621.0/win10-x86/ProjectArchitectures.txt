@@ -1,1 +1,0 @@
-D:\OneDrive - MSFT\Documents\GitHub\vectorify\Vectorify\Vectorify.csproj;x86

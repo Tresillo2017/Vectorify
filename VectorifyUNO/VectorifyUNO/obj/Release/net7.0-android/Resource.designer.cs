@@ -8,9 +8,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Android.Runtime.ResourceDesignerAttribute("VectorifyUNO.Resource", IsApplication=false)]
+[assembly: global::Android.Runtime.ResourceDesignerAttribute("Vectorify.Resource", IsApplication=false)]
 
-namespace VectorifyUNO
+namespace Vectorify
 {
 	
 	

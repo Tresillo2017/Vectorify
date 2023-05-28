@@ -35,7 +35,7 @@ namespace Vectorify.Views
 
             _contentLoaded = true;
 
-            global::System.Uri resourceLocator = new global::System.Uri("ms-appx:///VectorifyUNO/Views/MainPage.xaml");
+            global::System.Uri resourceLocator = new global::System.Uri("ms-appx:///Vectorify/Views/MainPage.xaml");
             global::Microsoft.UI.Xaml.Application.LoadComponent(this, resourceLocator, global::Microsoft.UI.Xaml.Controls.Primitives.ComponentResourceLocation.Nested);
         }
 

@@ -2,17 +2,20 @@
   "version": 3,
   "targets": {
     "net7.0-windows10.0.22621": {
-      "CommunityToolkit.Mvvm/7.1.2": {
+      "CommunityToolkit.Mvvm/8.1.0": {
         "type": "package",
         "compile": {
-          "lib/net5.0/CommunityToolkit.Mvvm.dll": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net5.0/CommunityToolkit.Mvvm.dll": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
             "related": ".pdb;.xml"
           }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
         }
       },
       "Microsoft.Extensions.Configuration/6.0.0": {
@@ -519,7 +522,7 @@
           "build/Microsoft.Windows.SDK.BuildTools.targets": {}
         }
       },
-      "Microsoft.WindowsAppSDK/1.2.230118.102": {
+      "Microsoft.WindowsAppSDK/1.2.230313.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.Windows.SDK.BuildTools": "10.0.22621.1"
@@ -764,6 +767,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
+          "Microsoft.Extensions.Hosting": "6.0.1",
           "Newtonsoft.Json": "13.0.2"
         },
         "compile": {
@@ -775,17 +779,20 @@
       }
     },
     "net7.0-windows10.0.22621/win10-arm64": {
-      "CommunityToolkit.Mvvm/7.1.2": {
+      "CommunityToolkit.Mvvm/8.1.0": {
         "type": "package",
         "compile": {
-          "lib/net5.0/CommunityToolkit.Mvvm.dll": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net5.0/CommunityToolkit.Mvvm.dll": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
             "related": ".pdb;.xml"
           }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
         }
       },
       "Microsoft.Extensions.Configuration/6.0.0": {
@@ -1292,7 +1299,7 @@
           "build/Microsoft.Windows.SDK.BuildTools.targets": {}
         }
       },
-      "Microsoft.WindowsAppSDK/1.2.230118.102": {
+      "Microsoft.WindowsAppSDK/1.2.230313.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.Windows.SDK.BuildTools": "10.0.22621.1"
@@ -1511,6 +1518,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
+          "Microsoft.Extensions.Hosting": "6.0.1",
           "Newtonsoft.Json": "13.0.2"
         },
         "compile": {
@@ -1522,17 +1530,20 @@
       }
     },
     "net7.0-windows10.0.22621/win10-x64": {
-      "CommunityToolkit.Mvvm/7.1.2": {
+      "CommunityToolkit.Mvvm/8.1.0": {
         "type": "package",
         "compile": {
-          "lib/net5.0/CommunityToolkit.Mvvm.dll": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net5.0/CommunityToolkit.Mvvm.dll": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
             "related": ".pdb;.xml"
           }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
         }
       },
       "Microsoft.Extensions.Configuration/6.0.0": {
@@ -2039,7 +2050,7 @@
           "build/Microsoft.Windows.SDK.BuildTools.targets": {}
         }
       },
-      "Microsoft.WindowsAppSDK/1.2.230118.102": {
+      "Microsoft.WindowsAppSDK/1.2.230313.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.Windows.SDK.BuildTools": "10.0.22621.1"
@@ -2258,6 +2269,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
+          "Microsoft.Extensions.Hosting": "6.0.1",
           "Newtonsoft.Json": "13.0.2"
         },
         "compile": {
@@ -2269,17 +2281,20 @@
       }
     },
     "net7.0-windows10.0.22621/win10-x86": {
-      "CommunityToolkit.Mvvm/7.1.2": {
+      "CommunityToolkit.Mvvm/8.1.0": {
         "type": "package",
         "compile": {
-          "lib/net5.0/CommunityToolkit.Mvvm.dll": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net5.0/CommunityToolkit.Mvvm.dll": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
             "related": ".pdb;.xml"
           }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
         }
       },
       "Microsoft.Extensions.Configuration/6.0.0": {
@@ -2786,7 +2801,7 @@
           "build/Microsoft.Windows.SDK.BuildTools.targets": {}
         }
       },
-      "Microsoft.WindowsAppSDK/1.2.230118.102": {
+      "Microsoft.WindowsAppSDK/1.2.230313.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.Windows.SDK.BuildTools": "10.0.22621.1"
@@ -3005,6 +3020,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
+          "Microsoft.Extensions.Hosting": "6.0.1",
           "Newtonsoft.Json": "13.0.2"
         },
         "compile": {
@@ -3017,24 +3033,27 @@
     }
   },
   "libraries": {
-    "CommunityToolkit.Mvvm/7.1.2": {
-      "sha512": "/zEpNH3FIBFY2iZRBi+S3Sia3q2yJgy1IQHnWRW7MdhQIe3IGcA1TGqJdbtjiJBmNy4v7kkPdNzgYlvvNDjXZg==",
+    "CommunityToolkit.Mvvm/8.1.0": {
+      "sha512": "xxOt7lu9a5kB5Fs9RfcxzVlKnhuuPe+w7AXHtmCFtS3oldrsUhEMxHfNulluXSscUUoGxZ0jh55Om12ZP6abHA==",
       "type": "package",
-      "path": "communitytoolkit.mvvm/7.1.2",
+      "path": "communitytoolkit.mvvm/8.1.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "License.md",
         "ThirdPartyNotices.txt",
-        "analyzers/dotnet/cs/CommunityToolkit.Mvvm.SourceGenerators.dll",
-        "analyzers/dotnet/cs/CommunityToolkit.Mvvm.SourceGenerators.pdb",
-        "analyzers/dotnet/cs/CommunityToolkit.Mvvm.SourceGenerators.xml",
-        "communitytoolkit.mvvm.7.1.2.nupkg.sha512",
+        "analyzers/dotnet/roslyn4.0/cs/CommunityToolkit.Mvvm.SourceGenerators.dll",
+        "analyzers/dotnet/roslyn4.3/cs/CommunityToolkit.Mvvm.SourceGenerators.dll",
+        "build/netstandard2.0/CommunityToolkit.Mvvm.targets",
+        "build/netstandard2.1/CommunityToolkit.Mvvm.targets",
+        "buildTransitive/netstandard2.0/CommunityToolkit.Mvvm.targets",
+        "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets",
+        "communitytoolkit.mvvm.8.1.0.nupkg.sha512",
         "communitytoolkit.mvvm.nuspec",
-        "lib/net5.0/CommunityToolkit.Mvvm.dll",
-        "lib/net5.0/CommunityToolkit.Mvvm.pdb",
-        "lib/net5.0/CommunityToolkit.Mvvm.xml",
+        "lib/net6.0/CommunityToolkit.Mvvm.dll",
+        "lib/net6.0/CommunityToolkit.Mvvm.pdb",
+        "lib/net6.0/CommunityToolkit.Mvvm.xml",
         "lib/netstandard2.0/CommunityToolkit.Mvvm.dll",
         "lib/netstandard2.0/CommunityToolkit.Mvvm.pdb",
         "lib/netstandard2.0/CommunityToolkit.Mvvm.xml",
@@ -3800,10 +3819,10 @@
         "schemas/10.0.22621.0/winrt/UapManifestSchema_v8.xsd"
       ]
     },
-    "Microsoft.WindowsAppSDK/1.2.230118.102": {
-      "sha512": "MyHPzz4NSo+ulXkQ1sVo83SaZTFUcz429oy1m7lTfaxyU5St48p3TgzKKFRwe3WtpUf9OAUReYBCczIkojfmTQ==",
+    "Microsoft.WindowsAppSDK/1.2.230313.1": {
+      "sha512": "7to3P0Qui25KAWRVRw+WmmHs3s96hN18/bKOZebPuKkbHlr3p0kk/AkcdUJqsjQaGF3D8r3Rvw5r0qODGOUBjQ==",
       "type": "package",
-      "path": "microsoft.windowsappsdk/1.2.230118.102",
+      "path": "microsoft.windowsappsdk/1.2.230313.1",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -4265,7 +4284,7 @@
         "manifests/Microsoft.InteractiveExperiences.manifest",
         "manifests/Microsoft.WindowsAppSdk.Foundation.manifest",
         "manifests/manifests/Microsoft.WindowsAppSdk.WinUI.manifest",
-        "microsoft.windowsappsdk.1.2.230118.102.nupkg.sha512",
+        "microsoft.windowsappsdk.1.2.230313.1.nupkg.sha512",
         "microsoft.windowsappsdk.nuspec",
         "runtimes/win10-arm64/native/Microsoft.WindowsAppRuntime.Bootstrap.dll",
         "runtimes/win10-x64/native/Microsoft.WindowsAppRuntime.Bootstrap.dll",
@@ -4718,9 +4737,9 @@
   },
   "projectFileDependencyGroups": {
     "net7.0-windows10.0.22621": [
-      "CommunityToolkit.Mvvm >= 7.1.2",
+      "CommunityToolkit.Mvvm >= 8.1.0",
       "Microsoft.Extensions.Hosting >= 6.0.1",
-      "Microsoft.WindowsAppSDK >= 1.2.230118.102",
+      "Microsoft.WindowsAppSDK >= 1.2.230313.1",
       "Microsoft.Xaml.Behaviors.WinUI.Managed >= 2.0.9",
       "Vectorify.Core >= 1.0.0",
       "WinUIEx >= 2.1.0"
@@ -4777,7 +4796,7 @@
         "dependencies": {
           "CommunityToolkit.Mvvm": {
             "target": "Package",
-            "version": "[7.1.2, )"
+            "version": "[8.1.0, )"
           },
           "Microsoft.Extensions.Hosting": {
             "target": "Package",
@@ -4785,7 +4804,7 @@
           },
           "Microsoft.WindowsAppSDK": {
             "target": "Package",
-            "version": "[1.2.230118.102, )"
+            "version": "[1.2.230313.1, )"
           },
           "Microsoft.Xaml.Behaviors.WinUI.Managed": {
             "target": "Package",

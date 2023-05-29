@@ -8,12 +8,12 @@
 
   <Identity
     Name="080CDE9E-AC2F-4187-B25B-E012D380F94F"
-    Publisher="O=Vectorify"
-    Version="1.0.0.0" />
+    Publisher="CN=Tresillo"
+    Version="2.3.187.0" />
 
   <Properties>
 	<DisplayName>Vectorify</DisplayName>
-	<PublisherDisplayName>Vectorify</PublisherDisplayName>
+	<PublisherDisplayName>Tresillo (TomasPS)</PublisherDisplayName>
   </Properties>
 
   <Dependencies>
@@ -30,9 +30,11 @@
       Executable="$targetnametoken$.exe"
       EntryPoint="$targetentrypoint$">
       <uap:VisualElements
-        DisplayName="Vectorify"
-        Description="Vectorify">
+        DisplayName="Vectorify" Description="A simple vector calculator an drawer made with C# and WinUI3 by a 16 year old kid">
         <uap:SplashScreen BackgroundColor="#086AD1"/>
+        <uap:DefaultTile/>
+        <uap:InitialRotationPreference>
+          <uap:Rotation Preference="portrait"/></uap:InitialRotationPreference>
       </uap:VisualElements>
     </Application>
   </Applications>

@@ -1,9 +1,13 @@
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.UI.Xaml;
 
-
+using Vectorify.Activation;
+using Vectorify.Contracts.Services;
 using Vectorify.Core.Contracts.Services;
 using Vectorify.Core.Services;
+using Vectorify.Helpers;
+using Vectorify.Models;
+using Vectorify.Services;
 using Vectorify.ViewModels;
 using Vectorify.Views;
 

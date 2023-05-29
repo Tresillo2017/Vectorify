@@ -72,6 +72,10 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <ProjectReference Include="..\..\Vectorify.Core\Vectorify.Core.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
 	  <Page Update="Views\Calculo_VectorialPage.xaml">
 	    <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
 	  </Page>

@@ -1,0 +1,20 @@
+﻿<Properties StartupConfiguration="{49FED877-9E03-4DAF-B0E0-349DEA06D811}|Default">
+  <MonoDevelop.Ide.ItemProperties.VectorifyUNO.Mobile PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.E03840B0-5A9C-42BD-855A-CD9B5D263C9B" />
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Vectorify" expanded="True">
+            <Node name="VectorifyUNO" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+</Properties>

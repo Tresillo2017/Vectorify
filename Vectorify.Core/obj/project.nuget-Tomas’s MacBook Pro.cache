@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "4KppS8TSM6l2i2pVzR+9X1PNyTNczXA4E+tQkXbd8V8xF2fKIbsbAB5YJwn4eB2bVlJjrfgdwmILNekRBghM0w==",
+  "success": true,
+  "projectFilePath": "/Users/tomas/Library/CloudStorage/OneDrive-MSFT/Documents/GitHub/vectorify/Vectorify.Core/Vectorify.Core.csproj",
+  "expectedPackageFiles": [
+    "/Users/tomas/.nuget/packages/newtonsoft.json/13.0.2/newtonsoft.json.13.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

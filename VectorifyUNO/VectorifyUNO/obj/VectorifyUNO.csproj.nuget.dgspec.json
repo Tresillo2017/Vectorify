@@ -1,0 +1,300 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/tomas/Library/CloudStorage/OneDrive-MSFT/Documents/GitHub/vectorify/VectorifyUNO/VectorifyUNO/VectorifyUNO.csproj": {}
+  },
+  "projects": {
+    "/Users/tomas/Library/CloudStorage/OneDrive-MSFT/Documents/GitHub/vectorify/Vectorify.Core/Vectorify.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/tomas/Library/CloudStorage/OneDrive-MSFT/Documents/GitHub/vectorify/Vectorify.Core/Vectorify.Core.csproj",
+        "projectName": "Vectorify.Core",
+        "projectPath": "/Users/tomas/Library/CloudStorage/OneDrive-MSFT/Documents/GitHub/vectorify/Vectorify.Core/Vectorify.Core.csproj",
+        "packagesPath": "/Users/tomas/.nuget/packages/",
+        "outputPath": "/Users/tomas/Library/CloudStorage/OneDrive-MSFT/Documents/GitHub/vectorify/Vectorify.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/tomas/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/tomas/Library/CloudStorage/OneDrive-MSFT/Documents/GitHub/vectorify/VectorifyUNO/VectorifyUNO/VectorifyUNO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/tomas/Library/CloudStorage/OneDrive-MSFT/Documents/GitHub/vectorify/VectorifyUNO/VectorifyUNO/VectorifyUNO.csproj",
+        "projectName": "VectorifyUNO",
+        "projectPath": "/Users/tomas/Library/CloudStorage/OneDrive-MSFT/Documents/GitHub/vectorify/VectorifyUNO/VectorifyUNO/VectorifyUNO.csproj",
+        "packagesPath": "/Users/tomas/.nuget/packages/",
+        "outputPath": "/Users/tomas/Library/CloudStorage/OneDrive-MSFT/Documents/GitHub/vectorify/VectorifyUNO/VectorifyUNO/obj/",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "/Users/tomas/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0",
+          "net7.0-android",
+          "net7.0-ios",
+          "net7.0-maccatalyst"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/tomas/Library/CloudStorage/OneDrive-MSFT/Documents/GitHub/vectorify/Vectorify.Core/Vectorify.Core.csproj": {
+                "projectPath": "/Users/tomas/Library/CloudStorage/OneDrive-MSFT/Documents/GitHub/vectorify/Vectorify.Core/Vectorify.Core.csproj"
+              }
+            }
+          },
+          "net7.0-android33.0": {
+            "targetAlias": "net7.0-android",
+            "projectReferences": {
+              "/Users/tomas/Library/CloudStorage/OneDrive-MSFT/Documents/GitHub/vectorify/Vectorify.Core/Vectorify.Core.csproj": {
+                "projectPath": "/Users/tomas/Library/CloudStorage/OneDrive-MSFT/Documents/GitHub/vectorify/Vectorify.Core/Vectorify.Core.csproj"
+              }
+            }
+          },
+          "net7.0-ios16.1": {
+            "targetAlias": "net7.0-ios",
+            "projectReferences": {
+              "/Users/tomas/Library/CloudStorage/OneDrive-MSFT/Documents/GitHub/vectorify/Vectorify.Core/Vectorify.Core.csproj": {
+                "projectPath": "/Users/tomas/Library/CloudStorage/OneDrive-MSFT/Documents/GitHub/vectorify/Vectorify.Core/Vectorify.Core.csproj"
+              }
+            }
+          },
+          "net7.0-maccatalyst16.1": {
+            "targetAlias": "net7.0-maccatalyst",
+            "projectReferences": {
+              "/Users/tomas/Library/CloudStorage/OneDrive-MSFT/Documents/GitHub/vectorify/Vectorify.Core/Vectorify.Core.csproj": {
+                "projectPath": "/Users/tomas/Library/CloudStorage/OneDrive-MSFT/Documents/GitHub/vectorify/Vectorify.Core/Vectorify.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "noWarn": [
+            "NU1507"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Uno.Resizetizer": {
+              "target": "Package",
+              "version": "[1.0.4, )"
+            },
+            "Uno.WinUI": {
+              "target": "Package",
+              "version": "[4.8.33, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
+        },
+        "net7.0-android33.0": {
+          "targetAlias": "net7.0-android",
+          "dependencies": {
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Uno.Resizetizer": {
+              "target": "Package",
+              "version": "[1.0.4, )"
+            },
+            "Uno.WinUI": {
+              "target": "Package",
+              "version": "[4.8.33, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.Android": {
+              "privateAssets": "all"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
+        },
+        "net7.0-ios16.1": {
+          "targetAlias": "net7.0-ios",
+          "dependencies": {
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Uno.Resizetizer": {
+              "target": "Package",
+              "version": "[1.0.4, )"
+            },
+            "Uno.WinUI": {
+              "target": "Package",
+              "version": "[4.8.33, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.iOS": {
+              "privateAssets": "all"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
+        },
+        "net7.0-maccatalyst16.1": {
+          "targetAlias": "net7.0-maccatalyst",
+          "dependencies": {
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Uno.Resizetizer": {
+              "target": "Package",
+              "version": "[1.0.4, )"
+            },
+            "Uno.WinUI": {
+              "target": "Package",
+              "version": "[4.8.33, )"
+            }
+          },
+          "imports": [
+            "xamarinios10",
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.MacCatalyst": {
+              "privateAssets": "all"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

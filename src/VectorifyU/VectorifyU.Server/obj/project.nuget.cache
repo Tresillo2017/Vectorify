@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "X92itaXEmbFIVZSpyM92cqMbSO3/K3Bq6abQOKdoSBtv6j1kroFD/n8ZVmq1XnMKwxwf4XQFYNWdvsu+aLXffA==",
+  "success": true,
+  "projectFilePath": "D:\\OneDrive - MSFT\\Documents\\GitHub\\vectorify\\src\\VectorifyU\\VectorifyU.Server\\VectorifyU.Server.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tresi\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\tresi\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\tresi\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "C:\\Users\\tresi\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\tresi\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "C:\\Users\\tresi\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",
+    "C:\\Users\\tresi\\.nuget\\packages\\uno.wasm.bootstrap.server\\7.0.19\\uno.wasm.bootstrap.server.7.0.19.nupkg.sha512"
+  ],
+  "logs": []
+}

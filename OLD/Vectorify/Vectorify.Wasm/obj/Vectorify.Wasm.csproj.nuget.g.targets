@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)system.text.json\7.0.0\buildTransitive\net6.0\System.Text.Json.targets" Condition="Exists('$(NuGetPackageRoot)system.text.json\7.0.0\buildTransitive\net6.0\System.Text.Json.targets')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.extensions.logging.abstractions\7.0.0\buildTransitive\net6.0\Microsoft.Extensions.Logging.Abstractions.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.logging.abstractions\7.0.0\buildTransitive\net6.0\Microsoft.Extensions.Logging.Abstractions.targets')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.extensions.configuration.usersecrets\7.0.0\buildTransitive\net6.0\Microsoft.Extensions.Configuration.UserSecrets.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.configuration.usersecrets\7.0.0\buildTransitive\net6.0\Microsoft.Extensions.Configuration.UserSecrets.targets')" />
+    <Import Project="$(NuGetPackageRoot)uno.sourcegenerationtasks\4.2.0\build\netstandard1.0\Uno.SourceGenerationTasks.targets" Condition="Exists('$(NuGetPackageRoot)uno.sourcegenerationtasks\4.2.0\build\netstandard1.0\Uno.SourceGenerationTasks.targets')" />
+    <Import Project="$(NuGetPackageRoot)uno.winui\4.8.39\buildTransitive\net7.0\uno.winui.targets" Condition="Exists('$(NuGetPackageRoot)uno.winui\4.8.39\buildTransitive\net7.0\uno.winui.targets')" />
+    <Import Project="$(NuGetPackageRoot)uno.resizetizer\1.0.4\build\Uno.Resizetizer.targets" Condition="Exists('$(NuGetPackageRoot)uno.resizetizer\1.0.4\build\Uno.Resizetizer.targets')" />
+    <Import Project="$(NuGetPackageRoot)communitytoolkit.mvvm\8.2.0\buildTransitive\netstandard2.1\CommunityToolkit.Mvvm.targets" Condition="Exists('$(NuGetPackageRoot)communitytoolkit.mvvm\8.2.0\buildTransitive\netstandard2.1\CommunityToolkit.Mvvm.targets')" />
+    <Import Project="$(NuGetPackageRoot)uno.winui.runtime.webassembly\4.8.39\buildTransitive\Uno.WinUI.Runtime.WebAssembly.targets" Condition="Exists('$(NuGetPackageRoot)uno.winui.runtime.webassembly\4.8.39\buildTransitive\Uno.WinUI.Runtime.WebAssembly.targets')" />
+    <Import Project="$(NuGetPackageRoot)uno.winui.webassembly\4.8.39\build\Uno.WinUI.WebAssembly.targets" Condition="Exists('$(NuGetPackageRoot)uno.winui.webassembly\4.8.39\build\Uno.WinUI.WebAssembly.targets')" />
+    <Import Project="$(NuGetPackageRoot)uno.wasm.bootstrap.devserver\7.0.24\build\Uno.Wasm.Bootstrap.DevServer.targets" Condition="Exists('$(NuGetPackageRoot)uno.wasm.bootstrap.devserver\7.0.24\build\Uno.Wasm.Bootstrap.DevServer.targets')" />
+    <Import Project="$(NuGetPackageRoot)uno.wasm.bootstrap\7.0.24\build\Uno.Wasm.Bootstrap.targets" Condition="Exists('$(NuGetPackageRoot)uno.wasm.bootstrap\7.0.24\build\Uno.Wasm.Bootstrap.targets')" />
+  </ImportGroup>
+</Project>

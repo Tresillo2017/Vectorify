@@ -1,0 +1,86 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\OneDrive - MSFT\\Documents\\GitHub\\vectorify\\src\\VectorifyU\\VectorifyU.UITests\\VectorifyU.UITests.csproj": {}
+  },
+  "projects": {
+    "D:\\OneDrive - MSFT\\Documents\\GitHub\\vectorify\\src\\VectorifyU\\VectorifyU.UITests\\VectorifyU.UITests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\OneDrive - MSFT\\Documents\\GitHub\\vectorify\\src\\VectorifyU\\VectorifyU.UITests\\VectorifyU.UITests.csproj",
+        "projectName": "VectorifyU.UITests",
+        "projectPath": "D:\\OneDrive - MSFT\\Documents\\GitHub\\vectorify\\src\\VectorifyU\\VectorifyU.UITests\\VectorifyU.UITests.csproj",
+        "packagesPath": "C:\\Users\\tresi\\.nuget\\packages\\",
+        "outputPath": "D:\\OneDrive - MSFT\\Documents\\GitHub\\vectorify\\src\\VectorifyU\\VectorifyU.UITests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\tresi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "targetAlias": "net48",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "noWarn": [
+            "NU1507"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.10.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.5.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.3, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.4.2, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Uno.UITest.Helpers": {
+              "target": "Package",
+              "version": "[1.1.0-dev.32, )"
+            },
+            "Xamarin.UITest": {
+              "target": "Package",
+              "version": "[4.1.2, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

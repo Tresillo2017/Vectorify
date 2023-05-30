@@ -1,0 +1,4 @@
+values/resources_resw-strings.xml;values/resources_resw-strings.xml
+values-es/resources_resw-strings.xml;values-es/resources_resw-strings.xml
+values-fr/resources_resw-strings.xml;values-fr/resources_resw-strings.xml
+values-b+pt+1046/resources_resw-strings.xml;values-b+pt+1046/resources_resw-strings.xml

@@ -1,0 +1,10 @@
+{
+  "background_color": "#ffffff",
+  "description": "Vectorify",
+  "display": "standalone",
+  "name": "Vectorify",
+  "short_name": "Vectorify",
+  "start_url": "/index.html",
+  "theme_color": "#ffffff",
+  "scope": "/"
+}

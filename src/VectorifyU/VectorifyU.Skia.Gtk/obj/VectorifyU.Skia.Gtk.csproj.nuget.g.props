@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\tresi\.nuget\packages\;C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.6.0</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="C:\Users\tresi\.nuget\packages\" />
+    <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
+  </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)uno.fonts.fluent\2.0.0\buildTransitive\Uno.Fonts.Fluent.props" Condition="Exists('$(NuGetPackageRoot)uno.fonts.fluent\2.0.0\buildTransitive\Uno.Fonts.Fluent.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.extensions.configuration.usersecrets\6.0.1\buildTransitive\netstandard2.0\Microsoft.Extensions.Configuration.UserSecrets.props" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.configuration.usersecrets\6.0.1\buildTransitive\netstandard2.0\Microsoft.Extensions.Configuration.UserSecrets.props')" />
+    <Import Project="$(NuGetPackageRoot)uno.extensions.core\2.3.11\buildTransitive\Uno.Extensions.Core.props" Condition="Exists('$(NuGetPackageRoot)uno.extensions.core\2.3.11\buildTransitive\Uno.Extensions.Core.props')" />
+    <Import Project="$(NuGetPackageRoot)refit\6.3.2\buildTransitive\netstandard2.0\refit.props" Condition="Exists('$(NuGetPackageRoot)refit\6.3.2\buildTransitive\netstandard2.0\refit.props')" />
+    <Import Project="$(NuGetPackageRoot)uno.extensions.hosting.winui\2.3.11\buildTransitive\Uno.Extensions.Hosting.WinUI.props" Condition="Exists('$(NuGetPackageRoot)uno.extensions.hosting.winui\2.3.11\buildTransitive\Uno.Extensions.Hosting.WinUI.props')" />
+    <Import Project="$(NuGetPackageRoot)uno.extensions.logging.winui\2.3.11\buildTransitive\Uno.Extensions.Logging.WinUI.props" Condition="Exists('$(NuGetPackageRoot)uno.extensions.logging.winui\2.3.11\buildTransitive\Uno.Extensions.Logging.WinUI.props')" />
+    <Import Project="$(NuGetPackageRoot)uno.winui.skia.gtk\4.8.33\build\Uno.WinUI.Skia.Gtk.props" Condition="Exists('$(NuGetPackageRoot)uno.winui.skia.gtk\4.8.33\build\Uno.WinUI.Skia.Gtk.props')" />
+    <Import Project="$(NuGetPackageRoot)skiasharp.nativeassets.webassembly\2.88.3\buildTransitive\netstandard1.0\SkiaSharp.NativeAssets.WebAssembly.props" Condition="Exists('$(NuGetPackageRoot)skiasharp.nativeassets.webassembly\2.88.3\buildTransitive\netstandard1.0\SkiaSharp.NativeAssets.WebAssembly.props')" />
+  </ImportGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgUno_WinUI Condition=" '$(PkgUno_WinUI)' == '' ">C:\Users\tresi\.nuget\packages\uno.winui\4.8.33</PkgUno_WinUI>
+    <PkgUno_Resizetizer Condition=" '$(PkgUno_Resizetizer)' == '' ">C:\Users\tresi\.nuget\packages\uno.resizetizer\1.0.4</PkgUno_Resizetizer>
+    <PkgUno_WinUI_RemoteControl Condition=" '$(PkgUno_WinUI_RemoteControl)' == '' ">C:\Users\tresi\.nuget\packages\uno.winui.remotecontrol\4.8.33</PkgUno_WinUI_RemoteControl>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,10 @@
+{
+  "profiles": {
+	"VectorifyU.Windows (Package)": {
+	  "commandName": "MsixPackage"
+	},
+	"VectorifyU.Windows (Unpackaged)": {
+	  "commandName": "Project"
+	}
+  }
+}

@@ -1,0 +1,8 @@
+resources;obj\Debug\net7.0-android\res\values\resources_resw-strings.xml
+resources;obj\Debug\net7.0-android\res\values-b+pt+1046\resources_resw-strings.xml
+resources;obj\Debug\net7.0-android\res\values-es\resources_resw-strings.xml
+resources;obj\Debug\net7.0-android\res\values-fr\resources_resw-strings.xml
+string;obj\Debug\net7.0-android\res\values\resources_resw-strings.xml
+string;obj\Debug\net7.0-android\res\values-b+pt+1046\resources_resw-strings.xml
+string;obj\Debug\net7.0-android\res\values-es\resources_resw-strings.xml
+string;obj\Debug\net7.0-android\res\values-fr\resources_resw-strings.xml

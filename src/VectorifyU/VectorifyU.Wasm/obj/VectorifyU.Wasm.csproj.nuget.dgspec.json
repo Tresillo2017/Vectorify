@@ -204,10 +204,6 @@
               "target": "Package",
               "version": "[7.0.19, )"
             },
-            "Uno.WinUI.RemoteControl": {
-              "target": "Package",
-              "version": "[4.8.33, )"
-            },
             "Uno.WinUI.WebAssembly": {
               "target": "Package",
               "version": "[4.8.33, )"

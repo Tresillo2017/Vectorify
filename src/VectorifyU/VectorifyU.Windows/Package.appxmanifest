@@ -7,12 +7,12 @@
   IgnorableNamespaces="uap rescap">
 
   <Identity
-    Name="374A0050-AF10-43CB-843F-C6C3D0F0030E"
+    Name="Vectorify"
     Publisher="CN=Tresillo"
-    Version="2.4.200.0" />
+    Version="2.3.199.0" />
 
   <Properties>
-	<DisplayName>VectorifyU</DisplayName>
+	<DisplayName>Vectorify</DisplayName>
 	<PublisherDisplayName>Vectorify</PublisherDisplayName>
   </Properties>
 

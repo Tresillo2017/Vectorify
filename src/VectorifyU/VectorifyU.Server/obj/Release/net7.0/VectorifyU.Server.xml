@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>VectorifyU.Server</name>
+    </assembly>
+    <members>
+        <member name="M:VectorifyU.Server.Apis.WeatherForecastApi.GetForecast(Microsoft.Extensions.Logging.ILoggerFactory)">
+            <summary>
+            Creates a make believe weather forecast for the next 5 days.
+            </summary>
+            <param name="loggerFactory"></param>
+            <returns>A fake 5 day forecast</returns>
+            <remarks>A 5 Day Forecast</remarks>
+            <response code="200">Weather Forecast returned</response>
+        </member>
+    </members>
+</doc>

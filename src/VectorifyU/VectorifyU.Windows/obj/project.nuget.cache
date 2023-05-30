@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "JJ/8m5kiom4X+YZA058dpEKdTgJIuvDJUsonSQGStMdAEL42UlKM1tKnPSXJv7JgIQzCbfbAL/BfIK1anC/BqA==",
+  "dgSpecHash": "sVCufTqh7tDf3zhrNCojGD2fxyJT/FlyN4P5aFmRgGItA5XyI92YwLWJ9oH4WdBYa/7Z8uh6clfdYsQXbo1JPQ==",
   "success": true,
   "projectFilePath": "D:\\OneDrive - MSFT\\Documents\\GitHub\\vectorify\\src\\VectorifyU\\VectorifyU.Windows\\VectorifyU.Windows.csproj",
   "expectedPackageFiles": [
@@ -118,6 +118,7 @@
     "C:\\Users\\tresi\\.nuget\\packages\\uno.ui.adapter.microsoft.extensions.logging\\4.8.33\\uno.ui.adapter.microsoft.extensions.logging.4.8.33.nupkg.sha512",
     "C:\\Users\\tresi\\.nuget\\packages\\uno.winui\\4.8.33\\uno.winui.4.8.33.nupkg.sha512",
     "C:\\Users\\tresi\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x86\\7.0.5\\microsoft.netcore.app.runtime.win-x86.7.0.5.nupkg.sha512",
+    "C:\\Users\\tresi\\.nuget\\packages\\microsoft.netcore.app.crossgen2.win-x64\\7.0.5\\microsoft.netcore.app.crossgen2.win-x64.7.0.5.nupkg.sha512",
     "C:\\Users\\tresi\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.28\\microsoft.windows.sdk.net.ref.10.0.19041.28.nupkg.sha512",
     "C:\\Users\\tresi\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x86\\7.0.5\\microsoft.aspnetcore.app.runtime.win-x86.7.0.5.nupkg.sha512",
     "C:\\Users\\tresi\\.nuget\\packages\\microsoft.netcore.app.runtime.win-arm64\\7.0.5\\microsoft.netcore.app.runtime.win-arm64.7.0.5.nupkg.sha512",

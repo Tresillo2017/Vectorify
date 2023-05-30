@@ -192,10 +192,6 @@
               "target": "Package",
               "version": "[4.8.33, )"
             },
-            "Uno.WinUI.RemoteControl": {
-              "target": "Package",
-              "version": "[4.8.33, )"
-            },
             "Uno.WinUI.Skia.Gtk": {
               "target": "Package",
               "version": "[4.8.33, )"

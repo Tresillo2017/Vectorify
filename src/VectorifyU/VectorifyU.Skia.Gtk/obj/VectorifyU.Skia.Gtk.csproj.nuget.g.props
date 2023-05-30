@@ -26,6 +26,5 @@
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <PkgUno_WinUI Condition=" '$(PkgUno_WinUI)' == '' ">C:\Users\tresi\.nuget\packages\uno.winui\4.8.33</PkgUno_WinUI>
     <PkgUno_Resizetizer Condition=" '$(PkgUno_Resizetizer)' == '' ">C:\Users\tresi\.nuget\packages\uno.resizetizer\1.0.4</PkgUno_Resizetizer>
-    <PkgUno_WinUI_RemoteControl Condition=" '$(PkgUno_WinUI_RemoteControl)' == '' ">C:\Users\tresi\.nuget\packages\uno.winui.remotecontrol\4.8.33</PkgUno_WinUI_RemoteControl>
   </PropertyGroup>
 </Project>

@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>VectorifyU</name>
+    </assembly>
+    <members>
+        <member name="M:VectorifyU.Presentation.MainPage.#ctor(System.IntPtr,Android.Runtime.JniHandleOwnership)">
+            <summary>
+            Native constructor, do not use explicitly.
+            </summary>
+            <remarks>
+            Used by the Xamarin Runtime to materialize native 
+            objects that may have been collected in the managed world.
+            </remarks>
+        </member>
+        <member name="P:VectorifyU.Presentation.MainViewModel.Name">
+            <inheritdoc cref="F:VectorifyU.Presentation.MainViewModel.name"/>
+        </member>
+        <member name="M:VectorifyU.Presentation.SecondPage.#ctor(System.IntPtr,Android.Runtime.JniHandleOwnership)">
+            <summary>
+            Native constructor, do not use explicitly.
+            </summary>
+            <remarks>
+            Used by the Xamarin Runtime to materialize native 
+            objects that may have been collected in the managed world.
+            </remarks>
+        </member>
+        <member name="M:VectorifyU.Presentation.Shell.#ctor(System.IntPtr,Android.Runtime.JniHandleOwnership)">
+            <summary>
+            Native constructor, do not use explicitly.
+            </summary>
+            <remarks>
+            Used by the Xamarin Runtime to materialize native 
+            objects that may have been collected in the managed world.
+            </remarks>
+        </member>
+        <member name="T:VectorifyU.GlobalStaticResources">
+            <summary>
+            Contains all the static resources defined for the application
+            </summary>
+        </member>
+        <member name="T:Refit.Implementation.Generated">
+            <inheritdoc />
+        </member>
+        <member name="T:Refit.Implementation.Generated.VectorifyUServicesEndpointsIApiClient">
+            <inheritdoc />
+        </member>
+        <member name="P:Refit.Implementation.Generated.VectorifyUServicesEndpointsIApiClient.Client">
+            <inheritdoc />
+        </member>
+        <member name="M:Refit.Implementation.Generated.VectorifyUServicesEndpointsIApiClient.#ctor(System.Net.Http.HttpClient,Refit.IRequestBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Refit.Implementation.Generated.VectorifyUServicesEndpointsIApiClient.GetWeather(System.Threading.CancellationToken)">
+            <inheritdoc />
+        </member>
+        <member name="M:Refit.Implementation.Generated.VectorifyUServicesEndpointsIApiClient.VectorifyU#Services#Endpoints#IApiClient#GetWeather(System.Threading.CancellationToken)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>

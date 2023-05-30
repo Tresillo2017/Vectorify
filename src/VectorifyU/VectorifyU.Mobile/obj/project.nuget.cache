@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ZLKpeiy2mC7Up11FlAedWhtKfwjz/lqH4H96c0GUQQvdzgZ9x9hti0y5znKMUnMzajAfElTxXyhI4ud88HI42w==",
+  "dgSpecHash": "D/qj4C1RxChx2u/OwBPkhpDJOtdY7aiVN6VYT86l9DgSRDYBBFvQ8g+bMx/1qkzuCjm6FYI736sp1Tj11vfM1A==",
   "success": true,
   "projectFilePath": "D:\\OneDrive - MSFT\\Documents\\GitHub\\vectorify\\src\\VectorifyU\\VectorifyU.Mobile\\VectorifyU.Mobile.csproj",
   "expectedPackageFiles": [
@@ -34,10 +34,8 @@
     "C:\\Users\\tresi\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",
     "C:\\Users\\tresi\\.nuget\\packages\\microsoft.extensions.options.configurationextensions\\7.0.0\\microsoft.extensions.options.configurationextensions.7.0.0.nupkg.sha512",
     "C:\\Users\\tresi\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
-    "C:\\Users\\tresi\\.nuget\\packages\\microsoft.io.recyclablememorystream\\2.3.2\\microsoft.io.recyclablememorystream.2.3.2.nupkg.sha512",
     "C:\\Users\\tresi\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\tresi\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
-    "C:\\Users\\tresi\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512",
     "C:\\Users\\tresi\\.nuget\\packages\\refit\\6.3.2\\refit.6.3.2.nupkg.sha512",
     "C:\\Users\\tresi\\.nuget\\packages\\refit.httpclientfactory\\6.3.2\\refit.httpclientfactory.6.3.2.nupkg.sha512",
     "C:\\Users\\tresi\\.nuget\\packages\\runtime.any.system.collections\\4.3.0\\runtime.any.system.collections.4.3.0.nupkg.sha512",
@@ -128,7 +126,6 @@
     "C:\\Users\\tresi\\.nuget\\packages\\uno.ui.adapter.microsoft.extensions.logging\\4.8.33\\uno.ui.adapter.microsoft.extensions.logging.4.8.33.nupkg.sha512",
     "C:\\Users\\tresi\\.nuget\\packages\\uno.universalimageloader\\1.9.36\\uno.universalimageloader.1.9.36.nupkg.sha512",
     "C:\\Users\\tresi\\.nuget\\packages\\uno.winui\\4.8.33\\uno.winui.4.8.33.nupkg.sha512",
-    "C:\\Users\\tresi\\.nuget\\packages\\uno.winui.remotecontrol\\4.8.33\\uno.winui.remotecontrol.4.8.33.nupkg.sha512",
     "C:\\Users\\tresi\\.nuget\\packages\\xamarin.androidx.activity\\1.6.1.1\\xamarin.androidx.activity.1.6.1.1.nupkg.sha512",
     "C:\\Users\\tresi\\.nuget\\packages\\xamarin.androidx.annotation\\1.5.0.2\\xamarin.androidx.annotation.1.5.0.2.nupkg.sha512",
     "C:\\Users\\tresi\\.nuget\\packages\\xamarin.androidx.annotation.experimental\\1.3.0.2\\xamarin.androidx.annotation.experimental.1.3.0.2.nupkg.sha512",

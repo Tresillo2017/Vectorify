@@ -172,107 +172,109 @@ namespace VectorifyU.VectorifyU_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[49];
+            _typeNameTable = new string[50];
             _typeNameTable[0] = "Microsoft.UI.Xaml.Controls.XamlControlsResources";
             _typeNameTable[1] = "Microsoft.UI.Xaml.ResourceDictionary";
             _typeNameTable[2] = "Object";
             _typeNameTable[3] = "Boolean";
             _typeNameTable[4] = "Uno.Toolkit.UI.ToolkitResources";
-            _typeNameTable[5] = "Microsoft.UI.Xaml.Controls.InfoBar";
-            _typeNameTable[6] = "Microsoft.UI.Xaml.Controls.Control";
-            _typeNameTable[7] = "Microsoft.UI.Xaml.Controls.InfoBarSeverity";
-            _typeNameTable[8] = "System.Enum";
-            _typeNameTable[9] = "System.ValueType";
-            _typeNameTable[10] = "String";
-            _typeNameTable[11] = "Microsoft.UI.Xaml.Controls.Primitives.ButtonBase";
-            _typeNameTable[12] = "System.Windows.Input.ICommand";
-            _typeNameTable[13] = "Microsoft.UI.Xaml.Style";
-            _typeNameTable[14] = "Microsoft.UI.Xaml.DataTemplate";
-            _typeNameTable[15] = "Microsoft.UI.Xaml.Controls.IconSource";
-            _typeNameTable[16] = "Microsoft.UI.Xaml.Controls.InfoBarTemplateSettings";
-            _typeNameTable[17] = "Microsoft.UI.Xaml.DependencyObject";
-            _typeNameTable[18] = "VectorifyU.Presentation.MainPage";
-            _typeNameTable[19] = "Microsoft.UI.Xaml.Controls.Page";
-            _typeNameTable[20] = "Microsoft.UI.Xaml.Controls.UserControl";
-            _typeNameTable[21] = "Uno.Toolkit.UI.NavigationBar";
-            _typeNameTable[22] = "Microsoft.UI.Xaml.Controls.ContentControl";
-            _typeNameTable[23] = "Windows.Foundation.Collections.IObservableVector`1<Microsoft.UI.Xaml.Controls.ICommandBarElement>";
-            _typeNameTable[24] = "Microsoft.UI.Xaml.Controls.ICommandBarElement";
-            _typeNameTable[25] = "Microsoft.UI.Xaml.Controls.AppBarButton";
-            _typeNameTable[26] = "Uno.Toolkit.UI.NavigationBarClosedDisplayMode";
-            _typeNameTable[27] = "Microsoft.UI.Xaml.Controls.LightDismissOverlayMode";
-            _typeNameTable[28] = "Uno.Toolkit.UI.NavigationBarOverflowButtonVisibility";
-            _typeNameTable[29] = "Uno.Toolkit.UI.NavigationBarDefaultLabelPosition";
-            _typeNameTable[30] = "Uno.Toolkit.UI.MainCommandMode";
-            _typeNameTable[31] = "Microsoft.UI.Xaml.Controls.NumberBox";
-            _typeNameTable[32] = "Double";
-            _typeNameTable[33] = "Microsoft.UI.Xaml.Controls.NumberBoxSpinButtonPlacementMode";
-            _typeNameTable[34] = "Windows.Globalization.NumberFormatting.INumberFormatter2";
-            _typeNameTable[35] = "Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase";
-            _typeNameTable[36] = "Microsoft.UI.Xaml.Media.SolidColorBrush";
-            _typeNameTable[37] = "Microsoft.UI.Xaml.TextReadingOrder";
-            _typeNameTable[38] = "Microsoft.UI.Xaml.Controls.NumberBoxValidationMode";
-            _typeNameTable[39] = "VectorifyU.Presentation.SecondPage";
-            _typeNameTable[40] = "Uno.Toolkit.UI.ExtendedSplashScreen";
-            _typeNameTable[41] = "Uno.Toolkit.UI.LoadingView";
-            _typeNameTable[42] = "Windows.ApplicationModel.Activation.SplashScreen";
-            _typeNameTable[43] = "Microsoft.UI.Xaml.Window";
-            _typeNameTable[44] = "Uno.Toolkit.ILoadable";
-            _typeNameTable[45] = "Microsoft.UI.Xaml.Controls.DataTemplateSelector";
-            _typeNameTable[46] = "Microsoft.UI.Xaml.Controls.ProgressRing";
-            _typeNameTable[47] = "Microsoft.UI.Xaml.Controls.ProgressRingTemplateSettings";
-            _typeNameTable[48] = "VectorifyU.Presentation.Shell";
+            _typeNameTable[5] = "Uno.Toolkit.UI.NavigationBar";
+            _typeNameTable[6] = "Microsoft.UI.Xaml.Controls.ContentControl";
+            _typeNameTable[7] = "Windows.Foundation.Collections.IObservableVector`1<Microsoft.UI.Xaml.Controls.ICommandBarElement>";
+            _typeNameTable[8] = "Microsoft.UI.Xaml.Controls.ICommandBarElement";
+            _typeNameTable[9] = "Microsoft.UI.Xaml.Controls.AppBarButton";
+            _typeNameTable[10] = "Uno.Toolkit.UI.NavigationBarClosedDisplayMode";
+            _typeNameTable[11] = "System.Enum";
+            _typeNameTable[12] = "System.ValueType";
+            _typeNameTable[13] = "Microsoft.UI.Xaml.Controls.LightDismissOverlayMode";
+            _typeNameTable[14] = "Uno.Toolkit.UI.NavigationBarOverflowButtonVisibility";
+            _typeNameTable[15] = "Uno.Toolkit.UI.NavigationBarDefaultLabelPosition";
+            _typeNameTable[16] = "Uno.Toolkit.UI.MainCommandMode";
+            _typeNameTable[17] = "String";
+            _typeNameTable[18] = "Microsoft.UI.Xaml.Style";
+            _typeNameTable[19] = "Microsoft.UI.Xaml.Controls.InfoBar";
+            _typeNameTable[20] = "Microsoft.UI.Xaml.Controls.Control";
+            _typeNameTable[21] = "Microsoft.UI.Xaml.Controls.InfoBarSeverity";
+            _typeNameTable[22] = "Microsoft.UI.Xaml.Controls.Primitives.ButtonBase";
+            _typeNameTable[23] = "System.Windows.Input.ICommand";
+            _typeNameTable[24] = "Microsoft.UI.Xaml.DataTemplate";
+            _typeNameTable[25] = "Microsoft.UI.Xaml.Controls.IconSource";
+            _typeNameTable[26] = "Microsoft.UI.Xaml.Controls.InfoBarTemplateSettings";
+            _typeNameTable[27] = "Microsoft.UI.Xaml.DependencyObject";
+            _typeNameTable[28] = "VectorifyU.Presentation.FuncionesPage";
+            _typeNameTable[29] = "Microsoft.UI.Xaml.Controls.Page";
+            _typeNameTable[30] = "Microsoft.UI.Xaml.Controls.UserControl";
+            _typeNameTable[31] = "VectorifyU.Presentation.MainPage";
+            _typeNameTable[32] = "Microsoft.UI.Xaml.Controls.NumberBox";
+            _typeNameTable[33] = "Double";
+            _typeNameTable[34] = "Microsoft.UI.Xaml.Controls.NumberBoxSpinButtonPlacementMode";
+            _typeNameTable[35] = "Windows.Globalization.NumberFormatting.INumberFormatter2";
+            _typeNameTable[36] = "Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase";
+            _typeNameTable[37] = "Microsoft.UI.Xaml.Media.SolidColorBrush";
+            _typeNameTable[38] = "Microsoft.UI.Xaml.TextReadingOrder";
+            _typeNameTable[39] = "Microsoft.UI.Xaml.Controls.NumberBoxValidationMode";
+            _typeNameTable[40] = "VectorifyU.Presentation.RectasPage";
+            _typeNameTable[41] = "Uno.Toolkit.UI.ExtendedSplashScreen";
+            _typeNameTable[42] = "Uno.Toolkit.UI.LoadingView";
+            _typeNameTable[43] = "Windows.ApplicationModel.Activation.SplashScreen";
+            _typeNameTable[44] = "Microsoft.UI.Xaml.Window";
+            _typeNameTable[45] = "Uno.Toolkit.ILoadable";
+            _typeNameTable[46] = "Microsoft.UI.Xaml.Controls.DataTemplateSelector";
+            _typeNameTable[47] = "Microsoft.UI.Xaml.Controls.ProgressRing";
+            _typeNameTable[48] = "Microsoft.UI.Xaml.Controls.ProgressRingTemplateSettings";
+            _typeNameTable[49] = "VectorifyU.Presentation.Shell";
 
-            _typeTable = new global::System.Type[49];
+            _typeTable = new global::System.Type[50];
             _typeTable[0] = typeof(global::Microsoft.UI.Xaml.Controls.XamlControlsResources);
             _typeTable[1] = typeof(global::Microsoft.UI.Xaml.ResourceDictionary);
             _typeTable[2] = typeof(global::System.Object);
             _typeTable[3] = typeof(global::System.Boolean);
             _typeTable[4] = typeof(global::Uno.Toolkit.UI.ToolkitResources);
-            _typeTable[5] = typeof(global::Microsoft.UI.Xaml.Controls.InfoBar);
-            _typeTable[6] = typeof(global::Microsoft.UI.Xaml.Controls.Control);
-            _typeTable[7] = typeof(global::Microsoft.UI.Xaml.Controls.InfoBarSeverity);
-            _typeTable[8] = typeof(global::System.Enum);
-            _typeTable[9] = typeof(global::System.ValueType);
-            _typeTable[10] = typeof(global::System.String);
-            _typeTable[11] = typeof(global::Microsoft.UI.Xaml.Controls.Primitives.ButtonBase);
-            _typeTable[12] = typeof(global::System.Windows.Input.ICommand);
-            _typeTable[13] = typeof(global::Microsoft.UI.Xaml.Style);
-            _typeTable[14] = typeof(global::Microsoft.UI.Xaml.DataTemplate);
-            _typeTable[15] = typeof(global::Microsoft.UI.Xaml.Controls.IconSource);
-            _typeTable[16] = typeof(global::Microsoft.UI.Xaml.Controls.InfoBarTemplateSettings);
-            _typeTable[17] = typeof(global::Microsoft.UI.Xaml.DependencyObject);
-            _typeTable[18] = typeof(global::VectorifyU.Presentation.MainPage);
-            _typeTable[19] = typeof(global::Microsoft.UI.Xaml.Controls.Page);
-            _typeTable[20] = typeof(global::Microsoft.UI.Xaml.Controls.UserControl);
-            _typeTable[21] = typeof(global::Uno.Toolkit.UI.NavigationBar);
-            _typeTable[22] = typeof(global::Microsoft.UI.Xaml.Controls.ContentControl);
-            _typeTable[23] = typeof(global::Windows.Foundation.Collections.IObservableVector<global::Microsoft.UI.Xaml.Controls.ICommandBarElement>);
-            _typeTable[24] = typeof(global::Microsoft.UI.Xaml.Controls.ICommandBarElement);
-            _typeTable[25] = typeof(global::Microsoft.UI.Xaml.Controls.AppBarButton);
-            _typeTable[26] = typeof(global::Uno.Toolkit.UI.NavigationBarClosedDisplayMode);
-            _typeTable[27] = typeof(global::Microsoft.UI.Xaml.Controls.LightDismissOverlayMode);
-            _typeTable[28] = typeof(global::Uno.Toolkit.UI.NavigationBarOverflowButtonVisibility);
-            _typeTable[29] = typeof(global::Uno.Toolkit.UI.NavigationBarDefaultLabelPosition);
-            _typeTable[30] = typeof(global::Uno.Toolkit.UI.MainCommandMode);
-            _typeTable[31] = typeof(global::Microsoft.UI.Xaml.Controls.NumberBox);
-            _typeTable[32] = typeof(global::System.Double);
-            _typeTable[33] = typeof(global::Microsoft.UI.Xaml.Controls.NumberBoxSpinButtonPlacementMode);
-            _typeTable[34] = typeof(global::Windows.Globalization.NumberFormatting.INumberFormatter2);
-            _typeTable[35] = typeof(global::Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase);
-            _typeTable[36] = typeof(global::Microsoft.UI.Xaml.Media.SolidColorBrush);
-            _typeTable[37] = typeof(global::Microsoft.UI.Xaml.TextReadingOrder);
-            _typeTable[38] = typeof(global::Microsoft.UI.Xaml.Controls.NumberBoxValidationMode);
-            _typeTable[39] = typeof(global::VectorifyU.Presentation.SecondPage);
-            _typeTable[40] = typeof(global::Uno.Toolkit.UI.ExtendedSplashScreen);
-            _typeTable[41] = typeof(global::Uno.Toolkit.UI.LoadingView);
-            _typeTable[42] = typeof(global::Windows.ApplicationModel.Activation.SplashScreen);
-            _typeTable[43] = typeof(global::Microsoft.UI.Xaml.Window);
-            _typeTable[44] = typeof(global::Uno.Toolkit.ILoadable);
-            _typeTable[45] = typeof(global::Microsoft.UI.Xaml.Controls.DataTemplateSelector);
-            _typeTable[46] = typeof(global::Microsoft.UI.Xaml.Controls.ProgressRing);
-            _typeTable[47] = typeof(global::Microsoft.UI.Xaml.Controls.ProgressRingTemplateSettings);
-            _typeTable[48] = typeof(global::VectorifyU.Presentation.Shell);
+            _typeTable[5] = typeof(global::Uno.Toolkit.UI.NavigationBar);
+            _typeTable[6] = typeof(global::Microsoft.UI.Xaml.Controls.ContentControl);
+            _typeTable[7] = typeof(global::Windows.Foundation.Collections.IObservableVector<global::Microsoft.UI.Xaml.Controls.ICommandBarElement>);
+            _typeTable[8] = typeof(global::Microsoft.UI.Xaml.Controls.ICommandBarElement);
+            _typeTable[9] = typeof(global::Microsoft.UI.Xaml.Controls.AppBarButton);
+            _typeTable[10] = typeof(global::Uno.Toolkit.UI.NavigationBarClosedDisplayMode);
+            _typeTable[11] = typeof(global::System.Enum);
+            _typeTable[12] = typeof(global::System.ValueType);
+            _typeTable[13] = typeof(global::Microsoft.UI.Xaml.Controls.LightDismissOverlayMode);
+            _typeTable[14] = typeof(global::Uno.Toolkit.UI.NavigationBarOverflowButtonVisibility);
+            _typeTable[15] = typeof(global::Uno.Toolkit.UI.NavigationBarDefaultLabelPosition);
+            _typeTable[16] = typeof(global::Uno.Toolkit.UI.MainCommandMode);
+            _typeTable[17] = typeof(global::System.String);
+            _typeTable[18] = typeof(global::Microsoft.UI.Xaml.Style);
+            _typeTable[19] = typeof(global::Microsoft.UI.Xaml.Controls.InfoBar);
+            _typeTable[20] = typeof(global::Microsoft.UI.Xaml.Controls.Control);
+            _typeTable[21] = typeof(global::Microsoft.UI.Xaml.Controls.InfoBarSeverity);
+            _typeTable[22] = typeof(global::Microsoft.UI.Xaml.Controls.Primitives.ButtonBase);
+            _typeTable[23] = typeof(global::System.Windows.Input.ICommand);
+            _typeTable[24] = typeof(global::Microsoft.UI.Xaml.DataTemplate);
+            _typeTable[25] = typeof(global::Microsoft.UI.Xaml.Controls.IconSource);
+            _typeTable[26] = typeof(global::Microsoft.UI.Xaml.Controls.InfoBarTemplateSettings);
+            _typeTable[27] = typeof(global::Microsoft.UI.Xaml.DependencyObject);
+            _typeTable[28] = typeof(global::VectorifyU.Presentation.FuncionesPage);
+            _typeTable[29] = typeof(global::Microsoft.UI.Xaml.Controls.Page);
+            _typeTable[30] = typeof(global::Microsoft.UI.Xaml.Controls.UserControl);
+            _typeTable[31] = typeof(global::VectorifyU.Presentation.MainPage);
+            _typeTable[32] = typeof(global::Microsoft.UI.Xaml.Controls.NumberBox);
+            _typeTable[33] = typeof(global::System.Double);
+            _typeTable[34] = typeof(global::Microsoft.UI.Xaml.Controls.NumberBoxSpinButtonPlacementMode);
+            _typeTable[35] = typeof(global::Windows.Globalization.NumberFormatting.INumberFormatter2);
+            _typeTable[36] = typeof(global::Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase);
+            _typeTable[37] = typeof(global::Microsoft.UI.Xaml.Media.SolidColorBrush);
+            _typeTable[38] = typeof(global::Microsoft.UI.Xaml.TextReadingOrder);
+            _typeTable[39] = typeof(global::Microsoft.UI.Xaml.Controls.NumberBoxValidationMode);
+            _typeTable[40] = typeof(global::VectorifyU.Presentation.RectasPage);
+            _typeTable[41] = typeof(global::Uno.Toolkit.UI.ExtendedSplashScreen);
+            _typeTable[42] = typeof(global::Uno.Toolkit.UI.LoadingView);
+            _typeTable[43] = typeof(global::Windows.ApplicationModel.Activation.SplashScreen);
+            _typeTable[44] = typeof(global::Microsoft.UI.Xaml.Window);
+            _typeTable[45] = typeof(global::Uno.Toolkit.ILoadable);
+            _typeTable[46] = typeof(global::Microsoft.UI.Xaml.Controls.DataTemplateSelector);
+            _typeTable[47] = typeof(global::Microsoft.UI.Xaml.Controls.ProgressRing);
+            _typeTable[48] = typeof(global::Microsoft.UI.Xaml.Controls.ProgressRingTemplateSettings);
+            _typeTable[49] = typeof(global::VectorifyU.Presentation.Shell);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -309,16 +311,17 @@ namespace VectorifyU.VectorifyU_XamlTypeInfo
 
         private object Activate_0_XamlControlsResources() { return new global::Microsoft.UI.Xaml.Controls.XamlControlsResources(); }
         private object Activate_4_ToolkitResources() { return new global::Uno.Toolkit.UI.ToolkitResources(); }
-        private object Activate_5_InfoBar() { return new global::Microsoft.UI.Xaml.Controls.InfoBar(); }
-        private object Activate_16_InfoBarTemplateSettings() { return new global::Microsoft.UI.Xaml.Controls.InfoBarTemplateSettings(); }
-        private object Activate_18_MainPage() { return new global::VectorifyU.Presentation.MainPage(); }
-        private object Activate_21_NavigationBar() { return new global::Uno.Toolkit.UI.NavigationBar(); }
-        private object Activate_31_NumberBox() { return new global::Microsoft.UI.Xaml.Controls.NumberBox(); }
-        private object Activate_39_SecondPage() { return new global::VectorifyU.Presentation.SecondPage(); }
-        private object Activate_40_ExtendedSplashScreen() { return new global::Uno.Toolkit.UI.ExtendedSplashScreen(); }
-        private object Activate_41_LoadingView() { return new global::Uno.Toolkit.UI.LoadingView(); }
-        private object Activate_46_ProgressRing() { return new global::Microsoft.UI.Xaml.Controls.ProgressRing(); }
-        private object Activate_48_Shell() { return new global::VectorifyU.Presentation.Shell(); }
+        private object Activate_5_NavigationBar() { return new global::Uno.Toolkit.UI.NavigationBar(); }
+        private object Activate_19_InfoBar() { return new global::Microsoft.UI.Xaml.Controls.InfoBar(); }
+        private object Activate_26_InfoBarTemplateSettings() { return new global::Microsoft.UI.Xaml.Controls.InfoBarTemplateSettings(); }
+        private object Activate_28_FuncionesPage() { return new global::VectorifyU.Presentation.FuncionesPage(); }
+        private object Activate_31_MainPage() { return new global::VectorifyU.Presentation.MainPage(); }
+        private object Activate_32_NumberBox() { return new global::Microsoft.UI.Xaml.Controls.NumberBox(); }
+        private object Activate_40_RectasPage() { return new global::VectorifyU.Presentation.RectasPage(); }
+        private object Activate_41_ExtendedSplashScreen() { return new global::Uno.Toolkit.UI.ExtendedSplashScreen(); }
+        private object Activate_42_LoadingView() { return new global::Uno.Toolkit.UI.LoadingView(); }
+        private object Activate_47_ProgressRing() { return new global::Microsoft.UI.Xaml.Controls.ProgressRing(); }
+        private object Activate_49_Shell() { return new global::VectorifyU.Presentation.Shell(); }
         private void MapAdd_0_XamlControlsResources(object instance, object key, object item)
         {
             var collection = (global::System.Collections.Generic.IDictionary<global::System.Object, global::System.Object>)instance;
@@ -333,7 +336,7 @@ namespace VectorifyU.VectorifyU_XamlTypeInfo
             var newItem = (global::System.Object)item;
             collection.Add(newKey, newItem);
         }
-        private void VectorAdd_23_IObservableVector(object instance, object item)
+        private void VectorAdd_7_IObservableVector(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Microsoft.UI.Xaml.Controls.ICommandBarElement>)instance;
             var newItem = (global::Microsoft.UI.Xaml.Controls.ICommandBarElement)item;
@@ -377,104 +380,9 @@ namespace VectorifyU.VectorifyU_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 5:   //  Microsoft.UI.Xaml.Controls.InfoBar
-                userType = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Control"));
-                userType.Activator = Activate_5_InfoBar;
-                userType.SetContentPropertyName("Microsoft.UI.Xaml.Controls.InfoBar.Content");
-                userType.AddMemberName("Content");
-                userType.AddMemberName("IsOpen");
-                userType.AddMemberName("Severity");
-                userType.AddMemberName("Title");
-                userType.AddMemberName("IsClosable");
-                userType.AddMemberName("Message");
-                userType.AddMemberName("ActionButton");
-                userType.AddMemberName("CloseButtonCommand");
-                userType.AddMemberName("CloseButtonCommandParameter");
-                userType.AddMemberName("CloseButtonStyle");
-                userType.AddMemberName("ContentTemplate");
-                userType.AddMemberName("IconSource");
-                userType.AddMemberName("IsIconVisible");
-                userType.AddMemberName("TemplateSettings");
-                xamlType = userType;
-                break;
-
-            case 6:   //  Microsoft.UI.Xaml.Controls.Control
-                xamlType = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 7:   //  Microsoft.UI.Xaml.Controls.InfoBarSeverity
-                userType = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
-                userType.AddEnumValue("Informational", global::Microsoft.UI.Xaml.Controls.InfoBarSeverity.Informational);
-                userType.AddEnumValue("Success", global::Microsoft.UI.Xaml.Controls.InfoBarSeverity.Success);
-                userType.AddEnumValue("Warning", global::Microsoft.UI.Xaml.Controls.InfoBarSeverity.Warning);
-                userType.AddEnumValue("Error", global::Microsoft.UI.Xaml.Controls.InfoBarSeverity.Error);
-                xamlType = userType;
-                break;
-
-            case 8:   //  System.Enum
-                userType = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
-                xamlType = userType;
-                break;
-
-            case 9:   //  System.ValueType
-                userType = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                xamlType = userType;
-                break;
-
-            case 10:   //  String
-                xamlType = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 11:   //  Microsoft.UI.Xaml.Controls.Primitives.ButtonBase
-                xamlType = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 12:   //  System.Windows.Input.ICommand
-                userType = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlUserType(this, typeName, type, null);
-                userType.SetIsReturnTypeStub();
-                xamlType = userType;
-                break;
-
-            case 13:   //  Microsoft.UI.Xaml.Style
-                xamlType = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 14:   //  Microsoft.UI.Xaml.DataTemplate
-                xamlType = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 15:   //  Microsoft.UI.Xaml.Controls.IconSource
-                xamlType = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 16:   //  Microsoft.UI.Xaml.Controls.InfoBarTemplateSettings
-                userType = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.DependencyObject"));
-                userType.SetIsReturnTypeStub();
-                xamlType = userType;
-                break;
-
-            case 17:   //  Microsoft.UI.Xaml.DependencyObject
-                xamlType = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 18:   //  VectorifyU.Presentation.MainPage
-                userType = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_18_MainPage;
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 19:   //  Microsoft.UI.Xaml.Controls.Page
-                xamlType = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 20:   //  Microsoft.UI.Xaml.Controls.UserControl
-                xamlType = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 21:   //  Uno.Toolkit.UI.NavigationBar
+            case 5:   //  Uno.Toolkit.UI.NavigationBar
                 userType = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ContentControl"));
-                userType.Activator = Activate_21_NavigationBar;
+                userType.Activator = Activate_5_NavigationBar;
                 userType.SetContentPropertyName("Uno.Toolkit.UI.NavigationBar.PrimaryCommands");
                 userType.AddMemberName("PrimaryCommands");
                 userType.AddMemberName("MainCommand");
@@ -492,26 +400,26 @@ namespace VectorifyU.VectorifyU_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 22:   //  Microsoft.UI.Xaml.Controls.ContentControl
+            case 6:   //  Microsoft.UI.Xaml.Controls.ContentControl
                 xamlType = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 23:   //  Windows.Foundation.Collections.IObservableVector`1<Microsoft.UI.Xaml.Controls.ICommandBarElement>
+            case 7:   //  Windows.Foundation.Collections.IObservableVector`1<Microsoft.UI.Xaml.Controls.ICommandBarElement>
                 userType = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlUserType(this, typeName, type, null);
-                userType.CollectionAdd = VectorAdd_23_IObservableVector;
+                userType.CollectionAdd = VectorAdd_7_IObservableVector;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 24:   //  Microsoft.UI.Xaml.Controls.ICommandBarElement
+            case 8:   //  Microsoft.UI.Xaml.Controls.ICommandBarElement
                 xamlType = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 25:   //  Microsoft.UI.Xaml.Controls.AppBarButton
+            case 9:   //  Microsoft.UI.Xaml.Controls.AppBarButton
                 xamlType = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 26:   //  Uno.Toolkit.UI.NavigationBarClosedDisplayMode
+            case 10:   //  Uno.Toolkit.UI.NavigationBarClosedDisplayMode
                 userType = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("Compact", global::Uno.Toolkit.UI.NavigationBarClosedDisplayMode.Compact);
                 userType.AddEnumValue("Minimal", global::Uno.Toolkit.UI.NavigationBarClosedDisplayMode.Minimal);
@@ -519,11 +427,21 @@ namespace VectorifyU.VectorifyU_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 27:   //  Microsoft.UI.Xaml.Controls.LightDismissOverlayMode
+            case 11:   //  System.Enum
+                userType = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
+                xamlType = userType;
+                break;
+
+            case 12:   //  System.ValueType
+                userType = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                xamlType = userType;
+                break;
+
+            case 13:   //  Microsoft.UI.Xaml.Controls.LightDismissOverlayMode
                 xamlType = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 28:   //  Uno.Toolkit.UI.NavigationBarOverflowButtonVisibility
+            case 14:   //  Uno.Toolkit.UI.NavigationBarOverflowButtonVisibility
                 userType = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("Auto", global::Uno.Toolkit.UI.NavigationBarOverflowButtonVisibility.Auto);
                 userType.AddEnumValue("Visible", global::Uno.Toolkit.UI.NavigationBarOverflowButtonVisibility.Visible);
@@ -531,7 +449,7 @@ namespace VectorifyU.VectorifyU_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 29:   //  Uno.Toolkit.UI.NavigationBarDefaultLabelPosition
+            case 15:   //  Uno.Toolkit.UI.NavigationBarDefaultLabelPosition
                 userType = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("Bottom", global::Uno.Toolkit.UI.NavigationBarDefaultLabelPosition.Bottom);
                 userType.AddEnumValue("Right", global::Uno.Toolkit.UI.NavigationBarDefaultLabelPosition.Right);
@@ -539,16 +457,108 @@ namespace VectorifyU.VectorifyU_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 30:   //  Uno.Toolkit.UI.MainCommandMode
+            case 16:   //  Uno.Toolkit.UI.MainCommandMode
                 userType = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("Back", global::Uno.Toolkit.UI.MainCommandMode.Back);
                 userType.AddEnumValue("Action", global::Uno.Toolkit.UI.MainCommandMode.Action);
                 xamlType = userType;
                 break;
 
-            case 31:   //  Microsoft.UI.Xaml.Controls.NumberBox
+            case 17:   //  String
+                xamlType = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 18:   //  Microsoft.UI.Xaml.Style
+                xamlType = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 19:   //  Microsoft.UI.Xaml.Controls.InfoBar
                 userType = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Control"));
-                userType.Activator = Activate_31_NumberBox;
+                userType.Activator = Activate_19_InfoBar;
+                userType.SetContentPropertyName("Microsoft.UI.Xaml.Controls.InfoBar.Content");
+                userType.AddMemberName("Content");
+                userType.AddMemberName("IsOpen");
+                userType.AddMemberName("Severity");
+                userType.AddMemberName("Title");
+                userType.AddMemberName("IsClosable");
+                userType.AddMemberName("Message");
+                userType.AddMemberName("IsIconVisible");
+                userType.AddMemberName("ActionButton");
+                userType.AddMemberName("CloseButtonCommand");
+                userType.AddMemberName("CloseButtonCommandParameter");
+                userType.AddMemberName("CloseButtonStyle");
+                userType.AddMemberName("ContentTemplate");
+                userType.AddMemberName("IconSource");
+                userType.AddMemberName("TemplateSettings");
+                xamlType = userType;
+                break;
+
+            case 20:   //  Microsoft.UI.Xaml.Controls.Control
+                xamlType = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 21:   //  Microsoft.UI.Xaml.Controls.InfoBarSeverity
+                userType = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
+                userType.AddEnumValue("Informational", global::Microsoft.UI.Xaml.Controls.InfoBarSeverity.Informational);
+                userType.AddEnumValue("Success", global::Microsoft.UI.Xaml.Controls.InfoBarSeverity.Success);
+                userType.AddEnumValue("Warning", global::Microsoft.UI.Xaml.Controls.InfoBarSeverity.Warning);
+                userType.AddEnumValue("Error", global::Microsoft.UI.Xaml.Controls.InfoBarSeverity.Error);
+                xamlType = userType;
+                break;
+
+            case 22:   //  Microsoft.UI.Xaml.Controls.Primitives.ButtonBase
+                xamlType = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 23:   //  System.Windows.Input.ICommand
+                userType = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlUserType(this, typeName, type, null);
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 24:   //  Microsoft.UI.Xaml.DataTemplate
+                xamlType = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 25:   //  Microsoft.UI.Xaml.Controls.IconSource
+                xamlType = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 26:   //  Microsoft.UI.Xaml.Controls.InfoBarTemplateSettings
+                userType = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.DependencyObject"));
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 27:   //  Microsoft.UI.Xaml.DependencyObject
+                xamlType = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 28:   //  VectorifyU.Presentation.FuncionesPage
+                userType = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_28_FuncionesPage;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 29:   //  Microsoft.UI.Xaml.Controls.Page
+                xamlType = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 30:   //  Microsoft.UI.Xaml.Controls.UserControl
+                xamlType = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 31:   //  VectorifyU.Presentation.MainPage
+                userType = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_31_MainPage;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 32:   //  Microsoft.UI.Xaml.Controls.NumberBox
+                userType = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Control"));
+                userType.Activator = Activate_32_NumberBox;
                 userType.AddMemberName("Header");
                 userType.AddMemberName("Value");
                 userType.AddMemberName("SpinButtonPlacementMode");
@@ -571,11 +581,11 @@ namespace VectorifyU.VectorifyU_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 32:   //  Double
+            case 33:   //  Double
                 xamlType = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 33:   //  Microsoft.UI.Xaml.Controls.NumberBoxSpinButtonPlacementMode
+            case 34:   //  Microsoft.UI.Xaml.Controls.NumberBoxSpinButtonPlacementMode
                 userType = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("Hidden", global::Microsoft.UI.Xaml.Controls.NumberBoxSpinButtonPlacementMode.Hidden);
                 userType.AddEnumValue("Compact", global::Microsoft.UI.Xaml.Controls.NumberBoxSpinButtonPlacementMode.Compact);
@@ -583,50 +593,50 @@ namespace VectorifyU.VectorifyU_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 34:   //  Windows.Globalization.NumberFormatting.INumberFormatter2
+            case 35:   //  Windows.Globalization.NumberFormatting.INumberFormatter2
                 userType = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlUserType(this, typeName, type, null);
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 35:   //  Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase
+            case 36:   //  Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase
                 xamlType = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 36:   //  Microsoft.UI.Xaml.Media.SolidColorBrush
+            case 37:   //  Microsoft.UI.Xaml.Media.SolidColorBrush
                 xamlType = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 37:   //  Microsoft.UI.Xaml.TextReadingOrder
+            case 38:   //  Microsoft.UI.Xaml.TextReadingOrder
                 xamlType = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 38:   //  Microsoft.UI.Xaml.Controls.NumberBoxValidationMode
+            case 39:   //  Microsoft.UI.Xaml.Controls.NumberBoxValidationMode
                 userType = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("InvalidInputOverwritten", global::Microsoft.UI.Xaml.Controls.NumberBoxValidationMode.InvalidInputOverwritten);
                 userType.AddEnumValue("Disabled", global::Microsoft.UI.Xaml.Controls.NumberBoxValidationMode.Disabled);
                 xamlType = userType;
                 break;
 
-            case 39:   //  VectorifyU.Presentation.SecondPage
+            case 40:   //  VectorifyU.Presentation.RectasPage
                 userType = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_39_SecondPage;
+                userType.Activator = Activate_40_RectasPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 40:   //  Uno.Toolkit.UI.ExtendedSplashScreen
+            case 41:   //  Uno.Toolkit.UI.ExtendedSplashScreen
                 userType = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Uno.Toolkit.UI.LoadingView"));
-                userType.Activator = Activate_40_ExtendedSplashScreen;
+                userType.Activator = Activate_41_ExtendedSplashScreen;
                 userType.AddMemberName("SplashScreen");
                 userType.AddMemberName("Window");
                 userType.AddMemberName("SplashScreenContent");
                 xamlType = userType;
                 break;
 
-            case 41:   //  Uno.Toolkit.UI.LoadingView
+            case 42:   //  Uno.Toolkit.UI.LoadingView
                 userType = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ContentControl"));
-                userType.Activator = Activate_41_LoadingView;
+                userType.Activator = Activate_42_LoadingView;
                 userType.AddMemberName("LoadingContentTemplate");
                 userType.AddMemberName("Source");
                 userType.AddMemberName("LoadingContent");
@@ -634,29 +644,29 @@ namespace VectorifyU.VectorifyU_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 42:   //  Windows.ApplicationModel.Activation.SplashScreen
+            case 43:   //  Windows.ApplicationModel.Activation.SplashScreen
                 userType = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 43:   //  Microsoft.UI.Xaml.Window
+            case 44:   //  Microsoft.UI.Xaml.Window
                 xamlType = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 44:   //  Uno.Toolkit.ILoadable
+            case 45:   //  Uno.Toolkit.ILoadable
                 userType = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlUserType(this, typeName, type, null);
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 45:   //  Microsoft.UI.Xaml.Controls.DataTemplateSelector
+            case 46:   //  Microsoft.UI.Xaml.Controls.DataTemplateSelector
                 xamlType = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 46:   //  Microsoft.UI.Xaml.Controls.ProgressRing
+            case 47:   //  Microsoft.UI.Xaml.Controls.ProgressRing
                 userType = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Control"));
-                userType.Activator = Activate_46_ProgressRing;
+                userType.Activator = Activate_47_ProgressRing;
                 userType.AddMemberName("IsActive");
                 userType.AddMemberName("IsIndeterminate");
                 userType.AddMemberName("Maximum");
@@ -666,15 +676,15 @@ namespace VectorifyU.VectorifyU_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 47:   //  Microsoft.UI.Xaml.Controls.ProgressRingTemplateSettings
+            case 48:   //  Microsoft.UI.Xaml.Controls.ProgressRingTemplateSettings
                 userType = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.DependencyObject"));
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 48:   //  VectorifyU.Presentation.Shell
+            case 49:   //  VectorifyU.Presentation.Shell
                 userType = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.UserControl"));
-                userType.Activator = Activate_48_Shell;
+                userType.Activator = Activate_49_Shell;
                 userType.AddMemberName("ContentControl");
                 userType.SetIsLocalType();
                 xamlType = userType;
@@ -756,260 +766,260 @@ namespace VectorifyU.VectorifyU_XamlTypeInfo
             var that = (global::Microsoft.UI.Xaml.Controls.XamlControlsResources)instance;
             that.UseCompactResources = (global::System.Boolean)Value;
         }
-        private object get_1_InfoBar_Content(object instance)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
-            return that.Content;
-        }
-        private void set_1_InfoBar_Content(object instance, object Value)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
-            that.Content = (global::System.Object)Value;
-        }
-        private object get_2_InfoBar_IsOpen(object instance)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
-            return that.IsOpen;
-        }
-        private void set_2_InfoBar_IsOpen(object instance, object Value)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
-            that.IsOpen = (global::System.Boolean)Value;
-        }
-        private object get_3_InfoBar_Severity(object instance)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
-            return that.Severity;
-        }
-        private void set_3_InfoBar_Severity(object instance, object Value)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
-            that.Severity = (global::Microsoft.UI.Xaml.Controls.InfoBarSeverity)Value;
-        }
-        private object get_4_InfoBar_Title(object instance)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
-            return that.Title;
-        }
-        private void set_4_InfoBar_Title(object instance, object Value)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
-            that.Title = (global::System.String)Value;
-        }
-        private object get_5_InfoBar_IsClosable(object instance)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
-            return that.IsClosable;
-        }
-        private void set_5_InfoBar_IsClosable(object instance, object Value)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
-            that.IsClosable = (global::System.Boolean)Value;
-        }
-        private object get_6_InfoBar_Message(object instance)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
-            return that.Message;
-        }
-        private void set_6_InfoBar_Message(object instance, object Value)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
-            that.Message = (global::System.String)Value;
-        }
-        private object get_7_InfoBar_ActionButton(object instance)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
-            return that.ActionButton;
-        }
-        private void set_7_InfoBar_ActionButton(object instance, object Value)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
-            that.ActionButton = (global::Microsoft.UI.Xaml.Controls.Primitives.ButtonBase)Value;
-        }
-        private object get_8_InfoBar_CloseButtonCommand(object instance)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
-            return that.CloseButtonCommand;
-        }
-        private void set_8_InfoBar_CloseButtonCommand(object instance, object Value)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
-            that.CloseButtonCommand = (global::System.Windows.Input.ICommand)Value;
-        }
-        private object get_9_InfoBar_CloseButtonCommandParameter(object instance)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
-            return that.CloseButtonCommandParameter;
-        }
-        private void set_9_InfoBar_CloseButtonCommandParameter(object instance, object Value)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
-            that.CloseButtonCommandParameter = (global::System.Object)Value;
-        }
-        private object get_10_InfoBar_CloseButtonStyle(object instance)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
-            return that.CloseButtonStyle;
-        }
-        private void set_10_InfoBar_CloseButtonStyle(object instance, object Value)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
-            that.CloseButtonStyle = (global::Microsoft.UI.Xaml.Style)Value;
-        }
-        private object get_11_InfoBar_ContentTemplate(object instance)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
-            return that.ContentTemplate;
-        }
-        private void set_11_InfoBar_ContentTemplate(object instance, object Value)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
-            that.ContentTemplate = (global::Microsoft.UI.Xaml.DataTemplate)Value;
-        }
-        private object get_12_InfoBar_IconSource(object instance)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
-            return that.IconSource;
-        }
-        private void set_12_InfoBar_IconSource(object instance, object Value)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
-            that.IconSource = (global::Microsoft.UI.Xaml.Controls.IconSource)Value;
-        }
-        private object get_13_InfoBar_IsIconVisible(object instance)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
-            return that.IsIconVisible;
-        }
-        private void set_13_InfoBar_IsIconVisible(object instance, object Value)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
-            that.IsIconVisible = (global::System.Boolean)Value;
-        }
-        private object get_14_InfoBar_TemplateSettings(object instance)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
-            return that.TemplateSettings;
-        }
-        private object get_15_NavigationBar_PrimaryCommands(object instance)
+        private object get_1_NavigationBar_PrimaryCommands(object instance)
         {
             var that = (global::Uno.Toolkit.UI.NavigationBar)instance;
             return that.PrimaryCommands;
         }
-        private object get_16_NavigationBar_MainCommand(object instance)
+        private object get_2_NavigationBar_MainCommand(object instance)
         {
             var that = (global::Uno.Toolkit.UI.NavigationBar)instance;
             return that.MainCommand;
         }
-        private void set_16_NavigationBar_MainCommand(object instance, object Value)
+        private void set_2_NavigationBar_MainCommand(object instance, object Value)
         {
             var that = (global::Uno.Toolkit.UI.NavigationBar)instance;
             that.MainCommand = (global::Microsoft.UI.Xaml.Controls.AppBarButton)Value;
         }
-        private object get_17_NavigationBar_IsSticky(object instance)
+        private object get_3_NavigationBar_IsSticky(object instance)
         {
             var that = (global::Uno.Toolkit.UI.NavigationBar)instance;
             return that.IsSticky;
         }
-        private void set_17_NavigationBar_IsSticky(object instance, object Value)
+        private void set_3_NavigationBar_IsSticky(object instance, object Value)
         {
             var that = (global::Uno.Toolkit.UI.NavigationBar)instance;
             that.IsSticky = (global::System.Boolean)Value;
         }
-        private object get_18_NavigationBar_IsOpen(object instance)
+        private object get_4_NavigationBar_IsOpen(object instance)
         {
             var that = (global::Uno.Toolkit.UI.NavigationBar)instance;
             return that.IsOpen;
         }
-        private void set_18_NavigationBar_IsOpen(object instance, object Value)
+        private void set_4_NavigationBar_IsOpen(object instance, object Value)
         {
             var that = (global::Uno.Toolkit.UI.NavigationBar)instance;
             that.IsOpen = (global::System.Boolean)Value;
         }
-        private object get_19_NavigationBar_ClosedDisplayMode(object instance)
+        private object get_5_NavigationBar_ClosedDisplayMode(object instance)
         {
             var that = (global::Uno.Toolkit.UI.NavigationBar)instance;
             return that.ClosedDisplayMode;
         }
-        private void set_19_NavigationBar_ClosedDisplayMode(object instance, object Value)
+        private void set_5_NavigationBar_ClosedDisplayMode(object instance, object Value)
         {
             var that = (global::Uno.Toolkit.UI.NavigationBar)instance;
             that.ClosedDisplayMode = (global::Uno.Toolkit.UI.NavigationBarClosedDisplayMode)Value;
         }
-        private object get_20_NavigationBar_LightDismissOverlayMode(object instance)
+        private object get_6_NavigationBar_LightDismissOverlayMode(object instance)
         {
             var that = (global::Uno.Toolkit.UI.NavigationBar)instance;
             return that.LightDismissOverlayMode;
         }
-        private void set_20_NavigationBar_LightDismissOverlayMode(object instance, object Value)
+        private void set_6_NavigationBar_LightDismissOverlayMode(object instance, object Value)
         {
             var that = (global::Uno.Toolkit.UI.NavigationBar)instance;
             that.LightDismissOverlayMode = (global::Microsoft.UI.Xaml.Controls.LightDismissOverlayMode)Value;
         }
-        private object get_21_NavigationBar_SecondaryCommands(object instance)
+        private object get_7_NavigationBar_SecondaryCommands(object instance)
         {
             var that = (global::Uno.Toolkit.UI.NavigationBar)instance;
             return that.SecondaryCommands;
         }
-        private object get_22_NavigationBar_OverflowButtonVisibility(object instance)
+        private object get_8_NavigationBar_OverflowButtonVisibility(object instance)
         {
             var that = (global::Uno.Toolkit.UI.NavigationBar)instance;
             return that.OverflowButtonVisibility;
         }
-        private void set_22_NavigationBar_OverflowButtonVisibility(object instance, object Value)
+        private void set_8_NavigationBar_OverflowButtonVisibility(object instance, object Value)
         {
             var that = (global::Uno.Toolkit.UI.NavigationBar)instance;
             that.OverflowButtonVisibility = (global::Uno.Toolkit.UI.NavigationBarOverflowButtonVisibility)Value;
         }
-        private object get_23_NavigationBar_IsDynamicOverflowEnabled(object instance)
+        private object get_9_NavigationBar_IsDynamicOverflowEnabled(object instance)
         {
             var that = (global::Uno.Toolkit.UI.NavigationBar)instance;
             return that.IsDynamicOverflowEnabled;
         }
-        private void set_23_NavigationBar_IsDynamicOverflowEnabled(object instance, object Value)
+        private void set_9_NavigationBar_IsDynamicOverflowEnabled(object instance, object Value)
         {
             var that = (global::Uno.Toolkit.UI.NavigationBar)instance;
             that.IsDynamicOverflowEnabled = (global::System.Boolean)Value;
         }
-        private object get_24_NavigationBar_DefaultLabelPosition(object instance)
+        private object get_10_NavigationBar_DefaultLabelPosition(object instance)
         {
             var that = (global::Uno.Toolkit.UI.NavigationBar)instance;
             return that.DefaultLabelPosition;
         }
-        private void set_24_NavigationBar_DefaultLabelPosition(object instance, object Value)
+        private void set_10_NavigationBar_DefaultLabelPosition(object instance, object Value)
         {
             var that = (global::Uno.Toolkit.UI.NavigationBar)instance;
             that.DefaultLabelPosition = (global::Uno.Toolkit.UI.NavigationBarDefaultLabelPosition)Value;
         }
-        private object get_25_NavigationBar_MainCommandMode(object instance)
+        private object get_11_NavigationBar_MainCommandMode(object instance)
         {
             var that = (global::Uno.Toolkit.UI.NavigationBar)instance;
             return that.MainCommandMode;
         }
-        private void set_25_NavigationBar_MainCommandMode(object instance, object Value)
+        private void set_11_NavigationBar_MainCommandMode(object instance, object Value)
         {
             var that = (global::Uno.Toolkit.UI.NavigationBar)instance;
             that.MainCommandMode = (global::Uno.Toolkit.UI.MainCommandMode)Value;
         }
-        private object get_26_NavigationBar_Subtitle(object instance)
+        private object get_12_NavigationBar_Subtitle(object instance)
         {
             var that = (global::Uno.Toolkit.UI.NavigationBar)instance;
             return that.Subtitle;
         }
-        private void set_26_NavigationBar_Subtitle(object instance, object Value)
+        private void set_12_NavigationBar_Subtitle(object instance, object Value)
         {
             var that = (global::Uno.Toolkit.UI.NavigationBar)instance;
             that.Subtitle = (global::System.String)Value;
         }
-        private object get_27_NavigationBar_MainCommandStyle(object instance)
+        private object get_13_NavigationBar_MainCommandStyle(object instance)
         {
             var that = (global::Uno.Toolkit.UI.NavigationBar)instance;
             return that.MainCommandStyle;
         }
-        private void set_27_NavigationBar_MainCommandStyle(object instance, object Value)
+        private void set_13_NavigationBar_MainCommandStyle(object instance, object Value)
         {
             var that = (global::Uno.Toolkit.UI.NavigationBar)instance;
             that.MainCommandStyle = (global::Microsoft.UI.Xaml.Style)Value;
+        }
+        private object get_14_InfoBar_Content(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
+            return that.Content;
+        }
+        private void set_14_InfoBar_Content(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
+            that.Content = (global::System.Object)Value;
+        }
+        private object get_15_InfoBar_IsOpen(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
+            return that.IsOpen;
+        }
+        private void set_15_InfoBar_IsOpen(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
+            that.IsOpen = (global::System.Boolean)Value;
+        }
+        private object get_16_InfoBar_Severity(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
+            return that.Severity;
+        }
+        private void set_16_InfoBar_Severity(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
+            that.Severity = (global::Microsoft.UI.Xaml.Controls.InfoBarSeverity)Value;
+        }
+        private object get_17_InfoBar_Title(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
+            return that.Title;
+        }
+        private void set_17_InfoBar_Title(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
+            that.Title = (global::System.String)Value;
+        }
+        private object get_18_InfoBar_IsClosable(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
+            return that.IsClosable;
+        }
+        private void set_18_InfoBar_IsClosable(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
+            that.IsClosable = (global::System.Boolean)Value;
+        }
+        private object get_19_InfoBar_Message(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
+            return that.Message;
+        }
+        private void set_19_InfoBar_Message(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
+            that.Message = (global::System.String)Value;
+        }
+        private object get_20_InfoBar_IsIconVisible(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
+            return that.IsIconVisible;
+        }
+        private void set_20_InfoBar_IsIconVisible(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
+            that.IsIconVisible = (global::System.Boolean)Value;
+        }
+        private object get_21_InfoBar_ActionButton(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
+            return that.ActionButton;
+        }
+        private void set_21_InfoBar_ActionButton(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
+            that.ActionButton = (global::Microsoft.UI.Xaml.Controls.Primitives.ButtonBase)Value;
+        }
+        private object get_22_InfoBar_CloseButtonCommand(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
+            return that.CloseButtonCommand;
+        }
+        private void set_22_InfoBar_CloseButtonCommand(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
+            that.CloseButtonCommand = (global::System.Windows.Input.ICommand)Value;
+        }
+        private object get_23_InfoBar_CloseButtonCommandParameter(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
+            return that.CloseButtonCommandParameter;
+        }
+        private void set_23_InfoBar_CloseButtonCommandParameter(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
+            that.CloseButtonCommandParameter = (global::System.Object)Value;
+        }
+        private object get_24_InfoBar_CloseButtonStyle(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
+            return that.CloseButtonStyle;
+        }
+        private void set_24_InfoBar_CloseButtonStyle(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
+            that.CloseButtonStyle = (global::Microsoft.UI.Xaml.Style)Value;
+        }
+        private object get_25_InfoBar_ContentTemplate(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
+            return that.ContentTemplate;
+        }
+        private void set_25_InfoBar_ContentTemplate(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
+            that.ContentTemplate = (global::Microsoft.UI.Xaml.DataTemplate)Value;
+        }
+        private object get_26_InfoBar_IconSource(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
+            return that.IconSource;
+        }
+        private void set_26_InfoBar_IconSource(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
+            that.IconSource = (global::Microsoft.UI.Xaml.Controls.IconSource)Value;
+        }
+        private object get_27_InfoBar_TemplateSettings(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
+            return that.TemplateSettings;
         }
         private object get_28_NumberBox_Header(object instance)
         {
@@ -1346,194 +1356,194 @@ namespace VectorifyU.VectorifyU_XamlTypeInfo
                 xamlMember.Getter = get_0_XamlControlsResources_UseCompactResources;
                 xamlMember.Setter = set_0_XamlControlsResources_UseCompactResources;
                 break;
-            case "Microsoft.UI.Xaml.Controls.InfoBar.Content":
-                userType = (global::VectorifyU.VectorifyU_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.InfoBar");
-                xamlMember = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlMember(this, "Content", "Object");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_1_InfoBar_Content;
-                xamlMember.Setter = set_1_InfoBar_Content;
-                break;
-            case "Microsoft.UI.Xaml.Controls.InfoBar.IsOpen":
-                userType = (global::VectorifyU.VectorifyU_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.InfoBar");
-                xamlMember = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlMember(this, "IsOpen", "Boolean");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_2_InfoBar_IsOpen;
-                xamlMember.Setter = set_2_InfoBar_IsOpen;
-                break;
-            case "Microsoft.UI.Xaml.Controls.InfoBar.Severity":
-                userType = (global::VectorifyU.VectorifyU_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.InfoBar");
-                xamlMember = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlMember(this, "Severity", "Microsoft.UI.Xaml.Controls.InfoBarSeverity");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_3_InfoBar_Severity;
-                xamlMember.Setter = set_3_InfoBar_Severity;
-                break;
-            case "Microsoft.UI.Xaml.Controls.InfoBar.Title":
-                userType = (global::VectorifyU.VectorifyU_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.InfoBar");
-                xamlMember = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlMember(this, "Title", "String");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_4_InfoBar_Title;
-                xamlMember.Setter = set_4_InfoBar_Title;
-                break;
-            case "Microsoft.UI.Xaml.Controls.InfoBar.IsClosable":
-                userType = (global::VectorifyU.VectorifyU_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.InfoBar");
-                xamlMember = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlMember(this, "IsClosable", "Boolean");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_5_InfoBar_IsClosable;
-                xamlMember.Setter = set_5_InfoBar_IsClosable;
-                break;
-            case "Microsoft.UI.Xaml.Controls.InfoBar.Message":
-                userType = (global::VectorifyU.VectorifyU_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.InfoBar");
-                xamlMember = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlMember(this, "Message", "String");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_6_InfoBar_Message;
-                xamlMember.Setter = set_6_InfoBar_Message;
-                break;
-            case "Microsoft.UI.Xaml.Controls.InfoBar.ActionButton":
-                userType = (global::VectorifyU.VectorifyU_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.InfoBar");
-                xamlMember = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlMember(this, "ActionButton", "Microsoft.UI.Xaml.Controls.Primitives.ButtonBase");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_7_InfoBar_ActionButton;
-                xamlMember.Setter = set_7_InfoBar_ActionButton;
-                break;
-            case "Microsoft.UI.Xaml.Controls.InfoBar.CloseButtonCommand":
-                userType = (global::VectorifyU.VectorifyU_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.InfoBar");
-                xamlMember = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlMember(this, "CloseButtonCommand", "System.Windows.Input.ICommand");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_8_InfoBar_CloseButtonCommand;
-                xamlMember.Setter = set_8_InfoBar_CloseButtonCommand;
-                break;
-            case "Microsoft.UI.Xaml.Controls.InfoBar.CloseButtonCommandParameter":
-                userType = (global::VectorifyU.VectorifyU_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.InfoBar");
-                xamlMember = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlMember(this, "CloseButtonCommandParameter", "Object");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_9_InfoBar_CloseButtonCommandParameter;
-                xamlMember.Setter = set_9_InfoBar_CloseButtonCommandParameter;
-                break;
-            case "Microsoft.UI.Xaml.Controls.InfoBar.CloseButtonStyle":
-                userType = (global::VectorifyU.VectorifyU_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.InfoBar");
-                xamlMember = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlMember(this, "CloseButtonStyle", "Microsoft.UI.Xaml.Style");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_10_InfoBar_CloseButtonStyle;
-                xamlMember.Setter = set_10_InfoBar_CloseButtonStyle;
-                break;
-            case "Microsoft.UI.Xaml.Controls.InfoBar.ContentTemplate":
-                userType = (global::VectorifyU.VectorifyU_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.InfoBar");
-                xamlMember = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlMember(this, "ContentTemplate", "Microsoft.UI.Xaml.DataTemplate");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_11_InfoBar_ContentTemplate;
-                xamlMember.Setter = set_11_InfoBar_ContentTemplate;
-                break;
-            case "Microsoft.UI.Xaml.Controls.InfoBar.IconSource":
-                userType = (global::VectorifyU.VectorifyU_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.InfoBar");
-                xamlMember = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlMember(this, "IconSource", "Microsoft.UI.Xaml.Controls.IconSource");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_12_InfoBar_IconSource;
-                xamlMember.Setter = set_12_InfoBar_IconSource;
-                break;
-            case "Microsoft.UI.Xaml.Controls.InfoBar.IsIconVisible":
-                userType = (global::VectorifyU.VectorifyU_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.InfoBar");
-                xamlMember = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlMember(this, "IsIconVisible", "Boolean");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_13_InfoBar_IsIconVisible;
-                xamlMember.Setter = set_13_InfoBar_IsIconVisible;
-                break;
-            case "Microsoft.UI.Xaml.Controls.InfoBar.TemplateSettings":
-                userType = (global::VectorifyU.VectorifyU_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.InfoBar");
-                xamlMember = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlMember(this, "TemplateSettings", "Microsoft.UI.Xaml.Controls.InfoBarTemplateSettings");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_14_InfoBar_TemplateSettings;
-                xamlMember.SetIsReadOnly();
-                break;
             case "Uno.Toolkit.UI.NavigationBar.PrimaryCommands":
                 userType = (global::VectorifyU.VectorifyU_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Uno.Toolkit.UI.NavigationBar");
                 xamlMember = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlMember(this, "PrimaryCommands", "Windows.Foundation.Collections.IObservableVector`1<Microsoft.UI.Xaml.Controls.ICommandBarElement>");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_15_NavigationBar_PrimaryCommands;
+                xamlMember.Getter = get_1_NavigationBar_PrimaryCommands;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Uno.Toolkit.UI.NavigationBar.MainCommand":
                 userType = (global::VectorifyU.VectorifyU_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Uno.Toolkit.UI.NavigationBar");
                 xamlMember = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlMember(this, "MainCommand", "Microsoft.UI.Xaml.Controls.AppBarButton");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_16_NavigationBar_MainCommand;
-                xamlMember.Setter = set_16_NavigationBar_MainCommand;
+                xamlMember.Getter = get_2_NavigationBar_MainCommand;
+                xamlMember.Setter = set_2_NavigationBar_MainCommand;
                 break;
             case "Uno.Toolkit.UI.NavigationBar.IsSticky":
                 userType = (global::VectorifyU.VectorifyU_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Uno.Toolkit.UI.NavigationBar");
                 xamlMember = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlMember(this, "IsSticky", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_17_NavigationBar_IsSticky;
-                xamlMember.Setter = set_17_NavigationBar_IsSticky;
+                xamlMember.Getter = get_3_NavigationBar_IsSticky;
+                xamlMember.Setter = set_3_NavigationBar_IsSticky;
                 break;
             case "Uno.Toolkit.UI.NavigationBar.IsOpen":
                 userType = (global::VectorifyU.VectorifyU_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Uno.Toolkit.UI.NavigationBar");
                 xamlMember = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlMember(this, "IsOpen", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_18_NavigationBar_IsOpen;
-                xamlMember.Setter = set_18_NavigationBar_IsOpen;
+                xamlMember.Getter = get_4_NavigationBar_IsOpen;
+                xamlMember.Setter = set_4_NavigationBar_IsOpen;
                 break;
             case "Uno.Toolkit.UI.NavigationBar.ClosedDisplayMode":
                 userType = (global::VectorifyU.VectorifyU_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Uno.Toolkit.UI.NavigationBar");
                 xamlMember = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlMember(this, "ClosedDisplayMode", "Uno.Toolkit.UI.NavigationBarClosedDisplayMode");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_19_NavigationBar_ClosedDisplayMode;
-                xamlMember.Setter = set_19_NavigationBar_ClosedDisplayMode;
+                xamlMember.Getter = get_5_NavigationBar_ClosedDisplayMode;
+                xamlMember.Setter = set_5_NavigationBar_ClosedDisplayMode;
                 break;
             case "Uno.Toolkit.UI.NavigationBar.LightDismissOverlayMode":
                 userType = (global::VectorifyU.VectorifyU_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Uno.Toolkit.UI.NavigationBar");
                 xamlMember = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlMember(this, "LightDismissOverlayMode", "Microsoft.UI.Xaml.Controls.LightDismissOverlayMode");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_20_NavigationBar_LightDismissOverlayMode;
-                xamlMember.Setter = set_20_NavigationBar_LightDismissOverlayMode;
+                xamlMember.Getter = get_6_NavigationBar_LightDismissOverlayMode;
+                xamlMember.Setter = set_6_NavigationBar_LightDismissOverlayMode;
                 break;
             case "Uno.Toolkit.UI.NavigationBar.SecondaryCommands":
                 userType = (global::VectorifyU.VectorifyU_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Uno.Toolkit.UI.NavigationBar");
                 xamlMember = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlMember(this, "SecondaryCommands", "Windows.Foundation.Collections.IObservableVector`1<Microsoft.UI.Xaml.Controls.ICommandBarElement>");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_21_NavigationBar_SecondaryCommands;
+                xamlMember.Getter = get_7_NavigationBar_SecondaryCommands;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Uno.Toolkit.UI.NavigationBar.OverflowButtonVisibility":
                 userType = (global::VectorifyU.VectorifyU_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Uno.Toolkit.UI.NavigationBar");
                 xamlMember = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlMember(this, "OverflowButtonVisibility", "Uno.Toolkit.UI.NavigationBarOverflowButtonVisibility");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_22_NavigationBar_OverflowButtonVisibility;
-                xamlMember.Setter = set_22_NavigationBar_OverflowButtonVisibility;
+                xamlMember.Getter = get_8_NavigationBar_OverflowButtonVisibility;
+                xamlMember.Setter = set_8_NavigationBar_OverflowButtonVisibility;
                 break;
             case "Uno.Toolkit.UI.NavigationBar.IsDynamicOverflowEnabled":
                 userType = (global::VectorifyU.VectorifyU_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Uno.Toolkit.UI.NavigationBar");
                 xamlMember = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlMember(this, "IsDynamicOverflowEnabled", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_23_NavigationBar_IsDynamicOverflowEnabled;
-                xamlMember.Setter = set_23_NavigationBar_IsDynamicOverflowEnabled;
+                xamlMember.Getter = get_9_NavigationBar_IsDynamicOverflowEnabled;
+                xamlMember.Setter = set_9_NavigationBar_IsDynamicOverflowEnabled;
                 break;
             case "Uno.Toolkit.UI.NavigationBar.DefaultLabelPosition":
                 userType = (global::VectorifyU.VectorifyU_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Uno.Toolkit.UI.NavigationBar");
                 xamlMember = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlMember(this, "DefaultLabelPosition", "Uno.Toolkit.UI.NavigationBarDefaultLabelPosition");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_24_NavigationBar_DefaultLabelPosition;
-                xamlMember.Setter = set_24_NavigationBar_DefaultLabelPosition;
+                xamlMember.Getter = get_10_NavigationBar_DefaultLabelPosition;
+                xamlMember.Setter = set_10_NavigationBar_DefaultLabelPosition;
                 break;
             case "Uno.Toolkit.UI.NavigationBar.MainCommandMode":
                 userType = (global::VectorifyU.VectorifyU_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Uno.Toolkit.UI.NavigationBar");
                 xamlMember = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlMember(this, "MainCommandMode", "Uno.Toolkit.UI.MainCommandMode");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_25_NavigationBar_MainCommandMode;
-                xamlMember.Setter = set_25_NavigationBar_MainCommandMode;
+                xamlMember.Getter = get_11_NavigationBar_MainCommandMode;
+                xamlMember.Setter = set_11_NavigationBar_MainCommandMode;
                 break;
             case "Uno.Toolkit.UI.NavigationBar.Subtitle":
                 userType = (global::VectorifyU.VectorifyU_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Uno.Toolkit.UI.NavigationBar");
                 xamlMember = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlMember(this, "Subtitle", "String");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_26_NavigationBar_Subtitle;
-                xamlMember.Setter = set_26_NavigationBar_Subtitle;
+                xamlMember.Getter = get_12_NavigationBar_Subtitle;
+                xamlMember.Setter = set_12_NavigationBar_Subtitle;
                 break;
             case "Uno.Toolkit.UI.NavigationBar.MainCommandStyle":
                 userType = (global::VectorifyU.VectorifyU_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Uno.Toolkit.UI.NavigationBar");
                 xamlMember = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlMember(this, "MainCommandStyle", "Microsoft.UI.Xaml.Style");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_27_NavigationBar_MainCommandStyle;
-                xamlMember.Setter = set_27_NavigationBar_MainCommandStyle;
+                xamlMember.Getter = get_13_NavigationBar_MainCommandStyle;
+                xamlMember.Setter = set_13_NavigationBar_MainCommandStyle;
+                break;
+            case "Microsoft.UI.Xaml.Controls.InfoBar.Content":
+                userType = (global::VectorifyU.VectorifyU_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.InfoBar");
+                xamlMember = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlMember(this, "Content", "Object");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_14_InfoBar_Content;
+                xamlMember.Setter = set_14_InfoBar_Content;
+                break;
+            case "Microsoft.UI.Xaml.Controls.InfoBar.IsOpen":
+                userType = (global::VectorifyU.VectorifyU_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.InfoBar");
+                xamlMember = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlMember(this, "IsOpen", "Boolean");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_15_InfoBar_IsOpen;
+                xamlMember.Setter = set_15_InfoBar_IsOpen;
+                break;
+            case "Microsoft.UI.Xaml.Controls.InfoBar.Severity":
+                userType = (global::VectorifyU.VectorifyU_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.InfoBar");
+                xamlMember = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlMember(this, "Severity", "Microsoft.UI.Xaml.Controls.InfoBarSeverity");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_16_InfoBar_Severity;
+                xamlMember.Setter = set_16_InfoBar_Severity;
+                break;
+            case "Microsoft.UI.Xaml.Controls.InfoBar.Title":
+                userType = (global::VectorifyU.VectorifyU_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.InfoBar");
+                xamlMember = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlMember(this, "Title", "String");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_17_InfoBar_Title;
+                xamlMember.Setter = set_17_InfoBar_Title;
+                break;
+            case "Microsoft.UI.Xaml.Controls.InfoBar.IsClosable":
+                userType = (global::VectorifyU.VectorifyU_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.InfoBar");
+                xamlMember = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlMember(this, "IsClosable", "Boolean");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_18_InfoBar_IsClosable;
+                xamlMember.Setter = set_18_InfoBar_IsClosable;
+                break;
+            case "Microsoft.UI.Xaml.Controls.InfoBar.Message":
+                userType = (global::VectorifyU.VectorifyU_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.InfoBar");
+                xamlMember = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlMember(this, "Message", "String");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_19_InfoBar_Message;
+                xamlMember.Setter = set_19_InfoBar_Message;
+                break;
+            case "Microsoft.UI.Xaml.Controls.InfoBar.IsIconVisible":
+                userType = (global::VectorifyU.VectorifyU_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.InfoBar");
+                xamlMember = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlMember(this, "IsIconVisible", "Boolean");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_20_InfoBar_IsIconVisible;
+                xamlMember.Setter = set_20_InfoBar_IsIconVisible;
+                break;
+            case "Microsoft.UI.Xaml.Controls.InfoBar.ActionButton":
+                userType = (global::VectorifyU.VectorifyU_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.InfoBar");
+                xamlMember = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlMember(this, "ActionButton", "Microsoft.UI.Xaml.Controls.Primitives.ButtonBase");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_21_InfoBar_ActionButton;
+                xamlMember.Setter = set_21_InfoBar_ActionButton;
+                break;
+            case "Microsoft.UI.Xaml.Controls.InfoBar.CloseButtonCommand":
+                userType = (global::VectorifyU.VectorifyU_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.InfoBar");
+                xamlMember = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlMember(this, "CloseButtonCommand", "System.Windows.Input.ICommand");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_22_InfoBar_CloseButtonCommand;
+                xamlMember.Setter = set_22_InfoBar_CloseButtonCommand;
+                break;
+            case "Microsoft.UI.Xaml.Controls.InfoBar.CloseButtonCommandParameter":
+                userType = (global::VectorifyU.VectorifyU_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.InfoBar");
+                xamlMember = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlMember(this, "CloseButtonCommandParameter", "Object");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_23_InfoBar_CloseButtonCommandParameter;
+                xamlMember.Setter = set_23_InfoBar_CloseButtonCommandParameter;
+                break;
+            case "Microsoft.UI.Xaml.Controls.InfoBar.CloseButtonStyle":
+                userType = (global::VectorifyU.VectorifyU_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.InfoBar");
+                xamlMember = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlMember(this, "CloseButtonStyle", "Microsoft.UI.Xaml.Style");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_24_InfoBar_CloseButtonStyle;
+                xamlMember.Setter = set_24_InfoBar_CloseButtonStyle;
+                break;
+            case "Microsoft.UI.Xaml.Controls.InfoBar.ContentTemplate":
+                userType = (global::VectorifyU.VectorifyU_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.InfoBar");
+                xamlMember = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlMember(this, "ContentTemplate", "Microsoft.UI.Xaml.DataTemplate");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_25_InfoBar_ContentTemplate;
+                xamlMember.Setter = set_25_InfoBar_ContentTemplate;
+                break;
+            case "Microsoft.UI.Xaml.Controls.InfoBar.IconSource":
+                userType = (global::VectorifyU.VectorifyU_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.InfoBar");
+                xamlMember = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlMember(this, "IconSource", "Microsoft.UI.Xaml.Controls.IconSource");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_26_InfoBar_IconSource;
+                xamlMember.Setter = set_26_InfoBar_IconSource;
+                break;
+            case "Microsoft.UI.Xaml.Controls.InfoBar.TemplateSettings":
+                userType = (global::VectorifyU.VectorifyU_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.InfoBar");
+                xamlMember = new global::VectorifyU.VectorifyU_XamlTypeInfo.XamlMember(this, "TemplateSettings", "Microsoft.UI.Xaml.Controls.InfoBarTemplateSettings");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_27_InfoBar_TemplateSettings;
+                xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.NumberBox.Header":
                 userType = (global::VectorifyU.VectorifyU_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NumberBox");

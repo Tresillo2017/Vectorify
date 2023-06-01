@@ -192,6 +192,10 @@
               "target": "Package",
               "version": "[4.8.33, )"
             },
+            "Uno.WinUI.RemoteControl": {
+              "target": "Package",
+              "version": "[4.8.33, )"
+            },
             "Uno.WinUI.Skia.Gtk": {
               "target": "Package",
               "version": "[4.8.33, )"
@@ -307,6 +311,18 @@
               "target": "Package",
               "version": "[8.1.0, )"
             },
+            "CoreCLR-NCalc": {
+              "target": "Package",
+              "version": "[2.2.113, )"
+            },
+            "MathNet.Symbolics": {
+              "target": "Package",
+              "version": "[0.24.0, )"
+            },
+            "MathParser.org-mXparser": {
+              "target": "Package",
+              "version": "[5.2.1, )"
+            },
             "Microsoft.Extensions.Logging.Console": {
               "target": "Package",
               "version": "[7.0.0, )"
@@ -392,6 +408,18 @@
             "CommunityToolkit.Mvvm": {
               "target": "Package",
               "version": "[8.1.0, )"
+            },
+            "CoreCLR-NCalc": {
+              "target": "Package",
+              "version": "[2.2.113, )"
+            },
+            "MathNet.Symbolics": {
+              "target": "Package",
+              "version": "[0.24.0, )"
+            },
+            "MathParser.org-mXparser": {
+              "target": "Package",
+              "version": "[5.2.1, )"
             },
             "Microsoft.Extensions.Logging.Console": {
               "target": "Package",
@@ -482,6 +510,18 @@
               "target": "Package",
               "version": "[8.1.0, )"
             },
+            "CoreCLR-NCalc": {
+              "target": "Package",
+              "version": "[2.2.113, )"
+            },
+            "MathNet.Symbolics": {
+              "target": "Package",
+              "version": "[0.24.0, )"
+            },
+            "MathParser.org-mXparser": {
+              "target": "Package",
+              "version": "[5.2.1, )"
+            },
             "Microsoft.Extensions.Logging.Console": {
               "target": "Package",
               "version": "[7.0.0, )"
@@ -570,6 +610,18 @@
             "CommunityToolkit.Mvvm": {
               "target": "Package",
               "version": "[8.1.0, )"
+            },
+            "CoreCLR-NCalc": {
+              "target": "Package",
+              "version": "[2.2.113, )"
+            },
+            "MathNet.Symbolics": {
+              "target": "Package",
+              "version": "[0.24.0, )"
+            },
+            "MathParser.org-mXparser": {
+              "target": "Package",
+              "version": "[5.2.1, )"
             },
             "Microsoft.Extensions.Logging.Console": {
               "target": "Package",
@@ -660,6 +712,18 @@
             "CommunityToolkit.Mvvm": {
               "target": "Package",
               "version": "[8.1.0, )"
+            },
+            "CoreCLR-NCalc": {
+              "target": "Package",
+              "version": "[2.2.113, )"
+            },
+            "MathNet.Symbolics": {
+              "target": "Package",
+              "version": "[0.24.0, )"
+            },
+            "MathParser.org-mXparser": {
+              "target": "Package",
+              "version": "[5.2.1, )"
             },
             "Microsoft.Extensions.Logging.Console": {
               "target": "Package",

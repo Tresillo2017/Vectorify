@@ -3625,12 +3625,15 @@ kotlinx.coroutines.flow.StateFlow;kotlinx.coroutines.flow.StateFlow
 Xamarin.KotlinX.Coroutines.Channels.IChannelIterator, Xamarin.KotlinX.Coroutines.Core.Jvm;kotlinx.coroutines.channels.ChannelIterator
 Xamarin.KotlinX.Coroutines.Channels.IChannelIterator;kotlinx.coroutines.channels.ChannelIterator
 kotlinx.coroutines.channels.ChannelIterator;kotlinx.coroutines.channels.ChannelIterator
+VectorifyU.Presentation.FuncionesPage, VectorifyU;crc64cbab65ab233609ac.FuncionesPage
+VectorifyU.Presentation.FuncionesPage;crc64cbab65ab233609ac.FuncionesPage
+vectorifyu.presentation.FuncionesPage;crc64cbab65ab233609ac.FuncionesPage
 VectorifyU.Presentation.MainPage, VectorifyU;crc64cbab65ab233609ac.MainPage
 VectorifyU.Presentation.MainPage;crc64cbab65ab233609ac.MainPage
 vectorifyu.presentation.MainPage;crc64cbab65ab233609ac.MainPage
-VectorifyU.Presentation.SecondPage, VectorifyU;crc64cbab65ab233609ac.SecondPage
-VectorifyU.Presentation.SecondPage;crc64cbab65ab233609ac.SecondPage
-vectorifyu.presentation.SecondPage;crc64cbab65ab233609ac.SecondPage
+VectorifyU.Presentation.RectasPage, VectorifyU;crc64cbab65ab233609ac.RectasPage
+VectorifyU.Presentation.RectasPage;crc64cbab65ab233609ac.RectasPage
+vectorifyu.presentation.RectasPage;crc64cbab65ab233609ac.RectasPage
 VectorifyU.Presentation.Shell, VectorifyU;crc64cbab65ab233609ac.Shell
 VectorifyU.Presentation.Shell;crc64cbab65ab233609ac.Shell
 vectorifyu.presentation.Shell;crc64cbab65ab233609ac.Shell

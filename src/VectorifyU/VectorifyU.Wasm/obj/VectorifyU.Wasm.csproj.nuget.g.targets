@@ -11,6 +11,7 @@
     <Import Project="$(NuGetPackageRoot)communitytoolkit.mvvm\8.1.0\buildTransitive\netstandard2.1\CommunityToolkit.Mvvm.targets" Condition="Exists('$(NuGetPackageRoot)communitytoolkit.mvvm\8.1.0\buildTransitive\netstandard2.1\CommunityToolkit.Mvvm.targets')" />
     <Import Project="$(NuGetPackageRoot)uno.winui.runtime.webassembly\4.8.33\buildTransitive\Uno.WinUI.Runtime.WebAssembly.targets" Condition="Exists('$(NuGetPackageRoot)uno.winui.runtime.webassembly\4.8.33\buildTransitive\Uno.WinUI.Runtime.WebAssembly.targets')" />
     <Import Project="$(NuGetPackageRoot)uno.winui.webassembly\4.8.33\build\Uno.WinUI.WebAssembly.targets" Condition="Exists('$(NuGetPackageRoot)uno.winui.webassembly\4.8.33\build\Uno.WinUI.WebAssembly.targets')" />
+    <Import Project="$(NuGetPackageRoot)uno.winui.remotecontrol\4.8.33\buildTransitive\Uno.WinUI.RemoteControl.targets" Condition="Exists('$(NuGetPackageRoot)uno.winui.remotecontrol\4.8.33\buildTransitive\Uno.WinUI.RemoteControl.targets')" />
     <Import Project="$(NuGetPackageRoot)uno.wasm.bootstrap.devserver\7.0.19\build\Uno.Wasm.Bootstrap.DevServer.targets" Condition="Exists('$(NuGetPackageRoot)uno.wasm.bootstrap.devserver\7.0.19\build\Uno.Wasm.Bootstrap.DevServer.targets')" />
     <Import Project="$(NuGetPackageRoot)uno.wasm.bootstrap\7.0.19\build\Uno.Wasm.Bootstrap.targets" Condition="Exists('$(NuGetPackageRoot)uno.wasm.bootstrap\7.0.19\build\Uno.Wasm.Bootstrap.targets')" />
   </ImportGroup>

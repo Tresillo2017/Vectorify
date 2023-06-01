@@ -12,3 +12,17 @@ D:\OneDrive - MSFT\Documents\Programs\VectorifyU\VectorifyU\VectorifyU.DataContr
 D:\OneDrive - MSFT\Documents\Programs\VectorifyU\VectorifyU\VectorifyU.DataContracts\obj\Debug\net7.0\VectorifyU.DataContracts.xml
 D:\OneDrive - MSFT\Documents\Programs\VectorifyU\VectorifyU\VectorifyU.DataContracts\obj\Debug\net7.0\VectorifyU.DataContracts.pdb
 D:\OneDrive - MSFT\Documents\Programs\VectorifyU\VectorifyU\VectorifyU.DataContracts\obj\Debug\net7.0\ref\VectorifyU.DataContracts.dll
+D:\OneDrive - MSFT\Documents\GitHub\vectorify\src\VectorifyU\VectorifyU.DataContracts\bin\Debug\net7.0\VectorifyU.DataContracts.deps.json
+D:\OneDrive - MSFT\Documents\GitHub\vectorify\src\VectorifyU\VectorifyU.DataContracts\bin\Debug\net7.0\VectorifyU.DataContracts.dll
+D:\OneDrive - MSFT\Documents\GitHub\vectorify\src\VectorifyU\VectorifyU.DataContracts\bin\Debug\net7.0\VectorifyU.DataContracts.pdb
+D:\OneDrive - MSFT\Documents\GitHub\vectorify\src\VectorifyU\VectorifyU.DataContracts\bin\Debug\net7.0\VectorifyU.DataContracts.xml
+D:\OneDrive - MSFT\Documents\GitHub\vectorify\src\VectorifyU\VectorifyU.DataContracts\obj\Debug\net7.0\VectorifyU.DataContracts.csproj.AssemblyReference.cache
+D:\OneDrive - MSFT\Documents\GitHub\vectorify\src\VectorifyU\VectorifyU.DataContracts\obj\Debug\net7.0\VectorifyU.DataContracts.GeneratedMSBuildEditorConfig.editorconfig
+D:\OneDrive - MSFT\Documents\GitHub\vectorify\src\VectorifyU\VectorifyU.DataContracts\obj\Debug\net7.0\VectorifyU.DataContracts.AssemblyInfoInputs.cache
+D:\OneDrive - MSFT\Documents\GitHub\vectorify\src\VectorifyU\VectorifyU.DataContracts\obj\Debug\net7.0\VectorifyU.DataContracts.AssemblyInfo.cs
+D:\OneDrive - MSFT\Documents\GitHub\vectorify\src\VectorifyU\VectorifyU.DataContracts\obj\Debug\net7.0\VectorifyU.DataContracts.csproj.CoreCompileInputs.cache
+D:\OneDrive - MSFT\Documents\GitHub\vectorify\src\VectorifyU\VectorifyU.DataContracts\obj\Debug\net7.0\VectorifyU.DataContracts.dll
+D:\OneDrive - MSFT\Documents\GitHub\vectorify\src\VectorifyU\VectorifyU.DataContracts\obj\Debug\net7.0\refint\VectorifyU.DataContracts.dll
+D:\OneDrive - MSFT\Documents\GitHub\vectorify\src\VectorifyU\VectorifyU.DataContracts\obj\Debug\net7.0\VectorifyU.DataContracts.xml
+D:\OneDrive - MSFT\Documents\GitHub\vectorify\src\VectorifyU\VectorifyU.DataContracts\obj\Debug\net7.0\VectorifyU.DataContracts.pdb
+D:\OneDrive - MSFT\Documents\GitHub\vectorify\src\VectorifyU\VectorifyU.DataContracts\obj\Debug\net7.0\ref\VectorifyU.DataContracts.dll

@@ -4,6 +4,15 @@
         <name>VectorifyU</name>
     </assembly>
     <members>
+        <member name="M:VectorifyU.Presentation.FuncionesPage.#ctor(System.IntPtr,Android.Runtime.JniHandleOwnership)">
+            <summary>
+            Native constructor, do not use explicitly.
+            </summary>
+            <remarks>
+            Used by the Xamarin Runtime to materialize native 
+            objects that may have been collected in the managed world.
+            </remarks>
+        </member>
         <member name="M:VectorifyU.Presentation.MainPage.#ctor(System.IntPtr,Android.Runtime.JniHandleOwnership)">
             <summary>
             Native constructor, do not use explicitly.
@@ -16,7 +25,7 @@
         <member name="P:VectorifyU.Presentation.MainViewModel.Name">
             <inheritdoc cref="F:VectorifyU.Presentation.MainViewModel.name"/>
         </member>
-        <member name="M:VectorifyU.Presentation.SecondPage.#ctor(System.IntPtr,Android.Runtime.JniHandleOwnership)">
+        <member name="M:VectorifyU.Presentation.RectasPage.#ctor(System.IntPtr,Android.Runtime.JniHandleOwnership)">
             <summary>
             Native constructor, do not use explicitly.
             </summary>

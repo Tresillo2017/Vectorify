@@ -11,7 +11,8 @@ namespace VectorifyU.Presentation
         [ObservableProperty]
         private string? name;
 
-        public ICommand GoToSecond { get; }
+        public ICommand GoToRectas { get; }
+        public ICommand GoToFunciones { get; }
 
         public MainViewModel(
             INavigator navigator,
@@ -19,12 +20,18 @@ namespace VectorifyU.Presentation
         {
             _navigator = navigator;
             Title = $"Main - {localizer["ApplicationName"]}";
-            GoToSecond = new AsyncRelayCommand(GoToSecondView);
+            GoToRectas = new AsyncRelayCommand(GoToRectasView);
+            GoToFunciones = new AsyncRelayCommand(GoToFuncionesView);
         }
 
-        private async Task GoToSecondView()
+        private async Task GoToRectasView()
         {
-            await _navigator.NavigateViewModelAsync<SecondViewModel>(this, data: new Entity(Name!));
+            await _navigator.NavigateViewModelAsync<RectasViewModel>(this, data: new Entity(Name!));
+        }
+
+        private async Task GoToFuncionesView()
+        {
+            await _navigator.NavigateViewModelAsync<FuncionesViewModel>(this, data: new Entity(Name!));
         }
 
         private INavigator _navigator;

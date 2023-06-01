@@ -5,7 +5,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
 <Project>
   <PropertyGroup>
     <_PublishTargetUrl>D:\OneDrive - MSFT\Documents\GitHub\vectorify\src\VectorifyU\VectorifyU.Wasm\bin\Release\net7.0\publish\</_PublishTargetUrl>
-    <History>True|2023-05-30T20:34:36.7514018Z;</History>
+    <History>True|2023-06-01T20:36:23.9195777Z;True|2023-05-30T22:34:36.7514018+02:00;</History>
     <LastFailureDetails />
   </PropertyGroup>
 </Project>

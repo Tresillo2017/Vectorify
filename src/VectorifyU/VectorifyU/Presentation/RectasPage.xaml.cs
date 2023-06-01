@@ -16,9 +16,9 @@ using System.Reflection.Emit;
 
 namespace VectorifyU.Presentation
 {
-    public sealed partial class SecondPage : Page
+    public sealed partial class RectasPage : Page
     {
-        public SecondPage()
+        public RectasPage()
         {
             this.InitializeComponent();
         }

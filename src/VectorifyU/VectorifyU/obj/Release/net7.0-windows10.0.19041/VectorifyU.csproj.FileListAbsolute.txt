@@ -90,3 +90,9 @@ D:\OneDrive - MSFT\Documents\GitHub\vectorify\src\VectorifyU\VectorifyU\obj\Rele
 D:\OneDrive - MSFT\Documents\GitHub\vectorify\src\VectorifyU\VectorifyU\obj\Release\net7.0-windows10.0.19041\qualifiers.txt
 D:\OneDrive - MSFT\Documents\GitHub\vectorify\src\VectorifyU\VectorifyU\obj\Release\net7.0-windows10.0.19041\qualifiers.txt.intermediate
 D:\OneDrive - MSFT\Documents\GitHub\vectorify\src\VectorifyU\VectorifyU\obj\Release\net7.0-windows10.0.19041\MultipleQualifiersPerDimensionFound.txt
+D:\OneDrive - MSFT\Documents\GitHub\vectorify\src\VectorifyU\VectorifyU\bin\Release\net7.0-windows10.0.19041\VectorifyU\Presentation\FuncionesPage.xbf
+D:\OneDrive - MSFT\Documents\GitHub\vectorify\src\VectorifyU\VectorifyU\bin\Release\net7.0-windows10.0.19041\VectorifyU\Presentation\FuncionesPage.xaml
+D:\OneDrive - MSFT\Documents\GitHub\vectorify\src\VectorifyU\VectorifyU\obj\Release\net7.0-windows10.0.19041\Presentation\FuncionesPage.g.i.cs
+D:\OneDrive - MSFT\Documents\GitHub\vectorify\src\VectorifyU\VectorifyU\obj\Release\net7.0-windows10.0.19041\Presentation\FuncionesPage.g.cs
+D:\OneDrive - MSFT\Documents\GitHub\vectorify\src\VectorifyU\VectorifyU\obj\Release\net7.0-windows10.0.19041\Presentation\FuncionesPage.xaml
+D:\OneDrive - MSFT\Documents\GitHub\vectorify\src\VectorifyU\VectorifyU\obj\Release\net7.0-windows10.0.19041\Presentation\FuncionesPage.xbf

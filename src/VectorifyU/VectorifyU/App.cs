@@ -60,7 +60,8 @@ namespace VectorifyU
             views.Register(
                 new ViewMap(ViewModel: typeof(ShellViewModel)),
                 new ViewMap<MainPage, MainViewModel>(),
-                new DataViewMap<SecondPage, SecondViewModel, Entity>()
+                new DataViewMap<RectasPage, RectasViewModel, Entity>(),
+                new DataViewMap<FuncionesPage, FuncionesViewModel, Entity>()
             );
 
             routes.Register(
@@ -68,7 +69,8 @@ namespace VectorifyU
                     Nested: new RouteMap[]
                     {
                     new RouteMap("Main", View: views.FindByViewModel<MainViewModel>()),
-                    new RouteMap("Second", View: views.FindByViewModel<SecondViewModel>()),
+                    new RouteMap("Rectas", View: views.FindByViewModel<RectasViewModel>()),
+                    new RouteMap("Funciones", View: views.FindByViewModel<FuncionesViewModel>()),
                     }
                 )
             );

@@ -3402,20 +3402,25 @@
         </member>
         <member name="T:VectorifyU.Mobile.MetadataBuilder_677">
             <summary>
-            Builder for VectorifyU.Presentation.MainPage
+            Builder for VectorifyU.Presentation.FuncionesPage
             </summary>
         </member>
         <member name="T:VectorifyU.Mobile.MetadataBuilder_678">
             <summary>
-            Builder for VectorifyU.Presentation.SecondPage
+            Builder for VectorifyU.Presentation.MainPage
             </summary>
         </member>
         <member name="T:VectorifyU.Mobile.MetadataBuilder_679">
             <summary>
-            Builder for VectorifyU.Presentation.Shell
+            Builder for VectorifyU.Presentation.RectasPage
             </summary>
         </member>
         <member name="T:VectorifyU.Mobile.MetadataBuilder_680">
+            <summary>
+            Builder for VectorifyU.Presentation.Shell
+            </summary>
+        </member>
+        <member name="T:VectorifyU.Mobile.MetadataBuilder_681">
             <summary>
             Builder for VectorifyU.Droid.MainActivity
             </summary>

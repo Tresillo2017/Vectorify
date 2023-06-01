@@ -11,7 +11,7 @@ build_property.XamlSourceGeneratorTracingFolder =
 build_property.TargetFramework = net7.0
 build_property.TargetFramework = net7.0
 build_property.ProjectTypeGuidsProperty = 
-build_property.MSBuildProjectFullPath = D:\OneDrive - MSFT\Documents\Programs\VectorifyU\VectorifyU\VectorifyU.Tests\VectorifyU.Tests.csproj
+build_property.MSBuildProjectFullPath = D:\OneDrive - MSFT\Documents\GitHub\vectorify\src\VectorifyU\VectorifyU.Tests\VectorifyU.Tests.csproj
 build_property.RootNamespace = VectorifyU.Tests
 build_property.RootNamespace = VectorifyU.Tests
 build_property.DefineConstantsProperty = TRACE,DEBUG,NET,NET7_0,NETCOREAPP,HAS_UNO,HAS_UNO_WINUI,UNO_HAS_FRAMEWORKELEMENT_MEASUREOVERRIDE,UNO_HAS_NO_IDEPENDENCYOBJECT,UNO_REFERENCE_API
@@ -29,7 +29,7 @@ build_property.UnoUseXamlReaderHotReload = true
 build_property.IsUnoHead = 
 build_property.IsUnoHead = 
 build_property.UseWPF = 
-build_property.UnoRemoteControlPort = 53382
+build_property.UnoRemoteControlPort = 59247
 build_property.UnoRemoteControlHost = 
 build_property.UnoRemoteControlProcessorsPath = 
 build_property.UnoSkipUserControlsInVisualTree = 
@@ -53,20 +53,20 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
-build_property.ProjectDir = D:\OneDrive - MSFT\Documents\Programs\VectorifyU\VectorifyU\VectorifyU.Tests\
+build_property.ProjectDir = D:\OneDrive - MSFT\Documents\GitHub\vectorify\src\VectorifyU\VectorifyU.Tests\
 
-[D:/OneDrive - MSFT/Documents/Programs/VectorifyU/VectorifyU/VectorifyU/VectorifyU.csproj]
+[D:/OneDrive - MSFT/Documents/GitHub/vectorify/src/VectorifyU/VectorifyU/VectorifyU.csproj]
 build_metadata.AdditionalFiles.SourceItemGroup = ProjectReference
 build_metadata.AdditionalFiles.Link = 
 build_metadata.AdditionalFiles.TargetPath = 
-build_metadata.AdditionalFiles.FullPath = D:\OneDrive - MSFT\Documents\Programs\VectorifyU\VectorifyU\VectorifyU\VectorifyU.csproj
-build_metadata.AdditionalFiles.Identity = D:\OneDrive - MSFT\Documents\Programs\VectorifyU\VectorifyU\VectorifyU\VectorifyU.csproj
+build_metadata.AdditionalFiles.FullPath = D:\OneDrive - MSFT\Documents\GitHub\vectorify\src\VectorifyU\VectorifyU\VectorifyU.csproj
+build_metadata.AdditionalFiles.Identity = D:\OneDrive - MSFT\Documents\GitHub\vectorify\src\VectorifyU\VectorifyU\VectorifyU.csproj
 build_metadata.AdditionalFiles.XamlRuntime = 
 
-[D:/OneDrive - MSFT/Documents/Programs/VectorifyU/VectorifyU/VectorifyU.DataContracts/VectorifyU.DataContracts.csproj]
+[D:/OneDrive - MSFT/Documents/GitHub/vectorify/src/VectorifyU/VectorifyU.DataContracts/VectorifyU.DataContracts.csproj]
 build_metadata.AdditionalFiles.SourceItemGroup = ProjectReference
 build_metadata.AdditionalFiles.Link = 
 build_metadata.AdditionalFiles.TargetPath = 
-build_metadata.AdditionalFiles.FullPath = D:\OneDrive - MSFT\Documents\Programs\VectorifyU\VectorifyU\VectorifyU.DataContracts\VectorifyU.DataContracts.csproj
-build_metadata.AdditionalFiles.Identity = D:\OneDrive - MSFT\Documents\Programs\VectorifyU\VectorifyU\VectorifyU.DataContracts\VectorifyU.DataContracts.csproj
+build_metadata.AdditionalFiles.FullPath = D:\OneDrive - MSFT\Documents\GitHub\vectorify\src\VectorifyU\VectorifyU.DataContracts\VectorifyU.DataContracts.csproj
+build_metadata.AdditionalFiles.Identity = D:\OneDrive - MSFT\Documents\GitHub\vectorify\src\VectorifyU\VectorifyU.DataContracts\VectorifyU.DataContracts.csproj
 build_metadata.AdditionalFiles.XamlRuntime = 

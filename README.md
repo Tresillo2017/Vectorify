@@ -15,6 +15,7 @@ A simple vector calculator an drawer made with C# and WinUI3 by a 16 year old ki
 [![Windows](https://svgshare.com/i/ZhY.svg)](https://svgshare.com/i/ZhY.svg)
 [![WinUI 3 MSIX app](https://github.com/Tresillo2017/Vectorify/actions/workflows/build.yml/badge.svg)](https://github.com/Tresillo2017/Vectorify/actions/workflows/build.yml)
 [![Github all releases](https://img.shields.io/github/downloads/Naereen/StrapDown.js/total.svg)](https://GitHub.com/Tresillo2017/Vectorify/releases/)
+![Status](https://status.tomasps.com/api/badge/9/status?style=for-the-badge)
 
 ## What I used
 ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white)
